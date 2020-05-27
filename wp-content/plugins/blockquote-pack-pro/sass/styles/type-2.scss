@@ -1,0 +1,124 @@
+@import "_variables.scss";
+
+.single-page-simple-content .entry-content blockquote.bs-quote.bsq-t2,
+.entry-content.single-post-content blockquote.bs-quote.bsq-t2,
+blockquote.bs-quote.bsq-t2 {
+  padding: 0;
+  font-size: 125%;
+  margin: 0 0 26px;
+}
+
+.single-page-simple-content .entry-content blockquote.bs-quote.bsq-t2 .bsq-quote-icon,
+.entry-content.single-post-content blockquote.bs-quote.bsq-t2 .bsq-quote-icon,
+blockquote.bs-quote.bsq-t2 .bsq-quote-icon {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  z-index: -1;
+}
+
+.single-page-simple-content .entry-content blockquote.bs-quote.bsq-t2 .bsq-quote-icon:before,
+.entry-content.single-post-content blockquote.bs-quote.bsq-t2 .bsq-quote-icon:before,
+blockquote.bs-quote.bsq-t2 .bsq-quote-icon:before {
+  content: "\b042";
+  font: normal normal normal 14px/1 "bs-icons";
+  font-size: 73px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 60px;
+  background: transparent;
+  border-radius: inherit;
+  text-align: inherit;
+  display: inline-block;
+  margin: 0;
+  color: #f2f2f2;
+  z-index: -1;
+}
+
+blockquote.bs-quote.bsq-t2 {
+
+  &:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: inline-block;
+  }
+
+  &.bs-quote.bsq-right,
+  &.bs-quote.bsq-left {
+	max-width: 360px;
+  }
+
+  .quote-content.bsq-arrow:after,
+  .quote-content.bsq-arrow:before {
+	border: solid 13px rgba(0, 0, 0, 0);
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+  }
+
+  .quote-content.bsq-arrow-bottom:after,
+  .quote-content.bsq-arrow-bottom:before {
+	bottom: -27px;
+	left: 25px;
+	border-top-color: #dcdcdc;
+  }
+
+  .quote-content.bsq-arrow-top:after,
+  .quote-content.bsq-arrow-top:before {
+	top: -27px;
+	left: 25px;
+	border-bottom-color: #dcdcdc;
+  }
+
+  .quote-content.bsq-arrow-bottom:after {
+	border: solid 15px rgba(0, 0, 0, 0);
+	border-top-color: #ffffff;
+	left: 23px;
+	bottom: -28px;
+  }
+
+  .quote-content.bsq-arrow-top:after {
+	border: solid 15px rgba(0, 0, 0, 0);
+	border-bottom-color: #ffffff;
+	left: 23px;
+	top: -28px;
+  }
+
+  .quote-content.bsq-arrow-bottom {
+	margin-bottom: 25px;
+  }
+
+  .quote-author-name {
+	font-size: 17px;
+  }
+
+  .quote-author-avatar + .quote-author-name {
+	margin-top: 8px;
+  }
+
+  .quote-author-job {
+	font-size: 13px;
+	color: #969696;
+  }
+
+  .quote-content {
+	border: 1px solid #e5e5e5;
+	padding: 40px 35px 30px;
+	position: relative;
+	z-index: 1;
+  }
+
+  .quote-author-avatar {
+	border-radius: 50%;
+	float: left;
+	margin-right: 15px;
+  }
+
+}

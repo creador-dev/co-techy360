@@ -1,0 +1,20 @@
+blockquote.bs-quote.bs-quote.bsq-t1.bsq-s19 {
+  &:after {
+    right: 0;
+    left: auto;
+  }
+
+  &:before {
+    left: 17px;
+    right: inherit;
+  }
+
+  .quote-author .quote-author-avatar {
+    display: inline-block;
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+  }
+
+  padding: 12px 17px 12px 0 !important;
+}

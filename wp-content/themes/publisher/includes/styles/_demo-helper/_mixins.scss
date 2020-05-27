@@ -1,0 +1,65 @@
+//
+// Optimizes fonts on webkit
+//
+@mixin optimize_font() {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+//
+// Remove optimizes fonts on webkit
+//
+@mixin delete_optimize_font() {
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+}
+
+//
+// Removes box settings
+//
+@mixin remove_box() {
+  @if $box_bg {
+	background: transparent;
+  }
+
+  @if $box_padding {
+	padding: 0;
+  }
+
+  @if $box_shadow {
+	box-shadow: none;
+  }
+
+  @if $box_border {
+	border: none;
+  }
+
+  @if $box_radius {
+	border-radius: 0;
+  }
+}
+
+//
+// Adds box settings
+//
+@mixin add_box() {
+  @if $box_bg {
+	background: $box_bg;
+  }
+
+  @if $box_padding {
+	padding: $box_padding;
+  }
+
+  @if $box_shadow {
+	box-shadow: $box_shadow;
+  }
+
+  @if $box_border {
+	border: $box_border;
+  }
+
+  @if $box_radius {
+	border-radius: $box_radius;
+  }
+}

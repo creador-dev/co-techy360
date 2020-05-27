@@ -1,0 +1,293 @@
+//
+// Normalize
+//
+@if $term_badges == 'bottom-left' {
+  $term_badges: 'left-bottom'
+}
+
+@if $term_badges == 'top-left' {
+  $term_badges: 'left-top'
+}
+
+@if $term_badges == 'top-center' {
+  $term_badges: 'center-top'
+}
+
+@if $term_badges == 'bottom-center' {
+  $term_badges: 'center-bottom'
+}
+
+//
+// Left & ( Bottom or Top )
+//
+@if $term_badges == 'left-bottom' or $term_badges == 'left-top' {
+
+  .listing-item .term-badges.floated {
+
+	@if $term_badges == 'left-bottom' {
+	  @if ($term_badges_margin) {
+		top: auto;
+		bottom: $term_badges_margin;
+		left: $term_badges_margin;
+	  } @else {
+		top: auto;
+		bottom: 0;
+	  }
+	}
+
+	@if $term_badges == 'left-top' {
+	  @if ($term_badges_margin) {
+		top: $term_badges_margin;
+		left: $term_badges_margin;
+	  } @else {
+		top: 0;
+	  }
+	}
+  }
+
+  .listing-item .term-badges.floated a {
+
+	@if $term_badges == 'left-bottom' {
+	  margin-bottom: 0;
+	  margin-top: 3px;
+	}
+
+	@if $term_badges == 'left-top' {
+	  margin-bottom: 3px;
+	  margin-top: 0;
+	}
+  }
+
+  .listing-item-text-1 .term-badges.floated,
+  .listing-item-classic-3 .term-badges.floated a {
+	@if $term_badges == 'left-bottom' {
+	  margin-top: 0;
+	  margin-bottom: 3px;
+	}
+
+	@if $term_badges == 'left-top' {
+	  margin-bottom: 3px;
+	  margin-top: 0;
+	}
+  }
+
+  .listing-mg-item .term-badges.floated {
+	@if $term_badges == 'left-bottom' {
+	  @if ($term_badges_margin) {
+		top: $term_badges_margin;
+		bottom: auto;
+	  } @else {
+		top: 0;
+		bottom: auto;
+	  }
+	}
+
+	@if $term_badges == 'left-top' {
+	  @if ($term_badges_margin) {
+		top: $term_badges_margin;
+		bottom: auto;
+	  } @else {
+		top: 0;
+		bottom: auto;
+	  }
+	}
+  }
+
+  .listing-mg-item .term-badges.floated a {
+	margin-top: 0;
+	margin-bottom: 3px;
+  }
+
+  .listing-item-text-1 .term-badges.floated {
+	margin-bottom: 13px;
+  }
+
+  .listing-mg-4-item .term-badges.floated,
+  .listing-item-classic-3 .term-badges.floated,
+  .listing-item .post-edit-link {
+
+	@if $term_badges == 'left-bottom' {
+	  @if ($term_badges_margin) {
+		top: $term_badges_margin;
+		left: $term_badges_margin;
+		bottom: auto;
+	  } @else {
+		top: 0;
+		bottom: auto;
+	  }
+	}
+
+	@if $term_badges == 'left-top' {
+	  @if ($term_badges_margin) {
+		top: $term_badges_margin;
+		left: $term_badges_margin;
+		bottom: auto;
+	  } @else {
+		bottom: auto;
+		top: 0;
+	  }
+	}
+  }
+
+  .rtl .listing-item .post-edit-link {
+	left: auto !important;
+  }
+
+  @if ($term_badges_margin) {
+	.listing-mg-3-item .term-badges.floated,
+	.listing-item-text-1 .term-badges.floated {
+	  @if $term_badges == 'left-bottom' {
+		left: 0;
+		top: 0;
+		bottom: auto;
+	  }
+
+	  @if $term_badges == 'left-top' {
+		left: 0;
+		bottom: 0;
+		top: auto;
+	  }
+	}
+
+	.listing-item-tall-2 .term-badges.floated {
+	  left: 0;
+	}
+  }
+
+  @if $term_badges == 'left-bottom' {
+	.listing-item-classic-3 .post-edit-link {
+	  display: none !important;
+	}
+  }
+
+  .listing-item .post-edit-link {
+
+	@if $term_badges == 'left-bottom' {
+	  @if ($term_badges_margin) {
+		bottom: auto;
+		top: $term_badges_margin;
+		left: $term_badges_margin;
+	  } @else {
+		bottom: auto;
+		top: 0;
+	  }
+	}
+
+	@if $term_badges == 'left-top' {
+	  @if ($term_badges_margin) {
+		top: auto;
+		bottom: $term_badges_margin;
+		left: $term_badges_margin;
+	  } @else {
+		top: auto;
+		bottom: 0;
+	  }
+	}
+  }
+
+  .rtl .listing-item .term-badges.floated {
+	right: 0;
+  }
+
+}
+
+//
+// Top Center
+//
+@if $term_badges == 'center-top' {
+
+  .listing-item .term-badges.floated {
+
+	@if ($term_badges_margin) {
+	  top: $term_badges_margin;
+	}
+
+	left: 0;
+	right: 0;
+	text-align: center;
+  }
+
+  @if ($term_badges_margin) {
+	.listing-mg-3-item .term-badges.floated,
+	.listing-item-text-1 .term-badges.floated {
+	  top: 0;
+	}
+  }
+
+  .listing-item-text-1 .term-badges.floated {
+	margin-bottom: 13px;
+  }
+}
+
+//
+// Bottom Center
+//
+@if $term_badges == 'center-bottom' {
+
+  .listing-item .term-badges.floated {
+	left: 0;
+	right: 0;
+	text-align: center;
+
+	@if ($term_badges_margin) {
+	  bottom: $term_badges_margin;
+	  top: auto;
+	} @else {
+	  bottom: 0;
+	  top: auto;
+	}
+  }
+
+  .listing-item .term-badges.floated a {
+	margin-bottom: 0;
+	margin-top: 3px;
+  }
+
+  .listing-mg-item .term-badges.floated {
+	@if ($term_badges_margin) {
+	  top: $term_badges_margin;
+	  bottom: auto;
+	} @else {
+	  top: 0;
+	  bottom: auto;
+	}
+  }
+
+  @if ($term_badges_margin) {
+	.listing-mg-3-item .term-badges.floated {
+	  top: 0;
+	  bottom: auto;
+	}
+  }
+
+  .listing-mg-4-item .term-badges.floated a,
+  .listing-item-classic-3 .term-badges.floated a,
+  .listing-mg-item .term-badges.floated a {
+	margin-top: 0;
+	margin-bottom: 3px;
+  }
+
+  .listing-mg-4-item .term-badges.floated,
+  .listing-item-classic-3 .term-badges.floated,
+  .listing-item .post-edit-link {
+
+	@if ($term_badges_margin) {
+	  top: $term_badges_margin;
+	  bottom: auto;
+	} @else {
+	  top: 0;
+	  bottom: auto;
+	}
+  }
+}
+
+//
+// Radius for Term badges
+//
+@if ($term_badges_radius) {
+  .listing-item .post-edit-link,
+  .bs-slider-item .term-badges.floated a,
+  .listing-item .term-badges.floated a {
+	border-radius: $term_badges_radius;
+  }
+}

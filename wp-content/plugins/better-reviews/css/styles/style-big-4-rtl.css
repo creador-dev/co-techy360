@@ -1,0 +1,21 @@
+.betterstudio-review.big-4 .verdict {
+  float: right; }
+
+.betterstudio-review.big-4 .affiliate {
+  left: 0;
+  border-right: 1px solid #ebebeb;
+  right: auto;
+  border-left: none; }
+
+.betterstudio-review.big-4 .criteria-list ul {
+  padding-right: 180px;
+  padding-left: 0; }
+
+.betterstudio-review.big-4 .overall {
+  float: right;
+  margin-right: 0;
+  margin-left: 15px; }
+
+.betterstudio-review.big-4 .review-cons-pros > aside:first-child {
+  padding-right: 25px;
+  padding-left: 0; }

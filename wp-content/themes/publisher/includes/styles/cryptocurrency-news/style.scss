@@ -1,0 +1,501 @@
+/*
+
+ThemeName |-> World Cup News
+
+*/
+@import "../_demo-helper/general";
+
+// Layouts
+$layout_boxed_padding: 12.5px;
+// Header
+$menu_current_bg: rgba(255, 255, 255, 0.05);
+$menu_current_bg_style: '.header-style-6';
+$topbar_height: 30px;
+$header: 'style-6';
+$header_height: 100px;
+// Blocks
+$blocks_items_bottom_line: solid 1px rgba(228, 232, 236, 0.5);
+$blocks_items_bottom_padding: 20px;
+$blocks_items_bottom_margin: 20px;
+// Other Widget
+$newsletter_border_radius_inputs: 0;
+$about_us_text_align: left;
+$about_us_social_icon_font_size: 13px;
+$about_us_social_icon_size: 30px;
+// Footer
+$footer-margin-top: 40px;
+
+@import "../_demo-helper/helper";
+
+/**
+ * => Optimized Fonts
+ **/
+.bs-about,
+.post-meta,
+.post-title,
+a.read-more,
+.post-summary,
+.entry-content p,
+.btn-bs-pagination,
+.bs-listing .title,
+.newsletter-subscribe,
+.listing-item .title a,
+.term-badges.floated a,
+.bs-numbered-pagination,
+.mega-links > .menu-item a,
+ul.menu.footer-menu li > a,
+.section-heading > .h-text,
+.better-newsticker .heading,
+.section-heading a > .h-text,
+.off-canvas-menu > ul > li > a,
+.post-count-badge.pcb-t1.pcb-s1,
+.site-header .main-menu > li > a,
+.site-header .topbar .topbar-inner,
+.better-newsticker ul.news-list li a,
+.site-footer .bs-about .about-link a,
+.term-badges .term-badge:first-child a,
+.site-footer .copy-1, .site-footer .copy-2,
+.bs-subscribe-newsletter .subscribe-message,
+.widget_bs-subscribe-newsletter .bs-subscribe-newsletter:after,
+.footer-widgets.light-text .widget.widget_nav_menu ul.menu li a {
+  @include optimize_font;
+}
+
+/**
+ * => General style
+ **/
+a, a:focus, a:hover {
+  text-decoration: none;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+body.boxed .main-wrap {
+  box-shadow: none;
+}
+
+.layout-1-col,
+.layout-2-col,
+.layout-3-col {
+  margin-top: 0 !important;
+  padding-top: 25px;
+}
+
+/**
+ * => Header
+ **/
+.site-header.header-style-6 {
+  &,
+  .content-wrap {
+	border: none !important;
+  }
+
+  .main-menu-container {
+	.main-menu {
+	  text-align: center;
+	  width: 100%;
+
+	  & > li {
+		margin: 0;
+		float: none;
+
+		&.menu-have-icon > a {
+		  line-height: $header_height !important;
+
+		  i {
+			top: 14px !important;
+		  }
+		}
+
+		& > a {
+		  padding: 0 25px !important;
+		}
+	  }
+	}
+	.off-canvas-menu-icon-el {
+	  width: 100%;
+	}
+  }
+
+  .menu-action-buttons.menu-action-buttons > div {
+	line-height: $header_height - 1;
+  }
+}
+
+/**
+ * => News Ticker
+ **/
+.better-newsticker.better-newsticker {
+
+  .control-nav {
+	span {
+	  background-color: transparent;
+	  border-color: rgba(0, 0, 0, 0.2);
+	  color: rgba(0, 0, 0, 0.2);
+	}
+  }
+
+  .heading {
+	background-color: transparent !important;
+	width: 130px;
+	color: #2c3134;
+	font-weight: 500;
+	text-transform: capitalize !important;
+	font-size: 15px;
+
+	&:before {
+	  content: '';
+	  width: 11px;
+	  height: 19px;
+	  float: left;
+	  margin-top: 3px;
+	  background: url('img/newsticker.png') no-repeat center;
+	}
+
+	&:after {
+	  content: '\f054';
+	  font: normal normal normal 10px FontAwesome;
+	  display: inline-block;
+	  border: none;
+	  position: absolute;
+	  right: -9px;
+	  top: 50%;
+	  margin-top: -5px;
+	}
+  }
+
+  ul.news-list {
+	li {
+	  left: 170px;
+
+	  &.active {
+		left: 150px;
+	  }
+
+	  a {
+		color: #2c3134;
+		font-size: 14px;
+		font-weight: 400 !important;
+
+		&:hover {
+		  color: #2c3134;
+		}
+	  }
+	}
+  }
+}
+
+/**
+ * => Financial pack
+ **/
+.vc_row-has-fill {
+  .bsfp-widget-cryptocurrency {
+	.bsfp-widget-6 {
+	  .bsfp-list-inner {
+		margin: 4px -7px -5px;
+
+		.bs-fp-6.bs-fp-t2.bs-fp-s1 {
+		  background-color: #ffffff;
+		  padding: 9px 11px 7px;
+		  margin: 0 7px 15px;
+		  border: solid 1px #eaeef1;
+		}
+	  }
+	}
+  }
+}
+
+/**
+ * => Content Injection
+ **/
+.bs-injection.bs-injection-after_header {
+  padding-top: 0 !important;
+}
+
+/**
+ * => Section Heading
+ **/
+.section-heading.sh-t4.sh-s3:after,
+.section-heading.sh-t4.sh-s1:after {
+  height: 10px;
+  top: 50%;
+  margin-top: -5px;
+}
+
+.section-heading.sh-t3.sh-s8 {
+  &:after {
+	opacity: 0.06;
+  }
+
+  & > .h-text {
+	border: none !important;
+	font-size: 25px;
+	text-transform: capitalize !important;
+
+	&:after {
+	  right: -5px !important;
+	}
+
+	&:before {
+	  left: -5px !important;
+	}
+  }
+}
+
+.section-heading.sh-t7:before {
+  height: 1px;
+  margin-top: -1px;
+}
+
+/**
+ * => Term badge
+ **/
+.term-badges.floated {
+  top: 18px !important;
+  left: 18px !important;
+}
+
+/**
+ * => Slider
+ **/
+.bs-slider-1.l-1 {
+  .bs-slider-1-item {
+	.title {
+	  max-width: 90%;
+	}
+
+	.item-content:before {
+	  padding-top: 55.1%;
+	}
+  }
+  .better-direction-nav a {
+	opacity: 0;
+	transition: .3s;
+  }
+
+  &:hover .better-direction-nav a {
+	opacity: 1;
+  }
+}
+
+/**
+ * => Grid 1
+ **/
+.bs-listing-listing-grid-1 {
+  .listing-grid-1 {
+	.listing-item {
+	  .item-inner {
+		border: solid 1px #ebeff3;
+		box-shadow: 0 1px 10px -2px #ebeff3;
+		padding: 20px;
+
+		.featured {
+		  margin: -21px -21px 15px;
+		}
+
+		.title {
+		  margin-bottom: 15px;
+		}
+
+		.post-meta {
+		  margin-bottom: 0;
+		}
+	  }
+	}
+  }
+}
+
+/**
+ * => Modern Grid 5
+ **/
+.bs-listing-modern-grid-listing-5 {
+  .listing-mg-5-item-big {
+	.content-container {
+	  box-shadow: 0 4px 6px -3px rgba(42, 46, 51, 0.07);
+	  margin-bottom: 10px;
+	}
+  }
+
+  .title {
+	color: #141414;
+  }
+}
+
+/**
+ * => Thumbnail 2
+ **/
+.bs-listing-listing-thumbnail-2 {
+  .listing-thumbnail .listing-item-thumbnail {
+	padding-bottom: 0 !important;
+	border: none !important;
+  }
+}
+
+/**
+ * => Pagination
+ **/
+.bs-listing .bs-pagination.bs-ajax-pagination.more_btn {
+  margin: 20px 0 30px;
+
+  .btn-bs-pagination {
+	background-color: #fafcfc !important;
+	box-shadow: 0 2px 2px 0 rgba(42, 46, 51, 0.03);
+	border: solid 1px #dce2e8;
+	width: 70%;
+	color: #141414 !important;
+	font-size: 14px !important;
+	line-height: 48px !important;
+	font-weight: 500 !important;
+	transition: .3s;
+
+	&:hover {
+	  background-color: #f2f4f4 !important;
+	  box-shadow: 0 1px 1px 0 rgba(42, 46, 51, 0.05);
+	}
+  }
+}
+
+/**
+ * => Newsletter => Feedburner
+ **/
+.widget_bs-subscribe-newsletter {
+  background-color: #f7fafc !important;
+  border: solid 1px #e3edf4;
+}
+
+/**
+ * => Social Counter
+ **/
+.better-social-counter.style-style-8 {
+  .social-item {
+	box-shadow: 0 3px 4px -3px #ebeff3;
+  }
+}
+
+/**
+ * => Footer
+ **/
+.site-footer {
+  .copy-footer {
+	padding: 0 0 27px;
+  }
+
+  .footer-widgets {
+	.section-heading.sh-t7 > .h-text {
+	  font-weight: bold;
+	}
+
+	.listing-thumbnail .listing-item-thumbnail {
+	  border-bottom: solid 1px rgba(228, 232, 236, 0.1) !important;
+	  padding-bottom: 18px !important;
+	  margin-bottom: 18px !important;
+
+	  &:last-child {
+		border-bottom: none !important;
+		margin-bottom: 0 !important;
+		padding-bottom: 0 !important;
+	  }
+	}
+
+	.bs-popular-categories .bs-popular-term-item {
+	  border-color: rgba(255, 255, 255, 0.1);
+
+	  .term-count {
+		background: rgba(255, 255, 255, 0.08);
+	  }
+	}
+
+	.bs-popular-categories .bs-popular-terms-list {
+	  padding: 0 !important;
+	}
+
+	.widget {
+	  .bs-about {
+		.about-text {
+		  color: #ffffff;
+		}
+
+		.about-icons-list {
+		  .about-icon-item {
+			margin-right: 10px;
+			a {
+			  border-radius: 100%;
+			  background: none rgba(255, 255, 255, 0.1);
+			  box-shadow: none;
+			}
+		  }
+		}
+	  }
+	}
+  }
+
+  .footer-menu-container {
+	ul.menu.footer-menu {
+	  text-align: center;
+
+	  li {
+		margin: 0 10px;
+		float: none;
+		display: inline-block;
+
+		a {
+		  padding: 0 10px;
+		}
+	  }
+	}
+  }
+
+  .footer-copy-row {
+	text-align: center;
+	margin-top: 15px;
+
+	.copy-2,
+	.copy-1 {
+	  color: #B6B6B6;
+	  color: rgba(255, 255, 255, 0.57);
+	  text-align: center;
+	  padding: 0;
+	  width: auto;
+	  margin: auto;
+	  float: none;
+	  display: inline-block;
+	}
+  }
+}
+
+/**
+ * => Single
+ **/
+.bf-breadcrumb.bc-top-style {
+  padding-bottom: 5px;
+  background: #f9fafb;
+}
+
+/**
+ * => RTL
+ **/
+.rtl {
+  .better-newsticker.better-newsticker {
+	.heading:after {
+	  left: -9px;
+	  right: auto;
+	}
+
+	.heading:before {
+	  float: right;
+	}
+
+	ul.news-list li {
+	  right: 170px;
+	  left: auto;
+	}
+  }
+
+  .term-badges.floated {
+	top: 18px!important;
+	right: 18px!important;
+	left: auto !important;
+  }
+}

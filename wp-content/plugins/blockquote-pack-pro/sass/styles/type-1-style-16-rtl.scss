@@ -1,0 +1,15 @@
+blockquote.bs-quote.bs-quote.bsq-t1.bsq-s16 {
+  &:after {
+	right: 0;
+	left: auto;
+  }
+
+  .quote-author .quote-author-avatar {
+	display: inline-block;
+	float: right;
+	margin-right: 0;
+	margin-left: 15px;
+  }
+
+  padding: 12px 17px 12px 0;
+}

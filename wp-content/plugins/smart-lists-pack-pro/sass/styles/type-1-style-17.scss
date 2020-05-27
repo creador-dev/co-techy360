@@ -1,0 +1,160 @@
+@import "variables.scss";
+
+.bs-smart-list.bssl-t1.bssl-s17 {
+
+  margin-top: 22px;
+
+  @include space-after-item;
+
+  .bssl-control-nav.bssl-top {
+
+	margin-bottom: 30px;
+	padding: 8px 15px;
+	color: #ffffff;
+	line-height: 30px;
+	background: #222;
+	text-transform: uppercase;
+	font-size: 14px;
+	position: relative;
+
+	&.bssl-bottom {
+	  margin-top: 20px;
+	}
+
+	.bssl-count {
+	  font-weight: bolder;
+	  margin-right: 5px;
+	}
+
+	a.bssl-nav-btn-text.bssl-nav-btn-text {
+	  float: right;
+	  color: #fff;
+	}
+
+	a.bssl-nav-btn-text.bssl-nav-btn-text.next {
+	  margin-left: 14px;
+	  padding-left: 14px;
+	  position: relative;
+
+	  &:before {
+		content: '';
+		height: 18px;
+
+		width: 1px;
+		display: inline-block;
+		background: rgba(255, 255, 255, 0.2);
+		top: 50%;
+		margin-top: -9px;
+		position: absolute;
+		left: 0;
+	  }
+	}
+
+  }
+
+  .bssl-control-nav.bssl-bottom {
+	text-align: center;
+	margin-top: 25px;
+  }
+
+  .bssl-select {
+
+	max-width: 60%;
+	display: inline-block;
+
+	.bssl-select-current {
+	  text-transform: none;
+	  position: relative;
+	  padding-right: 20px;
+	  cursor: pointer;
+	  text-overflow: ellipsis;
+	  white-space: nowrap;
+	  overflow: hidden;
+	  max-width: 100%;
+	  display: inline-block;
+	  vertical-align: middle;
+
+	  &:after {
+		content: '';
+		width: 0;
+		height: 0;
+		border-left: 6px solid transparent;
+		border-right: 6px solid transparent;
+		border-top: 6px solid #fff;
+		pointer-events: none;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		margin-top: -3px;
+	  }
+	}
+
+	ul {
+	  position: absolute;
+	  top: 100%;
+	  display: none;
+	  list-style: none;
+	  padding: 0;
+	  margin: 0;
+	  background: #2e2e2e;
+	  width: 300px;
+
+	  li {
+		text-transform: none;
+		padding: 8px 18px;
+		line-height: 1.6;
+		cursor: pointer;
+		font-size: 13px;
+
+		&.bssl-current,
+		&:hover {
+		  background: rgba(255, 255, 255, 0.05);
+		}
+	  }
+	}
+
+	&.open ul {
+	  display: block;
+	  z-index: 99;
+	}
+
+  }
+
+  .bssl-item-title {
+	margin: 0 0 5px;
+  }
+
+  @media screen and (max-width: $break-mobile) {
+
+	.bssl-control-nav {
+
+	  .bssl-select {
+		max-width: 100%;
+		width: 100%;
+		line-height: 1;
+	  }
+
+	  &.bssl-top {
+
+		.bssl-nav-btn-text,
+		.bssl-count {
+		  display: none;
+		}
+	  }
+
+	  &.bssl-bottom {
+		text-align: center;
+		padding: 15px 0 0;
+		margin-top: 15px;
+
+		a {
+		  width: 48%;
+		  &:last-child {
+			float: right;
+		  }
+		}
+	  }
+
+	}
+  }
+}

@@ -1,0 +1,93 @@
+@import "variables.scss";
+
+.bs-smart-list.bssl-t1.bssl-s16 {
+
+  margin-top: 22px;
+
+  @include space-after-item;
+
+  .bssl-control-nav {
+	text-align: center;
+	margin-bottom: 30px;
+	padding: 15px 15px;
+	border: 1px solid #e6e6e6;
+	color: #7f7f7f;
+	line-height: 30px;
+
+	&.bssl-bottom {
+	  margin-top: 20px;
+	}
+
+	a.bssl-nav-btn-icon.bssl-nav-btn-icon.prev {
+	  float: left;
+	}
+
+	a.bssl-nav-btn-icon.bssl-nav-btn-icon.next {
+	  float: right;
+	}
+
+	.bssl-select {
+
+	  max-width: 40%;
+	  display: inline-block;
+	  position: relative;
+
+	  select {
+		height: 30px;
+		padding: 0 35px 0 10px;
+		margin: 0;
+		overflow: hidden;
+		background-color: #fff;
+		border: none;
+		box-shadow: none;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-o-appearance: none;
+		appearance: none;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		width: 100%;
+		color: #222;
+	  }
+
+	  &:after {
+		content: '';
+		width: 0;
+		height: 0;
+		border-left: 6px solid transparent;
+		border-right: 6px solid transparent;
+		border-top: 6px solid #212121;
+		pointer-events: none;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		margin-top: -3px;
+	  }
+	}
+
+  }
+
+  .bssl-item-title {
+	margin: 0 0 5px;
+  }
+
+  & + .bs-smart-list-end {
+	display: none;
+  }
+
+  @media screen and (max-width: $break-mobile) {
+	.bssl-control-nav {
+	  &.bssl-top {
+		display: none;
+	  }
+	  .bssl-select {
+		max-width: 100%;
+		width: 100%;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #e6e6e6;
+		margin-bottom: 15px;
+	  }
+	}
+  }
+}

@@ -1,0 +1,19 @@
+.bs-smart-list.bssl-t1.bssl-s1 {
+  margin-top: 22px; }
+  .bs-smart-list.bssl-t1.bssl-s1 .bssl-control-nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1; }
+  @media screen and (max-width: 580px) {
+    .bs-smart-list.bssl-t1.bssl-s1 .bssl-control-nav {
+      position: relative;
+      left: inherit;
+      right: inherit;
+      text-align: center;
+      padding: 15px 0 0;
+      margin-top: 15px; }
+      .bs-smart-list.bssl-t1.bssl-s1 .bssl-control-nav a {
+        width: 48%; }
+        .bs-smart-list.bssl-t1.bssl-s1 .bssl-control-nav a:last-child {
+          float: right; } }

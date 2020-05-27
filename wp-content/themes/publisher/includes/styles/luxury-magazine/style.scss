@@ -1,0 +1,362 @@
+/*
+ThemeName |-> Luxury Magazine
+*/
+@import "../_demo-helper/general";
+
+$layout_boxed_padding: 15px;
+//
+$term_badges: left-bottom;
+
+@import "../_demo-helper/helper";
+
+/**
+ * =>General style
+ **/
+a, a:focus, a:hover {
+  text-decoration: none;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.post-meta .post-author {
+  max-width: inherit;
+}
+
+@media all and (min-width: 768px) {
+
+  .slider-style-1-container, .slider-style-11-container, .slider-style-13-container, .slider-style-15-container, .slider-style-2-container.slider-container-1col, .slider-style-3-container, .slider-style-4-container.slider-container-1col, .slider-style-5-container, .slider-style-7-container, .slider-style-9-container {
+	margin-top: -25px;
+  }
+
+  .bs-slider-1-item > .item-content:before {
+	padding-top: 38%;
+  }
+
+  .home .layout-1-col,
+  .home .layout-2-col,
+  .home .layout-3-col,
+  .single .layout-1-col,
+  .single .layout-2-col,
+  .single .layout-3-col {
+	margin-top: 0 !important;
+  }
+}
+
+/**
+ * => Page Layouts
+**/
+
+body.boxed .main-wrap {
+  box-shadow: none;
+}
+
+/**
+ * => Header
+ **/
+.main-menu-wrapper .container, .main-menu-wrapper .content-wrap {
+  padding: 0 !important;
+}
+
+.main-menu-container .menu-item > a:before {
+  display: none !important;
+}
+
+.main-menu > li {
+  margin: 0 !important;
+}
+
+.main-menu > li > a {
+  line-height: 36px;
+  padding: 0 17px;
+}
+
+.site-header.header-style-1 .main-menu.menu {
+  height: 56px;
+}
+
+.main-menu > li:before {
+  content: '';
+  //position: absolute;
+  left: -2px;
+  width: 1px;
+  height: 8px;
+  background: #cccccc;
+  display: inline-block;
+  top: 50%;
+  margin-top: -4px;
+}
+
+.main-menu > li:first-child:before {
+  display: none;
+}
+
+.site-header .menu-action-buttons {
+  right: 20px;
+}
+
+/**
+ * => Term Badge
+ **/
+.term-badges, .post-meta {
+  @include optimize_font;
+}
+
+.listing-item .term-badges.floated a {
+  padding: 7px 14px 8px;
+}
+
+/**
+ * => Listing Thumbnail 2
+ **/
+.bs-vc-wrapper > .bs-listing-listing-thumbnail-2 .listing-item-tb-2 .featured {
+  margin: 0 -16px 13px;
+}
+
+.bs-vc-wrapper > .bs-listing-listing-thumbnail-2 .listing-item-tb-2 .item-inner {
+  padding: 0 16px 14px;
+  background: #f2f3f5;
+}
+
+/**
+ * => Listing -> Grid 1
+ **/
+.listing-grid-1.columns-1 .listing-item-grid-1:last-child {
+  margin-bottom: 0 !important;
+}
+
+/**
+ * => Listing -> MIX 4
+ **/
+.bs-listing-listing-mix-1-4 {
+  .column-1 .listing-item-grid-1 {
+	.title {
+	  line-height: 32px;
+	}
+
+	.title a {
+	  font-size: 165%;
+	}
+  }
+  .column-2 .listing-item-tb-2 {
+	.title {
+	  line-height: 21px;
+	}
+	.title a {
+	  font-size: 90%;
+	}
+  }
+}
+
+/**
+ * => Ads
+ **/
+.bsac-caption {
+  font-size: 10px;
+  line-height: 27px;
+}
+
+@media all and (min-width: 1024px) {
+  .bsac-clearfix {
+	margin-bottom: 21px !important;
+  }
+}
+
+/**
+ * => Widget
+ **/
+.bs-vc-sidebar-column .better-studio-shortcode {
+  margin-bottom: 24px;
+}
+
+/**
+ * => Section Heading
+ **/
+.section-heading.sh-t2.sh-s4 {
+  border: none;
+}
+
+.section-heading.sh-t2.sh-s4 .h-text {
+  line-height: 19px;
+  letter-spacing: .7px;
+  width: 100%;
+  border-bottom: solid 1px #e5e5e5;
+}
+
+.section-heading.sh-t2.sh-s4:after {
+  width: 11px;
+}
+
+.section-heading.sh-t1.sh-t1:after {
+  height: 1px;
+  margin-top: 3.5px;
+}
+
+.section-heading.sh-t1.sh-s7 {
+  padding-bottom: 5px;
+  border-bottom: solid 1px rgba(35, 35, 35, .86);
+  margin-bottom: 30px;
+}
+
+/**
+ * => Footer
+ **/
+.site-footer .copy-footer, .site-footer .copy-2 {
+  @include optimize_font;
+  text-align: center;
+}
+
+ul.menu.footer-menu > li {
+  display: inline-block;
+  float: none;
+  margin: 0 20px;
+}
+
+.site-footer .copy-2, .site-footer .copy-1 {
+  width: auto !important;
+  display: inline-block;
+  float: none;
+  padding: 0 !important;
+}
+
+.footer-menu-container {
+  border-bottom: none;
+}
+
+/**
+ * => Footer -> Instagram
+ **/
+.footer-instagram {
+  background: #0b0b0b;
+}
+
+.footer-instagram .footer-instagram-label, .footer-instagram .footer-instagram-label a {
+  color: #ffffff;
+  font-family: inherit !important;
+  font-size: 12px;
+  font-weight: 100;
+  margin: 32px 0;
+
+}
+
+/**
+ * => Footer -> Newsletter
+ **/
+footer .widget.widget_bs-subscribe-newsletter {
+  padding: 0 !important;
+}
+
+footer .newsletter-email {
+  background: #212121;
+  border: none;
+}
+
+.bs-subscribe-newsletter .subscribe-image {
+  margin-bottom: 24px;
+}
+
+/**
+ * => Footer -> About Us
+ **/
+footer .bs-about {
+  margin-top: 14px;
+}
+
+footer .about-text {
+  @include optimize_font;
+}
+
+footer .about-link {
+  @include optimize_font;
+  font-family: inherit !important;
+  font-size: 11px;
+}
+
+.bs-about .about-icons-list {
+  margin: 15px 0 0;
+}
+
+.footer-widgets.light-text .widget .bs-about .about-icons-list .about-icon-item a {
+  border-radius: 100%;
+  font-size: 11px;
+}
+
+.bs-about .about-icons-list .about-icon-item {
+  margin: 0 5px 5px;
+}
+
+footer .bs-about .about-icons-list.about-icons-list .about-icon-item a i {
+  opacity: .5;
+  line-height: 30px;
+}
+
+/**
+ * => Widget -> Popular Categories
+ **/
+.bs-popular-terms-list {
+  padding: 0 !important;
+}
+
+.footer-widgets.light-text .bs-popular-categories .bs-popular-term-item .term-count {
+  background: #212121;
+  color: #868686;
+  font-family: inherit;
+}
+
+.footer-widgets.light-text .bs-popular-categories .bs-popular-term-item a {
+  color: #868686;
+}
+
+.footer-widgets.light-text .bs-popular-categories .bs-popular-term-item {
+  border-bottom: none;
+}
+
+/**
+ * => Blog 5
+ **/
+.listing-item-blog-5 .post-meta {
+  margin: 17px 0;
+}
+
+/**
+ * => Pagination
+ **/
+.bs-pagination {
+  margin: 30px 0 0;
+}
+
+.bs-pagination.bs-ajax-pagination.more_btn .btn-bs-pagination {
+  line-height: 40px !important;
+  padding: 0 7px;
+  width: 100%;
+  border: none;
+  background: #efede5;
+  font-weight: bold;
+  color: #1d1d1d !important;
+}
+
+/**
+ * => Single
+ **/
+.post-share.style-9 .social-item.social-item a {
+  color: #242424;
+}
+
+/**
+ * => Slider 1
+ **/
+.bs-slider-1-item > .item-content:before {
+  padding-top: 38%;
+}
+
+.bs-slider-1-item .title {
+  text-shadow: 1px 5px 9px rgba(0, 0, 0, 0.51);
+}
+
+/**
+ * => Archive
+ **/
+.archive-title .rss-link {
+  color: #444444;
+}

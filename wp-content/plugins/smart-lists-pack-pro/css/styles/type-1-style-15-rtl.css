@@ -1,0 +1,15 @@
+.bs-smart-list.bssl-t1.bssl-s15 .bssl-item-title {
+  padding-right: 85px;
+  padding-left: 0; }
+
+.bs-smart-list.bssl-t1.bssl-s15 .bssl-item-title .bssl-count {
+  padding-left: 2px;
+  border-left: 1px solid #e4e4e4;
+  right: 0;
+  left: auto;
+  padding-right: 0;
+  border-right: none; }
+
+@media screen and (max-width: 580px) {
+  .bs-smart-list.bssl-t1.bssl-s15 .bssl-control-nav a:last-child {
+    float: left; } }

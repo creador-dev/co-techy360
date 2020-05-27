@@ -1,0 +1,97 @@
+//
+// Liner Post Meta
+//
+@if $post_meta == 'liner' {
+  .listing-classic,
+  .listing-item-grid-1,
+  .bs-listing-listing-grid-1,
+  .bs-listing-listing-classic,
+  .bs-listing-listing-mix-4-3,
+  .bs-listing-listing-classic-2,
+  .bs-listing-listing-classic-3,
+  .bs-listing-listing-mix-3-3 .listing-grid-1,
+  .listing-mix-3-2 .listing-grid-1 {
+	.post-meta {
+	  @if ($post_meta_text_align) {
+		text-align: $post_meta_text_align;
+	  }
+
+	  @if ($post_meta_padding) {
+		padding: $post_meta_padding;
+	  }
+
+	  @if ($post_meta_margin) {
+		margin-top: $post_meta_margin_top_bottom;
+		margin-bottom: $post_meta_margin_top_bottom;
+	  }
+
+	  @if ($post_meta_line) {
+		border: $post_meta_line;
+		border-right: none;
+		border-left: none;
+	  }
+	}
+  }
+
+  .listing-grid .listing-item .post-meta {
+	margin-top: $post_meta_margin_top_bottom - 5;
+	margin-bottom: $post_meta_margin_top_bottom - 5;
+  }
+
+  .listing-item .post-meta .comments {
+	float: none;
+  }
+
+  //
+  // Exclude Post Meta
+  //
+  .listing-item-thumbnail .post-meta,
+  .listing-mg-type-1 .post-meta,
+  .listing-blog .post-meta {
+
+	@if ($post_meta_text_align) {
+	  text-align: inherit;
+	}
+
+	@if ($post_meta_padding) {
+	  padding-bottom: 0;
+	}
+
+	@if ($post_meta_margin) {
+	  margin: inherit;
+	}
+
+	@if ($post_meta_line) {
+	  border: none;
+	}
+  }
+
+  //
+  // Lower Margin
+  //
+  @if ($post_meta_margin) {
+	.listing-item-text .post-meta {
+	  margin: 10px 0;
+	}
+  }
+
+  //
+  // Border None
+  //
+  .listing-mg-4-item .post-meta,
+  .bs-listing-modern-grid-listing-3 .post-meta {
+
+	@if ($post_meta_line) {
+	  border: none;
+	}
+
+	@if ($post_meta_margin) {
+	  margin: 10px 0;
+	}
+
+	@if ($post_meta_padding) {
+	  padding-bottom: 0;
+	}
+  }
+
+}

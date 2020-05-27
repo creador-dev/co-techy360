@@ -1,0 +1,54 @@
+/***
+ *  BetterStudio Themes Core.
+ *
+ *  ______  _____   _____ _                           _____
+ *  | ___ \/  ___| |_   _| |                         /  __ \
+ *  | |_/ /\ `--.    | | | |__   ___ _ __ ___   ___  | /  \/ ___  _ __ ___
+ *  | ___ \ `--. \   | | | '_ \ / _ \ '_ ` _ \ / _ \ | |    / _ \| '__/ _ \
+ *  | |_/ //\__/ /   | | | | | |  __/ | | | | |  __/ | \__/\ (_) | | |  __/
+ *  \____/ \____/    \_/ |_| |_|\___|_| |_| |_|\___|  \____/\___/|_|  \___|
+ *
+ *  Copyright © 2017 Better Studio
+ *
+ *
+ *  Our portfolio is here: https://betterstudio.com/
+ *
+ *  \--> BetterStudio, 2017 <--/
+ */
+
+/*
+
+Better Translation Style
+Author: BetterStudio ( http://betterstudio.com/ )
+
+*/
+
+.bf-translation-header h4 {
+    color: #000;
+}
+
+.bf-translation-header h4 .fa  {
+    margin-right: 5px;
+}
+.bf-fullwidth-dropdown {
+    width: 100%;
+    padding: 0 !important;
+}
+.bf-fullwidth-dropdown,
+.bf-fullwidth-dropdown  .chosen-container {
+    margin-bottom: 0 !important;
+}
+.bf-translation-header .bf-first-column {
+    border-right: 1px solid rgb(236, 236, 236);
+    padding-right: 20px!important;
+}
+.share-translation-field-container>.bf-section {
+    padding-bottom: 40px !important;
+}
+.bf-translation-header .bf-second-column {
+    padding-left: 25px!important;
+}
+#better-translation-send{
+    margin-top: 20px;
+}
+

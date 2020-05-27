@@ -1,0 +1,32 @@
+@import "_variables.scss";
+
+.betterstudio-review.big-4 {
+
+  .verdict {
+	float: right;
+  }
+
+  .affiliate {
+	left: 0;
+	border-right: 1px solid #ebebeb;
+	right: auto;
+	border-left: none;
+  }
+
+  .criteria-list ul {
+	padding-right: 180px;
+	padding-left: 0;
+  }
+
+  .overall {
+	float: right;
+	margin-right: 0;
+	margin-left: 15px;
+  }
+
+  .review-cons-pros > aside:first-child {
+	padding-right: 25px;
+	padding-left: 0;
+  }
+
+}

@@ -1,0 +1,24 @@
+blockquote.bs-quote.bs-quote.bsq-t1.bsq-s20 {
+  padding: 30px 0;
+  text-align: inherit;
+  font-size: 123%;
+  border-bottom: 1px solid #eee; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s20.bs-quote:before {
+    display: none; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s20.bsq-left {
+    margin-right: 30px; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s20.bsq-right {
+    margin-left: 30px; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s20:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    height: 6px; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s20 .quote-author .quote-author-avatar {
+    display: inline-block; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s20 .quote-author {
+    text-align: inherit; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s20 .quote-author-name {
+    font-weight: bolder; }

@@ -1,0 +1,48 @@
+@import "variables.scss";
+
+.bs-smart-list.bssl-t1.bssl-s13 {
+
+  margin-top: 22px;
+
+  @include space-after-item;
+
+  .bssl-control-nav {
+	text-align: center;
+	margin-top: 30px;
+
+	a.bssl-nav-btn-big.bssl-nav-btn-big {
+	  padding: 0 20px;
+	}
+  }
+
+  .bssl-item-title {
+	padding: 0 0 0 52px;
+	position: relative;
+
+	.bssl-count {
+	  position: absolute;
+	  left: 0;
+	  top: -2px;
+	}
+  }
+
+  @media screen and (max-width: $break-mobile) {
+
+	.bssl-item-title {
+	  font-size: 18px;
+	}
+
+	.bssl-control-nav {
+	  padding: 15px 0 0;
+	  margin-top: 15px;
+
+	  a {
+		width: 48%;
+		&:last-child {
+		  float: right;
+		}
+	  }
+	}
+  }
+}
+

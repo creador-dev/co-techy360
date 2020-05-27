@@ -1,0 +1,1836 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Better Ads Manager v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-05-02 07:05:56+0000\n"
+"Last-Translator: admin <tondar@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: better-ads-manager.php:382
+#@ better-studio
+msgid "Post Ads"
+msgstr ""
+
+#: better-ads-manager.php:395
+#@ better-studio
+msgid "Post Inline Ads"
+msgstr ""
+
+#: better-ads-manager.php:401
+#: better-ads-manager.php:540
+#: better-ads-manager.php:644
+#: better-ads-manager.php:911
+#: includes/widgets/class-better-ads-widget.php:23
+#@ better-studio
+msgid "Ad Type"
+msgstr ""
+
+#: better-ads-manager.php:403
+#: better-ads-manager.php:542
+#: better-ads-manager.php:646
+#@ better-studio
+msgid "Choose campaign or banner."
+msgstr ""
+
+#: better-ads-manager.php:406
+#: better-ads-manager.php:412
+#: better-ads-manager.php:546
+#: better-ads-manager.php:561
+#: better-ads-manager.php:650
+#: better-ads-manager.php:665
+#: better-ads-manager.php:900
+#: better-ads-manager.php:1071
+#: includes/widgets/class-better-ads-widget.php:29
+#: includes/widgets/class-better-ads-widget.php:42
+#@ better-studio
+msgid "Campaign"
+msgstr ""
+
+#: better-ads-manager.php:407
+#: better-ads-manager.php:422
+#: better-ads-manager.php:547
+#: better-ads-manager.php:551
+#: better-ads-manager.php:651
+#: better-ads-manager.php:655
+#: includes/widgets/class-better-ads-widget.php:30
+#: includes/widgets/class-better-ads-widget.php:34
+#@ better-studio
+msgid "Banner"
+msgstr ""
+
+#: better-ads-manager.php:414
+#: better-ads-manager.php:563
+#: better-ads-manager.php:667
+#@ better-studio
+msgid "Choose campaign."
+msgstr ""
+
+#: better-ads-manager.php:416
+#: better-ads-manager.php:566
+#: better-ads-manager.php:670
+#: better-ads-manager.php:905
+#: includes/widgets/class-better-ads-widget.php:45
+#@ better-studio
+msgid "Select Campaign"
+msgstr ""
+
+#: better-ads-manager.php:424
+#: better-ads-manager.php:553
+#: better-ads-manager.php:657
+#@ better-studio
+msgid "Choose banner."
+msgstr ""
+
+#: better-ads-manager.php:426
+#: better-ads-manager.php:556
+#: better-ads-manager.php:660
+#: includes/widgets/class-better-ads-widget.php:37
+#@ better-studio
+msgid "Select Banner"
+msgstr ""
+
+#: better-ads-manager.php:432
+#: better-ads-manager.php:571
+#: better-ads-manager.php:675
+#: includes/widgets/class-better-ads-widget.php:50
+#@ better-studio
+msgid "Max Amount of Allowed Banners"
+msgstr ""
+
+#: better-ads-manager.php:434
+#: better-ads-manager.php:573
+#: better-ads-manager.php:677
+#@ better-studio
+msgid "How many banners are allowed?."
+msgstr ""
+
+#: better-ads-manager.php:435
+#: better-ads-manager.php:574
+#: better-ads-manager.php:678
+#: includes/widgets/class-better-ads-widget.php:51
+#@ better-studio
+msgid "Leave empty to show all banners."
+msgstr ""
+
+#: better-ads-manager.php:442
+#: better-ads-manager.php:581
+#: better-ads-manager.php:685
+#: includes/widgets/class-better-ads-widget.php:58
+#@ better-studio
+msgid "Columns"
+msgstr ""
+
+#: better-ads-manager.php:444
+#: better-ads-manager.php:583
+#: better-ads-manager.php:687
+#@ better-studio
+msgid "Show ads in multiple columns."
+msgstr ""
+
+#: better-ads-manager.php:447
+#: better-ads-manager.php:586
+#: better-ads-manager.php:690
+#: includes/widgets/class-better-ads-widget.php:62
+#@ better-studio
+msgid "1 Column"
+msgstr ""
+
+#: better-ads-manager.php:448
+#: better-ads-manager.php:587
+#: better-ads-manager.php:691
+#: includes/widgets/class-better-ads-widget.php:63
+#@ better-studio
+msgid "2 Column"
+msgstr ""
+
+#: better-ads-manager.php:449
+#: better-ads-manager.php:588
+#: better-ads-manager.php:692
+#: includes/widgets/class-better-ads-widget.php:64
+#@ better-studio
+msgid "3 Column"
+msgstr ""
+
+#: better-ads-manager.php:456
+#: better-ads-manager.php:595
+#: better-ads-manager.php:699
+#: includes/widgets/class-better-ads-widget.php:70
+#@ better-studio
+msgid "Order By"
+msgstr ""
+
+#: better-ads-manager.php:460
+#: better-ads-manager.php:599
+#: better-ads-manager.php:703
+#: includes/widgets/class-better-ads-widget.php:75
+#@ better-studio
+msgid "Date"
+msgstr ""
+
+#: better-ads-manager.php:461
+#: better-ads-manager.php:600
+#: better-ads-manager.php:704
+#: includes/widgets/class-better-ads-widget.php:17
+#: includes/widgets/class-better-ads-widget.php:76
+#@ better-studio
+msgid "Title"
+msgstr ""
+
+#: better-ads-manager.php:462
+#: better-ads-manager.php:601
+#: better-ads-manager.php:705
+#: includes/widgets/class-better-ads-widget.php:77
+#@ better-studio
+msgid "Rand"
+msgstr ""
+
+#: better-ads-manager.php:469
+#: better-ads-manager.php:608
+#: better-ads-manager.php:712
+#: includes/widgets/class-better-ads-widget.php:83
+#@ better-studio
+msgid "Order"
+msgstr ""
+
+#: better-ads-manager.php:473
+#: better-ads-manager.php:612
+#: better-ads-manager.php:716
+#: includes/widgets/class-better-ads-widget.php:88
+#@ better-studio
+msgid "Ascending"
+msgstr ""
+
+#: better-ads-manager.php:474
+#: better-ads-manager.php:613
+#: better-ads-manager.php:717
+#: includes/widgets/class-better-ads-widget.php:89
+#@ better-studio
+msgid "Descending"
+msgstr ""
+
+#: better-ads-manager.php:482
+#@ better-studio
+msgid "Position"
+msgstr ""
+
+#: better-ads-manager.php:484
+#@ better-studio
+msgid "Choose position of inline ad."
+msgstr ""
+
+#: better-ads-manager.php:487
+#@ better-studio
+msgid "Left Align"
+msgstr ""
+
+#: better-ads-manager.php:488
+#@ better-studio
+msgid "Center Align"
+msgstr ""
+
+#: better-ads-manager.php:489
+#@ better-studio
+msgid "Right Align"
+msgstr ""
+
+#: better-ads-manager.php:494
+#@ better-studio
+msgid "After Paragraph"
+msgstr ""
+
+#: better-ads-manager.php:496
+#@ better-studio
+msgid "Content of each post will analyzed and it will inject an ad after the selected number of paragraphs."
+msgstr ""
+
+#: better-ads-manager.php:497
+#@ better-studio
+msgid "After how many paragraphs the ad will display."
+msgstr ""
+
+#: better-ads-manager.php:504
+#@ better-studio
+msgid "Add inline adds inside post content. <br>You can add multiple inline adds for multiple location of post content."
+msgstr ""
+
+#: better-ads-manager.php:521
+#@ better-studio
+msgid "Add New Inline Ad"
+msgstr ""
+
+#: better-ads-manager.php:522
+#@ better-studio
+msgid "Delete Ad"
+msgstr ""
+
+#: better-ads-manager.php:523
+#@ better-studio
+msgid "Inline Ad"
+msgstr ""
+
+#: better-ads-manager.php:535
+#@ better-studio
+msgid "Post Top Ad"
+msgstr ""
+
+#: better-ads-manager.php:620
+#: better-ads-manager.php:724
+#: includes/widgets/class-better-ads-widget.php:95
+#@ better-studio
+msgid "Align"
+msgstr ""
+
+#: better-ads-manager.php:621
+#: better-ads-manager.php:726
+#@ better-studio
+msgid "Choose align of ad."
+msgstr ""
+
+#: better-ads-manager.php:625
+#: better-ads-manager.php:729
+#: includes/widgets/class-better-ads-widget.php:100
+#@ better-studio
+msgid "Left"
+msgstr ""
+
+#: better-ads-manager.php:626
+#: better-ads-manager.php:730
+#: includes/widgets/class-better-ads-widget.php:101
+#@ better-studio
+msgid "Center"
+msgstr ""
+
+#: better-ads-manager.php:627
+#: better-ads-manager.php:731
+#: includes/widgets/class-better-ads-widget.php:102
+#@ better-studio
+msgid "Right"
+msgstr ""
+
+#: better-ads-manager.php:639
+#@ better-studio
+msgid "Post Bottom Ad"
+msgstr ""
+
+#: better-ads-manager.php:741
+#@ better-studio
+msgid "Custom CSS/JS"
+msgstr ""
+
+#: better-ads-manager.php:748
+#@ better-studio
+msgid "Custom CSS Code"
+msgstr ""
+
+#: better-ads-manager.php:752
+#@ better-studio
+msgid "Paste your CSS code, do not include any tags or HTML in the field. Any custom CSS entered here will override the theme CSS. In some cases, the !important tag may be needed."
+msgstr ""
+
+#: better-ads-manager.php:753
+#@ better-studio
+msgid "Please <strong>do not</strong> put code inside &lt;style&gt;&lt;/style&gt; tags."
+msgstr ""
+
+#: better-ads-manager.php:756
+#@ better-studio
+msgid "HTML/JS Code before &lt;/head&gt;"
+msgstr ""
+
+#: better-ads-manager.php:758
+#@ better-studio
+msgid "Please put js code inside &lt;script&gt;&lt;/script&gt; tags."
+msgstr ""
+
+#: better-ads-manager.php:761
+#@ better-studio
+msgid "This code will be placed before &lt;/head&gt; tag in html. Useful if you have an external script that requires it."
+msgstr ""
+
+#: better-ads-manager.php:778
+#: better-ads-manager.php:779
+#@ better-studio
+msgid "Better Ads Manager"
+msgstr ""
+
+#: better-ads-manager.php:780
+#@ better-studio
+msgid "Options"
+msgstr ""
+
+#: better-ads-manager.php:789
+#, php-format
+#@ better-studio
+msgid "%s Language Options."
+msgstr ""
+
+#: better-ads-manager.php:790
+#@ better-studio
+msgid "All Languages Options."
+msgstr ""
+
+#: better-ads-manager.php:792
+#, php-format
+#@ better-studio
+msgid "Reset %s Options"
+msgstr ""
+
+#: better-ads-manager.php:792
+#@ better-studio
+msgid "Reset Options"
+msgstr ""
+
+#: better-ads-manager.php:793
+#@ better-studio
+msgid "Reset All Options"
+msgstr ""
+
+#: better-ads-manager.php:795
+#, php-format
+#@ better-studio
+msgid "Are you sure to reset %s options?"
+msgstr ""
+
+#: better-ads-manager.php:795
+#@ better-studio
+msgid "Are you sure to reset options?"
+msgstr ""
+
+#: better-ads-manager.php:796
+#@ better-studio
+msgid "Are you sure to reset all options?"
+msgstr ""
+
+#: better-ads-manager.php:798
+#, php-format
+#@ better-studio
+msgid "Save %s Options"
+msgstr ""
+
+#: better-ads-manager.php:798
+#@ better-studio
+msgid "Save Options"
+msgstr ""
+
+#: better-ads-manager.php:799
+#@ better-studio
+msgid "Save All Options"
+msgstr ""
+
+#: better-ads-manager.php:801
+#@ better-studio
+msgid "Are you sure to save all options? this will override specified options per languages"
+msgstr ""
+
+#: better-ads-manager.php:804
+#@ better-studio
+msgctxt "Panel title"
+msgid "Better Ads Manager"
+msgstr ""
+
+#: better-ads-manager.php:805
+#@ better-studio
+msgid "Manage your ads in better way!"
+msgstr ""
+
+#: better-ads-manager.php:824
+#@ better-studio
+msgctxt "post type general name"
+msgid "Campaigns"
+msgstr ""
+
+#: better-ads-manager.php:825
+#@ better-studio
+msgctxt "post type singular name"
+msgid "Campaign"
+msgstr ""
+
+#: better-ads-manager.php:826
+#@ better-studio
+msgctxt "admin menu"
+msgid "Campaigns"
+msgstr ""
+
+#: better-ads-manager.php:827
+#@ better-studio
+msgctxt "add new on admin bar"
+msgid "Campaigns"
+msgstr ""
+
+#: better-ads-manager.php:828
+#@ better-studio
+msgctxt "campaign"
+msgid "Add New Campaign"
+msgstr ""
+
+#: better-ads-manager.php:829
+#@ better-studio
+msgid "Add New Campaign"
+msgstr ""
+
+#: better-ads-manager.php:830
+#@ better-studio
+msgid "New Campaign"
+msgstr ""
+
+#: better-ads-manager.php:831
+#@ better-studio
+msgid "Edit Campaign"
+msgstr ""
+
+#: better-ads-manager.php:832
+#@ better-studio
+msgid "View Campaign"
+msgstr ""
+
+#: better-ads-manager.php:833
+#@ better-studio
+msgid "Campaigns"
+msgstr ""
+
+#: better-ads-manager.php:834
+#@ better-studio
+msgid "Search Campaigns"
+msgstr ""
+
+#: better-ads-manager.php:835
+#@ better-studio
+msgid "No campaigns found."
+msgstr ""
+
+#: better-ads-manager.php:836
+#@ better-studio
+msgid "No campaigns found in Trash."
+msgstr ""
+
+#: better-ads-manager.php:852
+#@ better-studio
+msgctxt "post type general name"
+msgid "Banners"
+msgstr ""
+
+#: better-ads-manager.php:853
+#@ better-studio
+msgctxt "post type singular name"
+msgid "Banner"
+msgstr ""
+
+#: better-ads-manager.php:854
+#@ better-studio
+msgctxt "admin menu"
+msgid "Banners"
+msgstr ""
+
+#: better-ads-manager.php:855
+#@ better-studio
+msgctxt "add new on admin bar"
+msgid "Banners"
+msgstr ""
+
+#: better-ads-manager.php:856
+#@ better-studio
+msgctxt "campaign"
+msgid "Add New Banner"
+msgstr ""
+
+#: better-ads-manager.php:857
+#@ better-studio
+msgid "Add New Banner"
+msgstr ""
+
+#: better-ads-manager.php:858
+#@ better-studio
+msgid "New Banner"
+msgstr ""
+
+#: better-ads-manager.php:859
+#@ better-studio
+msgid "Edit Banner"
+msgstr ""
+
+#: better-ads-manager.php:860
+#@ better-studio
+msgid "View Banner"
+msgstr ""
+
+#: better-ads-manager.php:861
+#@ better-studio
+msgid "Banners"
+msgstr ""
+
+#: better-ads-manager.php:862
+#@ better-studio
+msgid "Search Banner"
+msgstr ""
+
+#: better-ads-manager.php:863
+#@ better-studio
+msgid "No banners found."
+msgstr ""
+
+#: better-ads-manager.php:864
+#@ better-studio
+msgid "No banners found in Trash."
+msgstr ""
+
+#: better-ads-manager.php:894
+#@ better-studio
+msgid "Ad"
+msgstr ""
+
+#: better-ads-manager.php:901
+#@ better-studio
+msgid "Choose campaign for add."
+msgstr ""
+
+#: better-ads-manager.php:912
+#@ better-studio
+msgid "Choose type of ad."
+msgstr ""
+
+#: better-ads-manager.php:917
+#: better-ads-manager.php:922
+#@ better-studio
+msgid "Adsense/Custom Code"
+msgstr ""
+
+#: better-ads-manager.php:918
+#: better-ads-manager.php:932
+#@ better-studio
+msgid "Image"
+msgstr ""
+
+#: better-ads-manager.php:924
+#: better-ads-manager.php:934
+#: better-ads-manager.php:956
+#@ better-studio
+msgid "Paste your Google Adsense or any other ad code here."
+msgstr ""
+
+#: better-ads-manager.php:937
+#@ better-studio
+msgid "Select or Upload Ad Image"
+msgstr ""
+
+#: better-ads-manager.php:938
+#@ better-studio
+msgid "Select Image"
+msgstr ""
+
+#: better-ads-manager.php:939
+#@ better-studio
+msgid "Upload Ad Image"
+msgstr ""
+
+#: better-ads-manager.php:940
+#@ better-studio
+msgid "Remove Image"
+msgstr ""
+
+#: better-ads-manager.php:945
+#@ better-studio
+msgid "Caption"
+msgstr ""
+
+#: better-ads-manager.php:947
+#@ better-studio
+msgid "Optional caption that will be shown after ad."
+msgstr ""
+
+#: better-ads-manager.php:954
+#@ better-studio
+msgid "Link"
+msgstr ""
+
+#: better-ads-manager.php:963
+#@ better-studio
+msgid "Link Target"
+msgstr ""
+
+#: better-ads-manager.php:964
+#@ better-studio
+msgid "Choose where To Open The link?"
+msgstr ""
+
+#: better-ads-manager.php:969
+#@ better-studio
+msgid "_blank - in new window or tab"
+msgstr ""
+
+#: better-ads-manager.php:970
+#@ better-studio
+msgid "_self - in the same frame as it was clicked"
+msgstr ""
+
+#: better-ads-manager.php:971
+#@ better-studio
+msgid "_parent - in the parent frame"
+msgstr ""
+
+#: better-ads-manager.php:972
+#@ better-studio
+msgid "_top - in the full body of the window"
+msgstr ""
+
+#: better-ads-manager.php:978
+#@ better-studio
+msgid "Link Rel No Follow"
+msgstr ""
+
+#: better-ads-manager.php:979
+#@ better-studio
+msgid "Do you want to add rel nofollow to your link?"
+msgstr ""
+
+#: better-ads-manager.php:983
+#@ better-studio
+msgid "Yes"
+msgstr ""
+
+#: better-ads-manager.php:984
+#@ better-studio
+msgid "No"
+msgstr ""
+
+#: better-ads-manager.php:989
+#@ better-studio
+msgid "Enable on Desktop"
+msgstr ""
+
+#: better-ads-manager.php:993
+#: better-ads-manager.php:1002
+#: better-ads-manager.php:1011
+#: includes/libs/better-framework/core/field-generator/fields/typography.php:54
+#@ better-studio
+msgid "Enable"
+msgstr ""
+
+#: better-ads-manager.php:994
+#: better-ads-manager.php:1003
+#: better-ads-manager.php:1012
+#: includes/libs/better-framework/core/field-generator/fields/typography.php:55
+#@ better-studio
+msgid "Disable"
+msgstr ""
+
+#: better-ads-manager.php:998
+#@ better-studio
+msgid "Enable on Tablet Portrait"
+msgstr ""
+
+#: better-ads-manager.php:1007
+#@ better-studio
+msgid "Enable on Phone"
+msgstr ""
+
+#: better-ads-manager.php:1021
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:759
+#@ better-studio
+msgid "Advanced"
+msgstr ""
+
+#: better-ads-manager.php:1029
+#@ better-studio
+msgid "Custom Class"
+msgstr ""
+
+#: better-ads-manager.php:1033
+#@ better-studio
+msgid "This classes will be added to banner wrapper tag.<br>Separate classes with space."
+msgstr ""
+
+#: better-ads-manager.php:1037
+#@ better-studio
+msgid "Custom ID"
+msgstr ""
+
+#: better-ads-manager.php:1041
+#@ better-studio
+msgid "This id will be added to banner wrapper tag."
+msgstr ""
+
+#: better-ads-manager.php:1046
+#@ better-studio
+msgid "Custom CSS"
+msgstr ""
+
+#: better-ads-manager.php:1050
+#@ better-studio
+msgid "Paste your CSS code, do not include any tags or HTML in the field. Any custom CSS entered here will override the default CSS. In some cases, the !important tag may be needed."
+msgstr ""
+
+#: better-ads-manager.php:1055
+#@ better-studio
+msgid "Better Banner"
+msgstr ""
+
+#: better-ads-manager.php:1078
+#@ better-studio
+msgid "Campaign Note & Description"
+msgstr ""
+
+#: better-ads-manager.php:1086
+#@ better-studio
+msgid "Better Campaign Options"
+msgstr ""
+
+#: better-ads-manager.php:1135
+#@ better-studio
+msgid "Please select type of ad."
+msgstr ""
+
+#: better-ads-manager.php:1149
+#@ better-studio
+msgid "Please select a campaign."
+msgstr ""
+
+#: better-ads-manager.php:1201
+#@ better-studio
+msgid "Selected campaign have not any active ad."
+msgstr ""
+
+#: better-ads-manager.php:1216
+#@ better-studio
+msgid "Please select a banner."
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:324
+#@ better-studio
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:325
+#@ better-studio
+msgid "Reset All Settings"
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:328
+#@ better-studio
+msgid "Are you sure to reset settings?"
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:329
+#@ better-studio
+msgid "Are you sure to reset all settings?"
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:332
+#@ better-studio
+msgid "Save Settings"
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:333
+#@ better-studio
+msgid "Save All Settings"
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:337
+#@ better-studio
+msgid "Are you sure to save all settings? this will override specified settings per languages"
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:411
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:439
+#@ better-studio
+msgid "Options saved."
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:412
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:440
+#@ better-studio
+msgid "Pre-defined Skin and Styles updated."
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:419
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:447
+#@ better-studio
+msgid "Error happened in saving option."
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:576
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:617
+#@ better-studio
+msgid "Options Reset to default."
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:585
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:626
+#@ better-studio
+msgid "An error occurred while resetting options."
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:706
+#@ better-studio
+msgid "Imported data is not correct or was corrupted."
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:713
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:927
+#@ better-studio
+msgid "Imported data is not for this panel."
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/class-bf-admin-panel.php:738
+#@ better-studio
+msgid "Theme Options successfully imported."
+msgstr ""
+
+#: includes/libs/better-framework/admin-panel/templates/default/main.php:45
+#@ better-studio
+msgid "An Error Occurred!"
+msgstr ""
+
+#: includes/libs/better-framework/class-better-framework.php:862
+#@ better-studio
+msgid "Do you really wish to override your current settings?"
+msgstr ""
+
+#: includes/libs/better-framework/class-better-framework.php:976
+#: includes/libs/better-framework/class-better-framework.php:989
+#@ better-studio
+msgid "Security Error!"
+msgstr ""
+
+#: includes/libs/better-framework/class-better-framework.php:1042
+#@ better-studio
+msgid "An error occurred while doing action."
+msgstr ""
+
+#: includes/libs/better-framework/core/class-bf-posts.php:112
+#@ better-studio
+msgid "Pages:"
+msgstr ""
+
+#: includes/libs/better-framework/core/class-bf-posts.php:352
+#@ better-studio
+msgid "Next Post"
+msgstr ""
+
+#: includes/libs/better-framework/core/class-bf-posts.php:418
+#@ better-studio
+msgid "Previous Post"
+msgstr ""
+
+#: includes/libs/better-framework/core/custom-css/class-bf-front-end-css.php:295
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-theme-fonts-helper.php:102
+#@ better-studio
+msgid "Theme Fonts"
+msgstr ""
+
+#: includes/libs/better-framework/core/custom-css/class-bf-front-end-css.php:302
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-custom-fonts-helper.php:82
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:567
+#@ better-studio
+msgid "Custom Fonts"
+msgstr ""
+
+#: includes/libs/better-framework/core/custom-css/class-bf-front-end-css.php:424
+#@ better-studio
+msgid "Terms Custom CSS"
+msgstr ""
+
+#: includes/libs/better-framework/core/custom-css/class-bf-front-end-css.php:541
+#@ better-studio
+msgid "Menus Custom CSS"
+msgstr ""
+
+#: includes/libs/better-framework/core/custom-css/class-bf-front-end-css.php:633
+#@ better-studio
+msgid "Panel Options Custom CSS"
+msgstr ""
+
+#: includes/libs/better-framework/core/custom-css/class-bf-front-end-css.php:759
+#@ better-studio
+msgid "Widgets Custom CSS"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:12
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:13
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:26
+#: includes/libs/better-framework/core/field-generator/fields/image_upload.php:15
+#: includes/libs/better-framework/core/field-generator/fields/media.php:8
+#: includes/libs/better-framework/core/field-generator/fields/media.php:9
+#: includes/libs/better-framework/core/field-generator/fields/media_image.php:10
+#: includes/libs/better-framework/core/field-generator/fields/media_image.php:11
+#: includes/libs/better-framework/core/field-generator/fields/media_image.php:13
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:12
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:13
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:25
+#@ better-studio
+msgid "Upload"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:37
+#: includes/libs/better-framework/core/field-generator/fields/media_image.php:14
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:35
+#@ better-studio
+msgid "Remove"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:61
+#@ better-studio
+msgid "Full Background Image"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:63
+#@ better-studio
+msgid "Full Cover"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:64
+#@ better-studio
+msgid "Fit Cover"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:65
+#@ better-studio
+msgid "Parallax"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:74
+#@ better-studio
+msgid "Repeated Background Image"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:76
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:49
+#@ better-studio
+msgid "Repeat Horizontal and Vertical - Pattern"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:77
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:51
+#@ better-studio
+msgid "Repeat Horizontal"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:78
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:52
+#@ better-studio
+msgid "Repeat Vertical"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:79
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:53
+#@ better-studio
+msgid "No Repeat"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:87
+#@ better-studio
+msgid "Static Background Image Position"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:89
+#@ better-studio
+msgid "Top Left"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:90
+#@ better-studio
+msgid "Top Center"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:91
+#@ better-studio
+msgid "Top Right"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:92
+#@ better-studio
+msgid "Left Center"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:93
+#@ better-studio
+msgid "Center Center"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:94
+#@ better-studio
+msgid "Right Center"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:95
+#@ better-studio
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:96
+#@ better-studio
+msgid "Bottom Center"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/background_image.php:97
+#@ better-studio
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/border.php:24
+#@ better-studio
+msgid "Top Border:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/border.php:35
+#@ better-studio
+msgid "Right Border:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/border.php:46
+#@ better-studio
+msgid "Bottom Border:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/border.php:57
+#@ better-studio
+msgid "Left Border:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/export.php:19
+#@ better-studio
+msgid "Download Backup"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/icon_select.php:14
+#: includes/libs/better-framework/core/field-generator/fields/icon_select.php:24
+#@ better-studio
+msgid "Choose an Icon"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/icon_select.php:25
+#@ better-studio
+msgid "No Icon"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/icon_select.php:42
+#@ better-studio
+msgid "All: "
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/icon_select.php:42
+#@ better-studio
+msgid "(479)"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/icon_select.php:57
+#@ better-studio
+msgid "Search: "
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/image_select.php:11
+#@ better-studio
+msgid "chose one..."
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/import.php:13
+#@ better-studio
+msgid "Import"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:10
+#@ better-studio
+msgid "Width:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:21
+#@ better-studio
+msgid "Dotted"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:22
+#@ better-studio
+msgid "Dashed"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:23
+#@ better-studio
+msgid "Solid"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:24
+#@ better-studio
+msgid "Double"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:25
+#@ better-studio
+msgid "Groove"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:26
+#@ better-studio
+msgid "Ridge"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:27
+#@ better-studio
+msgid "Inset"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/partial-border.php:28
+#@ better-studio
+msgid "Outset"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/repeater.php:12
+#@ better-studio
+msgid "Add"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/repeater.php:18
+#@ better-studio
+msgid "Delete"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/repeater.php:24
+#@ better-studio
+msgid "Item"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/switch.php:5
+#: includes/libs/better-framework/vc-extend/fields/vc-switchery.php:6
+#@ better-studio
+msgid "On"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/switch.php:11
+#: includes/libs/better-framework/vc-extend/fields/vc-switchery.php:12
+#@ better-studio
+msgid "Off"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/typography.php:70
+#@ better-studio
+msgid "Font Family:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/typography.php:107
+#@ better-studio
+msgid "Font Weight:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/typography.php:118
+#@ better-studio
+msgid "Font Character Set:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/typography.php:149
+#@ better-studio
+msgid "Text Align:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/typography.php:189
+#@ better-studio
+msgid "Text Transform:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/typography.php:230
+#@ better-studio
+msgid "Font Size:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/typography.php:258
+#@ better-studio
+msgid "Line Height:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/typography.php:260
+#@ better-studio
+msgid "Pixel"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/fields/typography.php:286
+#@ better-studio
+msgid "Color:"
+msgstr ""
+
+#: includes/libs/better-framework/core/field-generator/templates/typography.php:55
+#@ better-studio
+msgid "ABCDEF...123"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-custom-fonts-helper.php:113
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-font-stacks-helper.php:108
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-theme-fonts-helper.php:134
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:493
+#@ better-studio
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-custom-fonts-helper.php:114
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-font-stacks-helper.php:109
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-theme-fonts-helper.php:135
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:494
+#@ better-studio
+msgid "Book 300"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-custom-fonts-helper.php:115
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-font-stacks-helper.php:110
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-theme-fonts-helper.php:136
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:495
+#@ better-studio
+msgid "Normal 400"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-custom-fonts-helper.php:116
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-font-stacks-helper.php:111
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-theme-fonts-helper.php:137
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:496
+#@ better-studio
+msgid "Medium 500"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-custom-fonts-helper.php:117
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-font-stacks-helper.php:112
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-theme-fonts-helper.php:138
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:497
+#@ better-studio
+msgid "Bold 700"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-custom-fonts-helper.php:118
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-font-stacks-helper.php:113
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-theme-fonts-helper.php:139
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:498
+#@ better-studio
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-custom-fonts-helper.php:119
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-font-stacks-helper.php:114
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-theme-fonts-helper.php:140
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:499
+#@ better-studio
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-custom-fonts-helper.php:120
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-font-stacks-helper.php:115
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-theme-fonts-helper.php:141
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:500
+#@ better-studio
+msgid "Book 300 Italic"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-custom-fonts-helper.php:121
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-font-stacks-helper.php:116
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-theme-fonts-helper.php:142
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:501
+#@ better-studio
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-custom-fonts-helper.php:122
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-font-stacks-helper.php:117
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-theme-fonts-helper.php:143
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:502
+#@ better-studio
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-custom-fonts-helper.php:123
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-font-stacks-helper.php:118
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-theme-fonts-helper.php:144
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:503
+#@ better-studio
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-custom-fonts-helper.php:124
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-font-stacks-helper.php:119
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-theme-fonts-helper.php:145
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:504
+#@ better-studio
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-custom-fonts-helper.php:144
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-font-stacks-helper.php:138
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-theme-fonts-helper.php:164
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:506
+#@ better-studio
+msgid "Unknown"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-font-stacks-helper.php:76
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:652
+#@ better-studio
+msgid "Font Stacks"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fm-google-fonts-helper.php:70
+#@ better-studio
+msgid "Google Fonts"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:574
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:658
+#@ better-studio
+msgid "Font Name"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:583
+#@ better-studio
+msgid "Font .woff"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:584
+#@ better-studio
+msgid "Upload the .woff font file."
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:585
+#@ better-studio
+msgid "Upload .woff"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:594
+#@ better-studio
+msgid "Font .ttf"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:595
+#@ better-studio
+msgid "Upload the .ttf font file."
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:596
+#@ better-studio
+msgid "Upload .ttf"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:605
+#@ better-studio
+msgid "Font .svg"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:606
+#@ better-studio
+msgid "Upload the .svg font file."
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:607
+#@ better-studio
+msgid "Upload .svg"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:616
+#@ better-studio
+msgid "Font .eot"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:617
+#@ better-studio
+msgid "Upload the .eot font file."
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:618
+#@ better-studio
+msgid "Upload .eot"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:627
+#@ better-studio
+msgid "Upload Custom Fonts"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:633
+#, php-format
+#@ better-studio
+msgid "Font %i%"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:640
+#@ better-studio
+msgid "Add New Font"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:641
+#@ better-studio
+msgid "Delete Font"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:642
+#@ better-studio
+msgid "Custom Font"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:667
+#@ better-studio
+msgid "Font Stack"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:676
+#@ better-studio
+msgid "Web Safe CSS Font Stacks"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:747
+#@ better-studio
+msgid "Add New Font Stack"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:748
+#@ better-studio
+msgid "Delete Font Stack"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:749
+#@ better-studio
+msgid "CSS Font Stack"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:765
+#@ better-studio
+msgid "Google Fonts Protocol"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:767
+#@ better-studio
+msgid "Select protocol of fonts link for Google Fonts."
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:772
+#@ better-studio
+msgid "HTTP"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:773
+#@ better-studio
+msgid "HTTPs"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:774
+#@ better-studio
+msgid "Relative to Site"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:778
+#@ better-studio
+msgid "Typography Field Preview Texts"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:783
+#@ better-studio
+msgid "Heading Text"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:785
+#@ better-studio
+msgid "This Is a Test Title Text!"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:789
+#@ better-studio
+msgid "Paragraph Text"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:791
+#@ better-studio
+msgid "Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin."
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:795
+#@ better-studio
+msgid "Divided Text"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:797
+#@ better-studio
+msgid ""
+"a b c d e f g h i j k l m n o p q r s t u v w x y z\n"
+"A B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n"
+"0123456789 (!@#$%&.,?:;)"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:809
+#@ better-studio
+msgid "Backup & Restore"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:816
+#@ better-studio
+msgid "Backup / Export"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:821
+#@ better-studio
+msgid "This allows you to create a backup of your translation. Please note, it will not backup anything else."
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:824
+#@ better-studio
+msgid "Restore / Import"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:828
+#@ better-studio
+msgid "<strong>It will override your current translation!</strong> Please make sure to select a valid translation file."
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:840
+#@ better-studio
+msgctxt "Panel title"
+msgid "Font Manager"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:841
+#@ better-studio
+msgid "Upload custom fonts and add CSS font stacks."
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:845
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:848
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:849
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:851
+#@ better-studio
+msgid "Font Manager"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:858
+#, php-format
+#@ better-studio
+msgid "%s Language Fonts."
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:859
+#@ better-studio
+msgid "All Languages Fonts."
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:861
+#, php-format
+#@ better-studio
+msgid "Reset %s Fonts"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:861
+#@ better-studio
+msgid "Reset Fonts"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:862
+#@ better-studio
+msgid "Reset All Fonts"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:864
+#, php-format
+#@ better-studio
+msgid "Are you sure to reset %s fonts?"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:864
+#@ better-studio
+msgid "Are you sure to reset fonts?"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:865
+#@ better-studio
+msgid "Are you sure to reset all fonts?"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:867
+#, php-format
+#@ better-studio
+msgid "Save %s Fonts"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:867
+#@ better-studio
+msgid "Save Fonts"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:868
+#@ better-studio
+msgid "Save All Fonts"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:870
+#@ better-studio
+msgid "Are you sure to save all fonts? this will override specified fonts per languages"
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:898
+#@ better-studio
+msgid "Font manager reset to default."
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:900
+#@ better-studio
+msgid "An error occurred while resetting font manager."
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:925
+#@ better-studio
+msgid "Font manager options imported successfully."
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:928
+#@ better-studio
+msgid "Imported translation is not for fonts manager."
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:930
+#@ better-studio
+msgid "An error occurred while importing font manager options."
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:951
+#@ better-studio
+msgid "Fonts saved."
+msgstr ""
+
+#: includes/libs/better-framework/core/fonts-manager/class-bf-fonts-manager.php:953
+#@ better-studio
+msgid "An error occurred while saving fonts."
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:141
+#@ better-studio
+msgid "Browse:"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:142
+#@ better-studio
+msgid "Home"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:143
+#@ better-studio
+msgid "404 Not Found"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:144
+#@ better-studio
+msgid "Archives"
+msgstr ""
+
+#. Translators: %s is the search query. The HTML entities are opening and closing curly quotes.
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:146
+#, php-format
+#@ better-studio
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#. Translators: %s is the page number.
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:148
+#, php-format
+#@ better-studio
+msgid "Page %s"
+msgstr ""
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:150
+#, php-format
+#@ better-studio
+msgid "Minute %s"
+msgstr ""
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:152
+#, php-format
+#@ better-studio
+msgid "Week %s"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:698
+#@ better-studio
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:717
+#@ better-studio
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:735
+#@ better-studio
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:752
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:782
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:810
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:838
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:1030
+#@ better-studio
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:753
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:811
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:1034
+#@ better-studio
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:754
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:1038
+#@ better-studio
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: includes/libs/better-framework/libs/class-bf-breadcrumb.php:783
+#@ better-studio
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: includes/libs/better-framework/taxonomy/class-bf-taxonomy-front-end-generator.php:73
+#: includes/libs/better-framework/user-metabox/class-bf-user-metabox-core.php:191
+#@ better-studio
+msgid "Better Options"
+msgstr ""
+
+#: includes/libs/better-framework/vc-extend/fields/background_image.php:50
+#@ better-studio
+msgid "Fully Cover Background - Photo"
+msgstr ""
+
+#: includes/libs/better-framework/widget/class-bf-widgets-general-fields.php:58
+#@ better-studio
+msgid "Widget Title Color"
+msgstr ""
+
+#: includes/libs/better-framework/widget/class-bf-widgets-general-fields.php:67
+#@ better-studio
+msgid "Widget Title Background Color"
+msgstr ""
+
+#: includes/widgets/class-better-ads-widget.php:24
+#@ better-studio
+msgid "Choose simple banner or campaign.."
+msgstr ""
+
+#: includes/widgets/class-better-ads-widget.php:110
+#@ better-studio
+msgid "Better Ads"
+msgstr ""
+
+#: includes/widgets/class-better-ads-widget.php:111
+#@ better-studio
+msgid "Show campaign and banners."
+msgstr ""
+

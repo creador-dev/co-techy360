@@ -1,0 +1,48 @@
+@import "variables.scss";
+
+.bs-smart-list.bssl-t1.bssl-s10 {
+
+  margin-top: 22px;
+
+  @include space-after-item;
+
+  .bssl-item-title {
+	padding: 0 0 0 52px;
+	position: relative;
+	border-bottom: 3px solid #222;
+	min-height: 36px;
+
+	.bssl-count {
+	  position: absolute;
+	  left: 0;
+	  top: -2px;
+	  bottom: 0;
+	}
+  }
+
+  .bssl-item {
+
+	.bssl-image-w {
+	  float: right;
+	  margin-left: 20px;
+	  max-width: 260px;
+	}
+  }
+
+  @media screen and (max-width: $break-mobile) {
+	.bssl-item-title {
+	  font-size: 18px;
+	  padding-bottom: 5px;
+	}
+
+	.bssl-item {
+	  .bssl-image-w {
+		float: none;
+		max-width: 100%;
+		margin-left: 0;
+		text-align: center;
+	  }
+	}
+  }
+
+}

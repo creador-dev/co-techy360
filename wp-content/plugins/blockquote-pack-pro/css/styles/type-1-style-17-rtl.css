@@ -1,0 +1,18 @@
+blockquote.bs-quote.bsq-t1.bsq-s17.bs-quote {
+  padding: 0 51px 0 0; }
+  blockquote.bs-quote.bsq-t1.bsq-s17.bs-quote:after {
+    right: 0;
+    left: auto; }
+  blockquote.bs-quote.bsq-t1.bsq-s17.bs-quote:before {
+    right: 0;
+    left: auto;
+    margin: 0 0 0 -30px; }
+  blockquote.bs-quote.bsq-t1.bsq-s17.bs-quote .quote-author .quote-author-avatar {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0; }
+
+blockquote.bs-quote.bsq-t1.bsq-s17.bs-quote-22.bs-quote {
+  text-align: inherit;
+  font-size: 120%;
+  padding: 0 30px 0 0; }

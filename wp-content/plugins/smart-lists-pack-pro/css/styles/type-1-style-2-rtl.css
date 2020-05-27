@@ -1,0 +1,10 @@
+.bs-smart-list.bssl-t1.bssl-s2 .bssl-item .bssl-image-w {
+  float: left;
+  margin-right: 20px;
+  margin-left: auto; }
+
+@media screen and (max-width: 580px) {
+  .bs-smart-list.bssl-t1.bssl-s2 .bssl-item .bssl-image-w {
+    float: left;
+    margin-right: 20px;
+    margin-left: auto; } }

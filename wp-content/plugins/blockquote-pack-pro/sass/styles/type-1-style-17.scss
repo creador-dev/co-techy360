@@ -1,0 +1,91 @@
+@import "variables.scss";
+
+blockquote.bs-quote.bsq-t1.bsq-s17 {
+
+  &.bs-quote {
+	text-align: inherit;
+	font-size: 120%;
+	padding: 0 0 0 51px;
+  }
+
+  &.bs-quote:after {
+	display: none;
+  }
+
+  &.bs-quote:before {
+	content: "\b042";
+	left: 0;
+	width: 35px;
+	margin: 0;
+	top: 0;
+	line-height: 15px;
+	font-size: 42px;
+	text-align: center;
+  }
+
+  &.bs-quote.bs-quote:before {
+	color: #e5e5e5;
+  }
+
+  .quote-author .quote-author-avatar {
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 7px;
+  }
+
+  .quote-author {
+	text-align: inherit;
+  }
+
+  .quote-author-name {
+	margin-top: 0;
+	font-weight: bold;
+	font-size: 20px;
+  }
+
+  &.bs-quote.bsq-right,
+  &.bs-quote.bsq-left {
+	max-width: 380px;
+  }
+
+  &.bsq-left {
+	margin-right: 20px;
+  }
+
+  &.bsq-right {
+	margin-left: 20px;
+  }
+
+  margin-top: 20px !important;
+}
+
+blockquote.bs-quote.bsq-t1.bsq-s17.bs-quote-22 {
+  &.bs-quote {
+	text-align: inherit;
+	font-size: 120%;
+	padding: 0 0 0 30px;
+	margin-top: 30px;
+  }
+
+  &.bs-quote:before {
+	font-size: 72px;
+	z-index: -1;
+	color: #ededed;
+	top: -6px;
+  }
+
+  &.bsq-left {
+	margin-right: 25px;
+  }
+
+  &.bsq-right {
+	margin-left: 25px;
+  }
+
+  &.bs-quote.bsq-right,
+  &.bs-quote.bsq-left {
+	max-width: 333px;
+  }
+
+}

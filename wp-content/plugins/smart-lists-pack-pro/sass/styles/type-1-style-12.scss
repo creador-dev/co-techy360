@@ -1,0 +1,27 @@
+@import "variables.scss";
+
+.bs-smart-list.bssl-t1.bssl-s12 {
+
+  margin-top: 22px;
+
+  @include space-after-item;
+
+  .bssl-item-title {
+	margin: 0 0 5px;
+  }
+
+  .bssl-image-w {
+	position: relative;
+
+	.bssl-count {
+	  border-radius: 0;
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	  padding: 0 10px;
+	  font-size: 24px;
+	  font-weight: bolder;
+	}
+  }
+
+}

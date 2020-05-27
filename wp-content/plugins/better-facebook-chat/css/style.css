@@ -1,0 +1,45 @@
+/**
+ *  Right and Top position
+ */
+
+.fb-customerchat[position="right-top"] + .fb_dialog.fb_dialog {
+    bottom: auto !important;
+    top: 18pt !important;
+}
+
+.fb-customerchat[position="right-top"] iframe {
+    bottom: auto !important;
+    top: 72pt !important;
+}
+
+/**
+ *  Left and Top position
+ */
+
+.fb-customerchat[position="left-top"] + .fb_dialog.fb_dialog {
+    bottom: auto !important;
+    top: 18pt !important;
+    left: 18pt;
+    right: auto;
+}
+
+.fb-customerchat[position="left-top"] iframe {
+    bottom: auto !important;
+    top: 72pt !important;
+    left: 18pt;
+    right: auto;
+}
+
+/**
+ *  Left and Bottom position
+ */
+
+.fb-customerchat[position="left-bottom"] + .fb_dialog.fb_dialog {
+    left: 18pt;
+    right: auto;
+}
+
+.fb-customerchat[position="left-bottom"] iframe {
+    left: 18pt;
+    right: auto;
+}

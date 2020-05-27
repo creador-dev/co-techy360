@@ -1,0 +1,68 @@
+@import "variables.scss";
+
+blockquote.bs-quote.bsq-t1.bsq-s19 {
+  text-align: inherit !important;
+  font-size: 123%;
+  padding: 0 0 0 17px !important;
+
+  &:before {
+	display: none;
+  }
+
+  &:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	display: inline-block;
+	width: 4px;
+  }
+
+  &.bs-quote:before {
+	content: "\b040";
+	transform: rotate(180deg);
+	top: inherit;
+	right: 7px;
+	left: inherit;
+	bottom: 26px;
+	font-size: 116px;
+	width: 116px;
+	height: 99px;
+  }
+
+  &.bs-quote.bs-quote:before {
+	color: rgba(0, 0, 0, 0.04);
+  }
+
+  .quote-author .quote-author-avatar {
+	display: inline-block;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 10px;
+  }
+
+  .quote-author {
+	text-align: inherit;
+  }
+
+  .quote-author-name {
+	font-weight: bolder;
+	padding-top: 3px;
+	margin-top: 0;
+	font-size: 19px;
+  }
+
+  &.bs-quote.bsq-right,
+  &.bs-quote.bsq-left {
+	max-width: 375px;
+  }
+
+  &.bs-quote.bsq-right {
+	margin-left: 20px !important;
+  }
+
+  &.bs-quote.bsq-left {
+	margin-right: 20px !important;
+  }
+
+}

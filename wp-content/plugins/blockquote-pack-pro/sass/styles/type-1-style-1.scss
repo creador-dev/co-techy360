@@ -1,0 +1,25 @@
+@import "variables.scss";
+
+blockquote.bs-quote.bsq-t1.bsq-s1.bsq-s1 {
+  padding: 65px 0 0;
+
+  &.bsq-left {
+	margin-right: 25px;
+  }
+
+  &.bsq-right {
+	margin-left: 25px;
+  }
+
+  &:before {
+	top: 0;
+  }
+
+  &:after {
+	display: none;
+  }
+
+  &.bs-quote:before {
+	color: #232323;
+  }
+}

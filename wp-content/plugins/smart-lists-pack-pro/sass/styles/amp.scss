@@ -1,0 +1,75 @@
+/* AMP Global */
+html[amp] .bs-smart-list {
+
+  figure {
+	margin-left: 0;
+	margin-right: 0;
+  }
+
+  .bssl-image-w .amp-image-tag {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+  }
+
+  .bssl-items.bs-slider-slider {
+	.bssl-item {
+	  display: block;
+	}
+  }
+
+  &.bssl-style-15,
+  &.bssl-style-12,
+  &.bssl-style-1,
+  &.bssl-style-2,
+  &.bssl-style-3,
+  &.bssl-style-4 {
+	.bssl-item + .bssl-item {
+	  margin-top: 25px;
+	  padding-top: 25px;
+	  border-top: 1px solid #eee;
+	}
+  }
+
+  &.bssl-style-5 {
+	.bssl-item + .bssl-item {
+	  margin-top: 35px;
+	}
+  }
+
+  &.bssl-style-16 {
+	.bssl-select {
+	  &:after {
+		display: none;
+	  }
+	  select {
+		pointer-events: none;
+	  }
+	}
+  }
+
+  &.bssl-style-17 {
+	.bssl-select-current {
+	  &:after {
+		display: none;
+	  }
+	}
+  }
+
+  &.bssl-style-18 {
+	.bssl-items-title {
+	  display: none;
+	}
+  }
+
+  &.bssl-style-20 ,
+  &.bssl-style-19 {
+	.bssl-item + .bssl-item {
+	  margin-top: 25px;
+	}
+	.bssl-image-w {
+	  margin-top: 0;
+	}
+  }
+
+}

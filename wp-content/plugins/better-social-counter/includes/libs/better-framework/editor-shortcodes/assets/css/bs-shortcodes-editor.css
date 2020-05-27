@@ -1,0 +1,205 @@
+/***
+ *  BetterFramework is BetterStudio framework for themes and plugins.
+ *
+ *  ______      _   _             ______                                           _
+ *  | ___ \    | | | |            |  ___|                                         | |
+ *  | |_/ / ___| |_| |_ ___ _ __  | |_ _ __ __ _ _ __ ___   _____      _____  _ __| | __
+ *  | ___ \/ _ \ __| __/ _ \ '__| |  _| '__/ _` | '_ ` _ \ / _ \ \ /\ / / _ \| '__| |/ /
+ *  | |_/ /  __/ |_| ||  __/ |    | | | | | (_| | | | | | |  __/\ V  V / (_) | |  |   <
+ *  \____/ \___|\__|\__\___|_|    \_| |_|  \__,_|_| |_| |_|\___| \_/\_/ \___/|_|  |_|\_\
+ *
+ *  Copyright © 2017 Better Studio
+ *
+ *
+ *  Our portfolio is here: https://betterstudio.com/
+ *
+ *  \--> BetterStudio, 2017 <--/
+ */
+
+
+/*
+
+    1. =>Global
+
+    2. =>Elements
+
+*/
+
+
+/**
+ * 1. =>Global
+ **/
+i.mce-ico.mce-i-betterstudio_shortcodes:before {
+    font-family: 'Better Studio Admin Icons';
+    color: #3272a0;
+    display: inline-block;
+}
+
+/**
+ * 2. =>Elements
+ **/
+.mce-menu-item.mce-highlight-red .mce-text,
+.mce-menu-item.mce-highlight .mce-text{
+    padding: 0 3px;
+}
+.mce-menu-item.mce-highlight:hover,
+.mce-menu-item.mce-highlight .mce-text{
+    background-color: #FF9 !important;
+    color: #333 !important;
+}
+.mce-menu-item.mce-highlight.mce-selected .mce-caret,
+.mce-menu-item.mce-highlight:focus .mce-caret,
+.mce-menu-item.mce-highlight:hover .mce-caret {
+    border-left-color: #333 !important;
+}
+.mce-menu-item.mce-highlight-red:hover,
+.mce-menu-item.mce-highlight-red .mce-text{
+    background-color: #FFB6B6 !important;
+    color: #333 !important;
+}
+.mce-menu-item.mce-highlight-red.mce-selected .mce-caret,
+.mce-menu-item.mce-highlight-red:focus .mce-caret,
+.mce-menu-item.mce-highlight-red:hover .mce-caret {
+    border-left-color: #333 !important;
+}
+
+.mce-review-percentage.mce-menu-item .mce-text:before,
+.mce-review-points.mce-menu-item .mce-text:before,
+.mce-review-stars.mce-menu-item .mce-text:before,
+.mce-list-asterisk.mce-menu-item .mce-text:before,
+.mce-list-heart.mce-menu-item .mce-text:before,
+.mce-list-file.mce-menu-item .mce-text:before,
+.mce-list-folder.mce-menu-item .mce-text:before,
+.mce-list-edit.mce-menu-item .mce-text:before,
+.mce-list-star.mce-menu-item .mce-text:before,
+.mce-list.mce-menu-item .mce-text:before{
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: '\f00c';
+    margin: 0 10px 0 0;
+}
+.mce-rtl .mce-review-percentage.mce-menu-item .mce-text:before,
+.mce-rtl .mce-review-points.mce-menu-item .mce-text:before,
+.mce-rtl .mce-review-stars.mce-menu-item .mce-text:before,
+.mce-rtl .mce-list-asterisk.mce-menu-item .mce-text:before,
+.mce-rtl .mce-list-heart.mce-menu-item .mce-text:before,
+.mce-rtl .mce-list-file.mce-menu-item .mce-text:before,
+.mce-rtl .mce-list-folder.mce-menu-item .mce-text:before,
+.mce-rtl .mce-list-edit.mce-menu-item .mce-text:before,
+.mce-rtl .mce-list-star.mce-menu-item .mce-text:before,
+.mce-rtl .mce-list.mce-menu-item .mce-text:before{
+    margin: 0 0 0 10px;
+}
+.mce-review-percentage.mce-menu-item:hover .mce-text:before,
+.mce-review-points.mce-menu-item:hover .mce-text:before,
+.mce-review-stars.mce-menu-item:hover .mce-text:before,
+.mce-list-asterisk.mce-menu-item:hover .mce-text:before,
+.mce-list-heart.mce-menu-item:hover .mce-text:before,
+.mce-list-file.mce-menu-item:hover .mce-text:before,
+.mce-list-folder.mce-menu-item:hover .mce-text:before,
+.mce-list-edit.mce-menu-item:hover .mce-text:before,
+.mce-list-star.mce-menu-item:hover .mce-text:before,
+.mce-list.mce-menu-item:hover .mce-text:before{
+    font-size: 17px;
+    margin-left: -2px;
+}
+.mce-rtl .mce-review-percentage.mce-menu-item:hover .mce-text:before,
+.mce-rtl .mce-review-points.mce-menu-item:hover .mce-text:before,
+.mce-rtl .mce-review-stars.mce-menu-item:hover .mce-text:before,
+.mce-rtl .mce-list-asterisk.mce-menu-item:hover .mce-text:before,
+.mce-rtl .mce-list-heart.mce-menu-item:hover .mce-text:before,
+.mce-rtl .mce-list-file.mce-menu-item:hover .mce-text:before,
+.mce-rtl .mce-list-folder.mce-menu-item:hover .mce-text:before,
+.mce-rtl .mce-list-edit.mce-menu-item:hover .mce-text:before,
+.mce-rtl .mce-list-star.mce-menu-item:hover .mce-text:before,
+.mce-rtl .mce-list.mce-menu-item:hover .mce-text:before{
+    margin-left: 5px;
+    margin-right: -2px;
+}
+.mce-review-stars.mce-menu-item .mce-text:before,
+.mce-list-star.mce-menu-item .mce-text:before{
+    content: '\f005';
+}
+.mce-list-edit.mce-menu-item .mce-text:before{
+    content: '\f044';
+}
+.mce-list-folder.mce-menu-item .mce-text:before{
+    content: '\f07b';
+}
+.mce-list-file.mce-menu-item .mce-text:before{
+    content: '\f15b';
+}
+.mce-list-heart.mce-menu-item .mce-text:before{
+    content: '\f004';
+}
+.mce-list-asterisk.mce-menu-item .mce-text:before{
+    content: '\f069';
+}
+.mce-review-points.mce-menu-item .mce-text:before{
+    content: '\f0ae';
+}
+.mce-review-percentage.mce-menu-item .mce-text:before{
+    content: '%';
+}
+.mce-menu-item.mce-alert-warning .mce-text,
+.mce-menu-item.mce-alert-info .mce-text,
+.mce-menu-item.mce-alert-success .mce-text,
+.mce-menu-item.mce-alert-danger .mce-text{
+    padding: 0 3px;
+}
+.mce-menu-item.mce-alert-success.mce-active,
+.mce-menu-item.mce-alert-success:hover,
+.mce-menu-item.mce-alert-success .mce-text{
+    background-color: #dff0d8 !important;
+    color: #333 !important;
+}
+.mce-menu-item.mce-alert-info.mce-active,
+.mce-menu-item.mce-alert-info:hover,
+.mce-menu-item.mce-alert-info .mce-text{
+    background-color: #d9edf7 !important;
+    color: #333 !important;
+}
+.mce-menu-item.mce-alert-warning.mce-active,
+.mce-menu-item.mce-alert-warning:hover,
+.mce-menu-item.mce-alert-warning .mce-text{
+    background-color: #fcf8e3 !important;
+    color: #333 !important;
+}
+.mce-menu-item.mce-alert-danger.mce-active,
+.mce-menu-item.mce-alert-danger:hover,
+.mce-menu-item.mce-alert-danger .mce-text{
+    background-color: #f2dede !important;
+    color: #333 !important;
+}
+.mce-menu-item.mce-bs-separator{
+    cursor: default;
+    padding: 0 6px;
+    position: relative;
+    height: 8px;
+}
+.mce-menu-item.mce-bs-separator:hover{
+    background-color: #fff !important;
+}
+.mce-menu-item.mce-bs-separator .mce-text{
+    text-indent: -9999px;
+    overflow: hidden;
+    display: inline-block;
+}
+.mce-menu-item.mce-bs-separator .mce-text:before{
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: #eee;
+    display: inline-block;
+    content: '';
+}
+.mce-rtl .mce-menu-item.mce-bs-separator .mce-text:before{
+    left: auto;
+    right: 0;
+}

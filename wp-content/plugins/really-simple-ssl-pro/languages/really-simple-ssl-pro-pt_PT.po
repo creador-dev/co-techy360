@@ -1,0 +1,415 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Really Simple SSL pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-27 09:57+0000\n"
+"PO-Revision-Date: 2018-10-30 08:28+0000\n"
+"Last-Translator: admin <rogier@rogierlankhorst.com>\n"
+"Language-Team: Portuguese (Portugal)\n"
+"Language: pt-PT\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: class-multisite.php:57
+msgid "Sites overview"
+msgstr "Visão geral do site"
+
+#: class-multisite.php:65
+msgid "Here you can see the current status of the sites in your network."
+msgstr "Aqui pode ver o status actual dos sites na sua rede."
+
+#: class-multisite.php:109
+msgid "deactivate"
+msgstr "desactivar"
+
+#: class-multisite.php:109
+msgid "activate"
+msgstr "activar"
+
+#: class-multisite.php:120
+msgid "Active"
+msgstr "Activo"
+
+#: class-multisite.php:121
+msgid "Site"
+msgstr "Site"
+
+#: class-multisite.php:132
+msgid "previous"
+msgstr "anterior"
+
+#: class-multisite.php:132
+msgid "next"
+msgstr "proximo"
+
+#: class-cert-expiration.php:9
+msgid "Not detected"
+msgstr "Não detectado"
+
+#: class-cert-expiration.php:171
+msgid "SSL certificate expiration warning"
+msgstr "Aviso de fim de validade do certificado SSL."
+
+#: class-cert-expiration.php:172
+msgid "According to the check that was performed just now on "
+msgstr "De acordo com a validação que foi feita agora mesmo"
+
+#: class-cert-expiration.php:173
+msgid " the SSL certificate is expiring soon. The ValidTo date is:"
+msgstr "O certificado SSL vai expirar em breve. O prazo de validade é:"
+
+#: class-cert-expiration.php:177
+msgid "Please renew your certificate before the expiry date."
+msgstr "Por favor renove o seu certificado antes do fim da data de validade."
+
+#: really-simple-ssl-pro.php:148 really-simple-ssl-pro.php:156
+msgid "Plugin dependency error"
+msgstr "Erro de dependência do Plugin."
+
+#: really-simple-ssl-pro.php:149
+msgid ""
+"Really Simple SSL pro is an add-on for Really Simple SSL, and cannot do it "
+"on its own :("
+msgstr ""
+"Really Simple SSL pro é um add-on de Really Simple SSL e não funciona "
+"sozinho :("
+
+#: really-simple-ssl-pro.php:150
+msgid ""
+"Please install and activate Really Simple SSL before activating this add-on."
+msgstr ""
+"Por favor instale e active o Really Simple SSL antes de activar este add-on."
+
+#: really-simple-ssl-pro.php:157
+msgid ""
+"Really Simple SSL or Really Simple SSL per page needs to be updated to the "
+"latest version to be compatible."
+msgstr ""
+"O Really Simple SSL ou o Really Simple SSL per page precisa de ser "
+"actualizado para a versão mais recente de modo a ser compatível."
+
+#: really-simple-ssl-pro.php:158
+msgid ""
+"Please upgrade to the latest version to be able use the full functionality "
+"of the plugin."
+msgstr ""
+"Por favor actualize para a mais recente versão para poder usar todas as "
+"funcionalidade do plugin."
+
+#: class-importer.php:33
+msgid "Roll back file changes"
+msgstr "Reverter alterações no ficheiro"
+
+#: class-importer.php:66
+msgid ""
+"Someting went wrong. If this doesn't work, you can put the original files "
+"back by changing files named 'rsssl-bkp-filename' to filename."
+msgstr ""
+"Algo correu mal. Se isto não está a funcionar pode repor os ficheiros "
+"originais mudando os ficheiros 'rsssl-bkp-filename' para filename."
+
+#: class-importer.php:79
+msgid "Your files were restored."
+msgstr "Os seus ficheiros foram restaurados."
+
+#: class-importer.php:81
+msgid "Your files already were restored."
+msgstr "Os seus ficheiros já foram restaurados."
+
+#: class-importer.php:99 class-importer.php:143 class-importer.php:198 
+#: class-importer.php:259 class-importer.php:312
+msgid ""
+"Something went wrong. Please refresh the page and try again, or fix manually."
+msgstr ""
+"Algo correu mal. Por favor recarregue a pagina e tente outra vez, ou resolva "
+"manualmente."
+
+#: class-importer.php:124
+msgid "There was a problem editing the file. Please try manually."
+msgstr "Houve um problema na edição do ficheiro. Por favor tente manualmente."
+
+#: class-importer.php:173
+msgid ""
+"The file could not be downloaded. It might not exist, or downloading is "
+"blocked. Fix manually."
+msgstr ""
+"O ficheiro não pôde ser transferido. Pode não existir ou a sua transferência "
+"esta bloqueada. Resolva manualmente."
+
+#: class-importer.php:234 class-importer.php:288 class-importer.php:338
+msgid ""
+"The file could not be downloaded. The file might not exist, or downloading "
+"is be blocked by the server. Fix manually."
+msgstr ""
+"O ficheiro não pôde ser transferido. O ficheiro pode não existir ou a sua "
+"transferência está bloqueada pelo servidor. Resolva manualmente."
+
+#: class-importer.php:574
+msgid "Something went wrong."
+msgstr "Algo correu mal."
+
+#: class-premium-options.php:10
+#, php-format
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr "%s é uma classe única e não pode criar uma segunda instância."
+
+#: class-premium-options.php:152
+#, php-format
+msgid ""
+"For more information about NGINX and HSTS see %sHTTP Strict Transport "
+"Security and NGINX%s"
+msgstr ""
+"Para mais informações sobre NGINX e HSTS veja%HTTP Strict Transport "
+"Security%s"
+
+#: class-premium-options.php:198
+msgid "Turn HTTP Strict Transport Security on"
+msgstr "Active a rigorosa segurança de transporte"
+
+#: class-premium-options.php:202
+msgid "Configure your site for the HSTS preload list"
+msgstr "Configure o seu site para a lista de pré-carregamento HSTS."
+
+#: class-premium-options.php:211
+msgid "Receive an email when your certificate is about to expire"
+msgstr ""
+"Receba um email quando a data de validade do seu certificado estiver a "
+"chegar ao fim"
+
+#: class-premium-options.php:214
+msgid "Add header to force insecure requests over https"
+msgstr "Adicione cabeçalho para forçar solicitações inseguras sobre https"
+
+#: class-premium-options.php:216
+msgid "Enable the mixed content fixer on the WordPress back-end"
+msgstr "Active o reparador de conteúdo misto no back-end do WordPress"
+
+#: class-premium-options.php:238
+msgid "Your certificate needs to be renewed soon, it is valid to: "
+msgstr "O seu certificado necessita de ser renovado em breve, é válido até:"
+
+#: class-premium-options.php:240
+msgid "Your certificate is valid to: "
+msgstr "O seu certificado é valido até:"
+
+#: class-premium-options.php:242
+msgid "(date updated once a week)"
+msgstr "(data actualizada uma vez por semana)"
+
+#: class-premium-options.php:254
+msgid "HTTP Strict Transport Security was set. "
+msgstr "A rigorosa segurança de transporte HTTP foi configurada."
+
+#: class-premium-options.php:258
+#, php-format
+msgid ""
+"HTTP Strict Transport Security was set, but with PHP headers, %swhich might "
+"cause issues in combination in combination with caching.%s "
+msgstr ""
+"A rigorosa segurança de transporte HTTP foi activada mas com cabeçalhos PHP, "
+"%so que pode causar problemas em combinação com o caching%s"
+
+#: class-premium-options.php:262
+#, php-format
+msgid "%sHTTP Strict Transport Security%s is not enabled "
+msgstr "%srigorosa segurança de transporte HTTP%s não está activado"
+
+#: class-premium-options.php:264
+msgid "Enable HSTS."
+msgstr "Active HSTS."
+
+#: class-premium-options.php:282
+#, php-format
+msgid ""
+"Your site has been configured for the HSTS preload list. If you have "
+"submitted your site, it will be preloaded. Click %shere%s to submit."
+msgstr ""
+"O seu site foi configurado para a lista pré-configurada HSTS. Se submeteu o "
+"seu site este será pré-recarregado. Carregue %aqui%s para submeter."
+
+#: class-premium-options.php:286
+#, php-format
+msgid ""
+"Your site is not yet configured for the %sHSTS preload list.%s Read the "
+"documentation carefully before you do! "
+msgstr ""
+"O seu site ainda não está configurado para a %slista pré-recarregada HSTS.%s."
+" Leia a documentação cuidadosamente antes de o fazer!"
+
+#: class-premium-options.php:326
+msgid "You have the mixed content fixer activated on your admin panel."
+msgstr "Tem o reparador de conteúdo misto activado no seu painel de admin."
+
+#: class-premium-options.php:328
+msgid ""
+"The mixed content fixer is not active on the admin panel. Enable this "
+"feature only when you have mixed content on the admin panel."
+msgstr ""
+"O reparador de conteúdo misto não está activo no painel de admin. Active "
+"esta característica apenas quando tem conteúdo misto no painel de admin."
+
+#: class-premium-options.php:347
+msgid ""
+"Are you sure? Your visitors will keep going to a https site for a year after "
+"you turn this off."
+msgstr ""
+"Tem a certeza? Os seus visitantes continuarão a ir a um site https por um "
+"ano, depois de desactivar isto."
+
+#: class-premium-options.php:383
+msgid ""
+"Disable this option if you need certain requests over http, and use the "
+"mixed content fixer filter to exclude certain requests from the mixed "
+"content filter."
+msgstr ""
+"Desactive esta opção se necessitar de algumas solicitações http, e use o "
+"filtro do reparador de conteúdo misto para excluir determinadas solicitações "
+"do filtro de conteúdo misto."
+
+#: class-premium-options.php:401
+msgid ""
+"If your hosting company renews the certificate for you, you probably don't "
+"need to enable this setting."
+msgstr ""
+"Se o seu serviço de alojamento renova o certificado por si, provavelmente "
+"não necessita de activar esta opção."
+
+#: class-premium-options.php:402
+msgid ""
+"If your certificate expires, your site goes offline. Uptime robots don't "
+"alert you when this happens."
+msgstr ""
+"Se o seu certificado expirar, o seu site ficará offline. Os robots de tempo "
+"de actividade não alertam quando isto acontece."
+
+#: class-premium-options.php:403
+msgid ""
+"If you enable this option you will receive an email when your certificate is "
+"about to expire within 2 weeks."
+msgstr ""
+"Se activar esta opção receberá um email quando o seu certificado estiver a "
+"duas semanas de expirar."
+
+#: class-premium-options.php:419
+msgid ""
+"Use this option if you do not have the green lock in the WordPress admin."
+msgstr "Use esta opção se não tem a fechadura verde na admin wordpress."
+
+#: class-premium-options.php:427
+msgid "Did you read the information on the preload list site?"
+msgstr "Leu a informação no site da lista de pré-carregamento?"
+
+#: class-premium-options.php:429
+msgid ""
+"The preload list offers even more security, as browsers already will know to "
+"load your site over SSL before a user ever visits it. This is very hard to "
+"undo!"
+msgstr ""
+"A lista pré-recarregada oferece ainda mais segurança, porque os browsers "
+"carregarão o seu site com o SSL mesmo antes de o visitante ter alguma vez "
+"visitado o site. Isto é muito complicado de desfazer."
+
+#: class-premium-options.php:430
+msgid ""
+"Please note that all subdomains, and both www and non-www domain need to be "
+"https!"
+msgstr ""
+"Por favor note que todos os sub-domínios, assim como dominios www e non-www "
+"necessitam ser https!"
+
+#: class-premium-options.php:431
+msgid ""
+"Before submitting, please read the information on hstspreload.appspot.com"
+msgstr ""
+"Antes de submeter, por favor leia a informação em hstspreload.appspot.com"
+
+#: class-premium-options.php:435
+#, php-format
+msgid "After enabling this option, you have to %ssubmit%s your site"
+msgstr "Depois de activar esta opção tem de %submeter%s o seu site."
+
+#: class-premium-options.php:570
+msgid "You finished a scan without errors."
+msgstr "Acabou a verificação sem erros."
+
+#: class-premium-options.php:577
+#, php-format
+msgid ""
+"No scan completed yet. Before migrating to SSL, you should do a %sscan%s"
+msgstr ""
+"Ainda nenhuma verificação foi completada. Antes de migrar para o SSL deve "
+"fazer uma %sverificação%s"
+
+#: class-premium-options.php:583
+msgid "Previous scan completed with issues"
+msgstr "A verificação anterior foi completada com erros"
+
+#: class-premium-options.php:590
+#, php-format
+msgid "%sScan again%s"
+msgstr "%sVerifique outra vez%s"
+
+#: class-premium-options.php:594
+#, php-format
+msgid "%sScan for issues%s"
+msgstr "%sVerificar problemas%s"
+
+#: class-premium-options.php:691
+msgid "Could not insert httponly secure cookie settings."
+msgstr "Não foi possível inserir as configurações de cookies seguros httponly."
+
+#: class-premium-options.php:693
+msgid ""
+"To set the httponly secure cookie settings, your wp-config.php has to be "
+"edited, but the file is not writable."
+msgstr ""
+"Para activar as configurações de cookies seguros para httponly a sua wp-"
+"config.php tem de ser editada, mas o ficheiro não tem permissão de escrita."
+
+#: class-premium-options.php:694
+msgid "Add the following lines of code to your wp-config.php."
+msgstr "Adicione as seguintes linhas de código à sua wp-config.php."
+
+#: class-premium-options.php:704
+msgid "Or set your wp-config.php to writable and reload this page."
+msgstr ""
+"Ou defina a sua wp-config.php para permissão de escrita e refresque a pagina."
+
+#: class-licensing.php:48
+msgid ""
+"You haven't activated your Really Simple SSL pro license yet. To get all "
+"future updates, enter your license on the settings page."
+msgstr ""
+"Ainda não activou a sua licença Really Simple SSL pro. Para receber todos os "
+"updates futuros insira a sua licença na pagina das opções."
+
+#: class-licensing.php:49
+msgid "Go to the settings page"
+msgstr "Ir para a pagina das opções"
+
+#: class-licensing.php:114
+msgid "License"
+msgstr "Licensa"
+
+#. Name of the plugin
+msgid "Really Simple SSL pro"
+msgstr "Really Simple SSL pro"
+
+#. Description of the plugin
+msgid "Add on for Really Simple SSL"
+msgstr "Add on para Really Simple SSL"
+
+#. URI of the plugin
+msgid "https://www.really-simple-ssl.com/pro"
+msgstr "https://www.really-simple-ssl.com/pro"
+
+#. Author of the plugin
+msgid "Rogier Lankhorst"
+msgstr "Rogier Lankhorst"
+
+#. Author URI of the plugin
+msgid "https://www.rogierlankhorst.com"
+msgstr "https://www.rogierlankhorst.com"

@@ -1,0 +1,37 @@
+@import "_variables.scss";
+
+.betterstudio-review.big-5 {
+
+  .overall {
+	float: left;
+	margin-left: 0;
+	margin-right: 0;
+  }
+
+  .verdict-summary {
+	padding-right: 0;
+	padding-left: 182px;
+  }
+
+  .affiliate {
+	margin-top: 0;
+	border-top: none;
+	border-bottom: 1px solid #ebebeb;
+  }
+
+  .criteria-list {
+	float: left;
+	width: 100%;
+	padding: 0;
+	border-top: 1px solid #ececec;
+
+	&:first-child {
+	  border-top: none;
+	}
+  }
+
+  .heading .fa {
+	margin-right: 10px;
+  }
+
+}

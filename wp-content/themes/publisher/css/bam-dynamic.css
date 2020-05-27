@@ -1,0 +1,319 @@
+/* Header Ads */
+.site-header .sidebar .bsac {
+    padding: 0 0 5px;
+    margin: 0;
+}
+
+.site-header .sidebar .bsac:last-child {
+    padding-bottom: 0;
+}
+
+.site-header .sidebar .bsac .bsac-container {
+    margin-bottom: 0;
+}
+
+.site-header .sidebar .bsac .bsac-empty-note,
+.site-header .sidebar .bsac .bsac-caption {
+    display: none;
+}
+
+.site-header .bsac {
+    margin-bottom: 0;
+}
+
+.site-header .bsac .bsac-caption {
+    display: none !important;
+}
+
+/**
+ * --->Page builder Mega Menu
+ **/
+.mega-type-page-builder .bsac:last-child {
+    margin-bottom: 0;
+}
+
+/**
+ * ->Header Style 2
+ **/
+.site-header.header-stype-2 .sidebar .bsac {
+    text-align: right;
+}
+
+/**
+ * ->Header Style 3
+ **/
+.site-header.header-stype-3 .sidebar .bsac {
+    text-align: right;
+}
+
+/**
+ * ->BetterAds
+ **/
+.bsac .bsac-container:last-child {
+    margin-bottom: 0;
+}
+
+.widget .bsac {
+    margin-bottom: 0;
+}
+
+.single-post-content .bsac {
+    margin-bottom: 12px;
+}
+
+/**
+ * ->After Related posts
+ **/
+.bsac.bsac-after-related {
+    margin-bottom: 0;
+    margin-top: 35px;
+}
+
+/**
+ * =>Ad Locations
+ **/
+
+/**
+ * ->After Header Location
+ **/
+.bsac.bsac-after-header {
+    margin-bottom: 0;
+}
+
+.bsac.bsac-after-header .bsac-caption {
+    display: none;
+}
+
+.bsac.bsac-after-header.bsac-column-3 .bsac-container:nth-child(3),
+.bsac.bsac-after-header.bsac-column-3 .bsac-container:nth-child(2),
+.bsac.bsac-after-header.bsac-column-2 .bsac-container:nth-child(2),
+.bsac.bsac-after-header .bsac-container:first-child {
+    margin-top: 20px;
+}
+
+.bf-breadcrumb.bc-top-style + .adcontainer .bsac.bsac-after-header.bsac-column-3 .bsac-container:nth-child(3),
+.bf-breadcrumb.bc-top-style + .adcontainer .bsac.bsac-after-header.bsac-column-3 .bsac-container:nth-child(2),
+.bf-breadcrumb.bc-top-style + .adcontainer .bsac.bsac-after-header.bsac-column-2 .bsac-container:nth-child(2),
+.bf-breadcrumb.bc-top-style + .adcontainer .bsac.bsac-after-header .bsac-container:first-child {
+    margin-top: 10px;
+}
+
+.bsac.bsac-after-header.bsac-column-3 .bsac-container:nth-last-child(3),
+.bsac.bsac-after-header.bsac-column-3 .bsac-container:nth-last-child(2),
+.bsac.bsac-after-header.bsac-column-2 .bsac-container:nth-last-child(2),
+.bsac.bsac-after-header .bsac-container:last-child {
+    margin-bottom: -4px;
+}
+
+/*.bsac.bsac-after-header.bsac-column-3 .bsac-container.bsac-type-code:nth-last-child(3),*/
+/*.bsac.bsac-after-header.bsac-column-3 .bsac-container.bsac-type-code:nth-last-child(2),*/
+/*.bsac.bsac-after-header.bsac-column-2 .bsac-container.bsac-type-code:nth-last-child(2),*/
+/*.bsac.bsac-after-header.bsac-column-1 .bsac-container.bsac-type-code:last-child{*/
+/*margin-bottom: -11px;*/
+/*}*/
+.bsac.bsac-above-post-box {
+    margin-bottom: 15px;
+}
+
+.bsac.bsac-above-post-box.bsac-above-post-box-tmargine {
+    margin-top: 20px;
+}
+
+.bsac.bsac-above-post-box.bsac-above-post-box-tmargine2 {
+    margin-top: -15px;
+    margin-bottom: 27px;
+}
+
+.bsac.bsac-above-post-box.bsac-above-post-box-tmargine2 {
+    margin-top: 0;
+}
+
+.bsac.bsac-between-thumbnail-title.bsac-between-thumbnail-title {
+    margin-bottom: 20px;
+}
+
+.post-tp-12-header .bsac.bsac-between-thumbnail-title.bsac-between-thumbnail-title {
+    margin-top: 25px;
+}
+
+.post-tp-15-header .bsac.bsac-between-thumbnail-title.bsac-between-thumbnail-title {
+    margin-top: 25px;
+}
+
+.main-wrap > .container.adcontainer + .content-container {
+    margin-top: 20px;
+}
+
+@media (min-width: 1140px) {
+    .bsac.bsac-after-header.bsac-show-desktop + .content-wrap .entry-content > .vc_row.vc_row-has-fill:first-child {
+        margin-top: 0 !important;
+    }
+
+    .bsac.bsac-after-header.bsac-show-desktop ~ .post-header.post-tp-12-header,
+    .bsac.bsac-after-header.bsac-show-desktop ~ .post-header.post-tp-7-header,
+    .bsac.bsac-after-header.bsac-show-desktop ~ .post-header.post-tp-4-header,
+    .bsac.bsac-after-header.bsac-show-desktop ~ .post-header.post-tp-2-header {
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 1019px) and (max-width: 1140px) {
+    .bsac.bsac-after-header.bsac-show-tablet-landscape + .content-wrap .entry-content > .vc_row.vc_row-has-fill:first-child {
+        margin-top: 0 !important;
+    }
+
+    .bsac.bsac-after-header.bsac-show-tablet-landscape ~ .post-header.post-tp-12-header,
+    .bsac.bsac-after-header.bsac-show-tablet-landscape ~ .post-header.post-tp-7-header,
+    .bsac.bsac-after-header.bsac-show-tablet-landscape ~ .post-header.post-tp-4-header,
+    .bsac.bsac-after-header.bsac-show-tablet-landscape ~ .post-header.post-tp-2-header {
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1018px) {
+    .bsac.bsac-after-header.bsac-show-tablet-portrait + .content-wrap .entry-content > .vc_row.vc_row-has-fill:first-child {
+        margin-top: 0 !important;
+    }
+
+    .bsac.bsac-after-header.bsac-show-tablet-portrait ~ .post-header.post-tp-12-header,
+    .bsac.bsac-after-header.bsac-show-tablet-portrait ~ .post-header.post-tp-7-header,
+    .bsac.bsac-after-header.bsac-show-tablet-portrait ~ .post-header.post-tp-4-header,
+    .bsac.bsac-after-header.bsac-show-tablet-portrait ~ .post-header.post-tp-2-header {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .bsac.bsac-after-header.bsac-show-phone + .content-wrap .entry-content > .vc_row.vc_row-has-fill:first-child {
+        margin-top: 0 !important;
+    }
+
+    .bsac.bsac-after-header.bsac-show-phone ~ .post-header.post-tp-12-header,
+    .bsac.bsac-after-header.bsac-show-phone ~ .post-header.post-tp-7-header,
+    .bsac.bsac-after-header.bsac-show-phone ~ .post-header.post-tp-4-header,
+    .bsac.bsac-after-header.bsac-show-phone ~ .post-header.post-tp-2-header {
+        margin-top: 25px;
+    }
+
+    .bsac.bsac-above-post-box.bsac-above-post-box-tmargine {
+        margin-top: 20px;
+    }
+}
+
+/**
+ * ->Before Footer Location
+ **/
+.bsac.bsac-before-footer {
+    margin-bottom: 0;
+}
+
+.bsac.bsac-before-footer .bsac-caption {
+    display: none;
+}
+
+.bsac.bsac-before-footer.bsac-column-3 .bsac-container:nth-child(3),
+.bsac.bsac-before-footer.bsac-column-3 .bsac-container:nth-child(2),
+.bsac.bsac-before-footer.bsac-column-2 .bsac-container:nth-child(2),
+.bsac.bsac-before-footer .bsac-container:first-child {
+    margin-top: 20px;
+}
+
+.bsac.bsac-before-footer.bsac-column-3 .bsac-container:nth-last-child(3),
+.bsac.bsac-before-footer.bsac-column-3 .bsac-container:nth-last-child(2),
+.bsac.bsac-before-footer.bsac-column-2 .bsac-container:nth-last-child(2),
+.bsac.bsac-before-footer .bsac-container:last-child {
+    margin-bottom: 20px;
+}
+
+.bsac.bsac-before-footer.bsac-column-3 .bsac-container.bsac-type-code:nth-last-child(3),
+.bsac.bsac-before-footer.bsac-column-3 .bsac-container.bsac-type-code:nth-last-child(2),
+.bsac.bsac-before-footer.bsac-column-2 .bsac-container.bsac-type-code:nth-last-child(2),
+.bsac.bsac-before-footer.bsac-column-1 .bsac-container.bsac-type-code:last-child {
+    margin-bottom: 14px;
+}
+
+/**
+ * ->After Related Ajax
+ **/
+.bsac.bsac-ajaxed-related {
+    padding: 20px 0;
+    margin-bottom: -15px;
+}
+
+/**
+ * ->After Tags Before Author Box
+ **/
+.bsac.bsac-post-before-author {
+    margin-bottom: 0;
+}
+
+/**
+ * ->Before Header
+ **/
+.bsac.bsac-before-header {
+    margin-bottom: 0 !important;
+    padding: 20px 0;
+    position: relative;
+}
+
+.bsac.bsac-before-header:before {
+    content: '';
+    display: inline-block;
+    position: fixed;
+    height: 400px;
+    top: -400px;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+/**
+ * ->After Footer
+ **/
+.bsac.bsac-after-footer{
+    margin-bottom: 0 !important;
+    padding: 20px 0;
+    position: relative;
+}
+
+.bsac.bsac-after-footer:after {
+    content: '';
+    display: inline-block;
+    position: fixed;
+    height: 400px;
+    bottom: -400px;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+/**
+ * ->Skyscraper
+ **/
+.bs-sks .bs-sksiteml .bsac {
+    float: right;
+}
+
+.bs-sks .bs-sksitemr .bsac {
+    float: left;
+}
+
+.bs-sks .bsac:last-child {
+    margin-bottom: 0;
+}
+
+/**
+ * =>After X ppst ads
+ **/
+.listing-item > .bsac {
+    margin-bottom: 0;
+}
+
+/**
+ * =>Print Style
+ **/
+@media print {
+    .bsac {
+        display: none !important;
+    }
+}

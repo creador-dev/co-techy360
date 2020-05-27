@@ -1,0 +1,52 @@
+
+
+#bs-vimeo-album-2 .vc_element-icon,
+.wpb_bs-vimeo-album-2 .vc_element-icon,
+#bs-vimeo-album-1 .vc_element-icon,
+.wpb_bs-vimeo-album-1 .vc_element-icon,
+
+#bs-youtube-playlist-2 .vc_element-icon,
+.wpb_bs-youtube-playlist-2 .vc_element-icon,
+#bs-youtube-playlist-1 .vc_element-icon,
+.wpb_bs-youtube-playlist-1 .vc_element-icon{
+    width: 60px !important;
+    height: 44px !important;
+}
+
+
+#bs-vimeo-album-2,
+#bs-vimeo-album-1,
+
+#bs-youtube-playlist-2,
+#bs-youtube-playlist-1{
+    padding-left: 78px;
+}
+
+
+#bs-vimeo-album-2 .vc_element-icon,
+#bs-vimeo-album-1 .vc_element-icon,
+
+#bs-youtube-playlist-2 .vc_element-icon,
+#bs-youtube-playlist-1 .vc_element-icon{
+    top: 14px;
+}
+
+
+#bs-vimeo-album-2 .vc_element-icon,
+.wpb_bs-vimeo-album-2 .vc_element-icon{
+    background: url("../img/bs-vimeo-album-2.png");
+}
+#bs-vimeo-album-1 .vc_element-icon,
+.wpb_bs-vimeo-album-1 .vc_element-icon{
+    background: url("../img/bs-vimeo-album-1.png");
+}
+
+
+#bs-youtube-playlist-2 .vc_element-icon,
+.wpb_bs-youtube-playlist-2 .vc_element-icon{
+    background: url("../img/bs-youtube-playlist-2.png");
+}
+#bs-youtube-playlist-1 .vc_element-icon,
+.wpb_bs-youtube-playlist-1 .vc_element-icon{
+    background: url("../img/bs-youtube-playlist-1.png");
+}

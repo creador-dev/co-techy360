@@ -1,0 +1,196 @@
+
+#adminmenu li#toplevel_page_better-studio-fonts-manager + #toplevel_page_better-studio-better-ads-manager,
+#adminmenu li#toplevel_page_better-studio-rebuild-thumbnails + #toplevel_page_better-studio-better-ads-manager{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.bf-section-repeater-option[data-id=ad_post_inline] > .bf-explain{
+    margin-top: -15px;
+}
+
+
+#better-ads .vc_element-icon,
+.wpb_better-ads .vc_element-icon{
+    width: 60px !important;
+    height: 44px !important;
+}
+#better-ads{
+    padding-left: 78px;
+}
+#better-ads .vc_element-icon{
+    top: 14px;
+}
+#better-ads .vc_element-icon,
+.wpb_better-ads .vc_element-icon {
+    background: url("../images/vc-better-ads.png");
+}
+.better-ads-table{
+    width: 100%;
+    padding: 0;
+    border-collapse: collapse;
+}
+.better-ads-table thead{
+    background: #f3f3f3;
+    border: 1px solid #dedede;
+}
+.better-ads-table thead th{
+    text-align: left;
+    padding: 10px 11px 9px;
+    border: none;
+    border-bottom: 1px solid #dedede;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.better-ads-table td{
+    padding: 10px;
+    border-bottom: 1px solid #ececec;
+}
+.better-ads-table tr:last-child td{
+    padding-bottom: 0;
+    border-bottom: none;
+}
+.pre-resp {
+    border-bottom: none !important;
+    padding-bottom: 8px !important;
+}
+.responsive-field-container .bf-heading {
+    display: none;
+}
+.bf-section-container.bf-metabox.responsive-field-container .bf-section .bf-controls {
+    width: 100%;
+}
+.better-ads-table .td-show,
+.better-ads-table .td-device,
+.better-ads-table .td-size{
+    width: 50%;
+}
+.better-ads-table .td-size{
+    display: none;
+}
+.better-ads-table.show-sizes .td-show,
+.better-ads-table.show-sizes .td-device,
+.better-ads-table.show-sizes .td-size{
+    display: table-cell;
+    width: 33.333%;
+}
+
+
+.bf-section-container.bf-metabox.fallback-code-field .bf-section{
+    padding-bottom: 10px;
+    border-bottom: none;
+}
+
+
+.bf-section-container .bam-image_format img {
+    border-width: 3px !important;
+    border-radius: 3px;
+}
+
+.bf-section-container .bam-image_type img {
+    border-width: 2px !important;
+    border-radius: 3px;
+}
+
+
+.wp-list-table .bsacadtype,
+.wp-list-table .bsacadformat{
+    display: inline-block;
+    padding: 1px 6px;
+    background: #828282;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.wp-list-table .bsacadtype .fa,
+.wp-list-table .bsacadformat .fa{
+    min-width: 14px;
+    text-align: center;
+}
+.wp-list-table .bsacadformat.bsacadformatnormal{
+    background: #02a219;
+}
+.wp-list-table .bsacadformat.bsacadformatamp{
+    background-color: #0379C4;
+}
+.wp-list-table .bsacadtype.bsacadtypeadsense{
+    background: #e43b31;
+}
+.wp-list-table .bsacadtype.bsacadtypeimage{
+    background: #00aabf;
+}
+.wp-list-table .bsacadtype.bsacadtypecode{
+    background: #e431ca;
+}
+.wp-list-table .bsacadtype.bsacadtypedfp{
+    background: #29d656;
+}
+.wp-list-table .bsacadtype:last-child,
+.wp-list-table .bsacadformat:last-child{
+    margin-right: 0;
+}
+.rtl .wp-list-table .bsacadtype,
+.rtl .wp-list-table .bsacadformat{
+    margin-right: auto;
+    margin-left: 5px;
+}
+.rtl .wp-list-table .bsacadtype:last-child,
+.rtl .wp-list-table .bsacadformat:last-child{
+    margin-right: auto;
+    margin-left: 0;
+}
+.wp-list-table .bsacshortcodeempty{
+    display: inline-block;
+    padding: 1px 6px;
+    background: #ec0000;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.wp-list-table .bsacshortcodecopy{
+    border: 1px solid #cdcdcd;
+    background: #eee;
+    color: #333;
+    padding: 3px 6px;
+    -webkit-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+    display: block;
+    font-size: 11px;
+    border-radius: 3px;
+}
+
+.wp-list-table .bsacadcamp {
+    display: inline-block;
+    padding: 1px 6px;
+    background: #e3e3e3;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #303030;
+    margin-right: 5px;
+}
+
+/* Labels */
+.fields-group .fields-group-title-container .fields-group-title .ad-state-indicator {
+    position: absolute;
+    right: 60px;
+    top: -1px;
+    font-size: 12px;
+}
+
+
+/* RTL FIX */
+.rtl #better-ads {
+    padding-right: 78px;
+    padding-left: 0;
+}
+.rtl .better-ads-table thead th {
+    text-align: right;
+}
+.rtl .fields-group .fields-group-title-container .fields-group-title .ad-state-indicator {
+    left: 60px;
+    right: auto;
+}

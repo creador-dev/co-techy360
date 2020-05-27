@@ -1,0 +1,27 @@
+{
+  "name": "publisher",
+  "version": "3.0.0",
+  "description": "The Biggest WordPress Theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://betterstudio@bitbucket.org/better-studio/publisher.git"
+  },
+  "author": "BetterStudio",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/better-studio/publisher#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "node-sass": "^3.4.2",
+    "sass-import-once": "github:wilsonpage/sass-import-once"
+  }
+}

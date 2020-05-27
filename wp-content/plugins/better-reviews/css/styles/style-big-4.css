@@ -1,0 +1,68 @@
+.betterstudio-review.big-4 .review-header {
+  position: relative; }
+
+.betterstudio-review.big-4 .verdict {
+  float: left;
+  width: 65%; }
+
+.betterstudio-review.big-4 .verdict:first-child:last-child {
+  width: 100%;
+  float: none;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.betterstudio-review.big-4 .affiliate {
+  width: 35%;
+  margin: 0;
+  padding: 25px 15px 10px;
+  line-height: 25px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-left: 1px solid #ebebeb;
+  border-top: 0;
+  text-align: center; }
+
+.betterstudio-review.big-4 .verdict-summary {
+  padding: 0; }
+
+.betterstudio-review.big-4 .heading {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 0; }
+
+.betterstudio-review.big-4 .affiliate .heading {
+  padding-top: 15px; }
+
+.betterstudio-review.big-4 .review-cons-pros .heading {
+  font-size: 16px; }
+
+.betterstudio-review.big-4 .criteria-list {
+  border-top: 1px solid #ebebeb;
+  padding: 20px; }
+
+.betterstudio-review.big-4 .criteria-list ul {
+  padding-left: 180px; }
+
+.betterstudio-review.big-4 .overall {
+  float: left;
+  margin-left: 0;
+  margin-right: 15px;
+  text-align: center; }
+  .betterstudio-review.big-4 .overall .rating-bar {
+    margin: 5px auto;
+    background-color: rgba(255, 255, 255, 0.24); }
+    .betterstudio-review.big-4 .overall .rating-bar.rating-bar span {
+      background-color: #fff; }
+
+.betterstudio-review.big-4 .criteria-list li:first-child {
+  padding-top: 0; }
+
+.betterstudio-review.big-4 .review-cons-pros > aside:first-child {
+  padding-left: 25px; }
+
+.betterstudio-review.big-4 .affiliate-btn {
+  float: none;
+  padding: 8px 18px;
+  border-radius: 3px; }

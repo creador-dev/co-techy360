@@ -1,0 +1,25 @@
+@import "_variables.scss";
+
+.betterstudio-review.big-5 {
+
+  .overall {
+	float: right;
+	margin-right: 0;
+	margin-left: 0;
+  }
+
+  .verdict-summary {
+	padding-left: 0;
+	padding-right: 182px;
+  }
+
+  .criteria-list {
+	float: right;
+  }
+
+  .heading .fa {
+	margin-left: 10px;
+	margin-right: auto;
+  }
+
+}

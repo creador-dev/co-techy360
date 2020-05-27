@@ -1,0 +1,24 @@
+.bs-smart-list.bssl-t1.bssl-s8 .bssl-item .bssl-image-w {
+  float: right;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.bs-smart-list.bssl-t1.bssl-s8 .bssl-item-title {
+  padding: 0 52px 0 0;
+}
+
+.bs-smart-list.bssl-t1.bssl-s8 .bssl-item-title .bssl-count {
+  right: 0;
+  left: auto;
+}
+
+
+@media screen and (max-width: 580px) {
+
+  .bs-smart-list.bssl-t1.bssl-s8 .bssl-item .bssl-image-w {
+	margin-left: 0;
+	margin-right: auto;
+  }
+
+}

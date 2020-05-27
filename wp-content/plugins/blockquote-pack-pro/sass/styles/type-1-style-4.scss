@@ -1,0 +1,38 @@
+@import "variables.scss";
+
+blockquote.bs-quote.bsq-t1.bsq-s4 {
+  margin-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 35px;
+
+  &:after {
+	z-index: -1;
+  }
+
+  &.bs-quote:before {
+	display: none;
+  }
+
+  &.bsq-left,
+  &.bsq-right {
+	padding-left: 25px;
+	padding-right: 25px;
+	max-width: 400px;
+  }
+
+  &.bsq-left {
+	margin-right: 25px;
+  }
+
+  &.bsq-right {
+	margin-left: 25px;
+  }
+
+  .quote-author-job,
+  .quote-author-name,
+  p,
+  &.bs-quote.bs-quote a,
+  & {
+	color: #fff;
+  }
+}

@@ -1,0 +1,339 @@
+//
+// Removes box of rows that are stretched or full!
+//
+@if $box_full_width_items != false {
+  .vc_row[data-vc-full-width="true"] .bs-vc-block,
+  .vc_row[data-vc-full-width="true"] .entry-content .better-studio-shortcode,
+  .vc_row[data-vc-full-width="true"] .bs-shortcode,
+  .vc_row[data-vc-full-width="true"] .bs-listing {
+	@include remove_box;
+  }
+}
+
+//
+// Removes box of modern grids
+//
+@if $box_remove_modern_grids != false {
+  .bs-listing.bs-listing-modern-grid-listing-10,
+  .bs-listing.bs-listing-modern-grid-listing-9,
+  .bs-listing.bs-listing-modern-grid-listing-8,
+  .bs-listing.bs-listing-modern-grid-listing-7,
+  .bs-listing.bs-listing-modern-grid-listing-6,
+  .bs-listing.bs-listing-modern-grid-listing-5,
+  .bs-listing.bs-listing-modern-grid-listing-4,
+  .bs-listing.bs-listing-modern-grid-listing-3,
+  .bs-listing.bs-listing-modern-grid-listing-2,
+  .bs-listing.bs-listing-modern-grid-listing-1 {
+	@include remove_box;
+  }
+}
+
+//
+// General Box tasks
+//
+@if $box {
+
+  @if $box_padding {
+	.bs-popular-categories .bs-popular-terms-list {
+	  padding: 0 !important;
+	}
+  }
+
+  .widget > .bs-shortcode,
+  .widget > .bs-listing,
+  .vc_row.vc_row-has-fill .bs-heading-shortcode,
+  .widget_better-ads,
+  .widget_newsletter-pack {
+	@include remove_box;
+  }
+
+  @if $box_remove_footer_blocks {
+	.footer-widgets .bs-vc-block,
+	.footer-widgets .widget,
+	.footer-widgets .bs-shortcode,
+	.footer-widgets .bs-listing {
+	  @include remove_box;
+	}
+  }
+}
+
+//
+// Bottom Line For Blocks
+//
+@if $blocks_bottom_line or $blocks_bottom_padding or $blocks_bottom_margin {
+
+  .widget,
+  .better-studio-shortcode,
+  .bs-shortcode,
+  .bs-listing {
+
+	@if $blocks_bottom_line {
+	  border-bottom: $blocks_bottom_line !important;
+	}
+
+	@if $blocks_bottom_padding {
+	  padding-bottom: $blocks_bottom_padding !important;
+	}
+
+	@if $blocks_bottom_margin {
+	  margin-bottom: $blocks_bottom_margin !important;
+	}
+  }
+
+  @if $blocks_bottom_line {
+	.widget:last-child,
+	.better-studio-shortcode:last-child,
+	.bs-shortcode:last-child,
+	.bs-listing:last-child {
+	  @if $blocks_bottom_line {
+		border-bottom: none !important;
+	  }
+
+	  @if $blocks_bottom_margin {
+		margin-bottom: $blocks_bottom_margin * 1.5 !important;
+
+		@if $blocks_bottom_padding {
+		  padding-bottom: 0 !important;
+		}
+	  } @else if $blocks_bottom_padding {
+		margin-bottom: $blocks_bottom_padding * 1.5 !important;
+
+		@if $blocks_bottom_margin {
+		  margin-bottom: 0 !important;
+		}
+	  }
+	}
+
+	.widget .better-studio-shortcode,
+	.widget .bs-shortcode,
+	.widget .bs-listing {
+	  @if $blocks_bottom_line {
+		border-bottom: none !important;
+	  }
+
+	  @if $blocks_bottom_padding {
+		padding-bottom: 0 !important;
+	  }
+
+	  @if $blocks_bottom_margin {
+		margin-bottom: 0 !important;
+	  }
+	}
+
+	.footer-widgets .widget:last-child,
+	.footer-widgets .better-studio-shortcode:last-child,
+	.footer-widgets .bs-shortcode:last-child,
+	.footer-widgets .bs-listing:last-child {
+	  margin-bottom: 0 !important;
+	}
+  }
+
+  @if $blocks_bottom_line_exclude_sidebars {
+
+	.bs-vc-sidebar-column > .bs-vc-wrapper > .wpb_widgetised_column > .wpb_wrapper > *,
+	.bs-vc-sidebar-column > .bs-vc-wrapper > *,
+	.sidebar-column > aside > * {
+	  @if $blocks_bottom_line {
+		border-bottom: none !important;
+	  }
+
+	  @if $blocks_bottom_padding {
+		@if $blocks_bottom_line_exclude_sidebars_padding {
+		  padding-bottom: $blocks_bottom_line_exclude_sidebars_padding !important;
+		} @else {
+		  padding-bottom: 0 !important;
+		}
+	  }
+
+	  @if $blocks_bottom_margin {
+		@if $blocks_bottom_line_exclude_sidebars_margin {
+		  margin-bottom: $blocks_bottom_line_exclude_sidebars_margin !important;
+		} @else {
+		  margin-bottom: 0 !important;
+		}
+	  }
+	}
+
+	.topbar .better-studio-shortcode,
+	.topbar .bs-listing,
+	.topbar .bs-shortcode,
+	.widget .bs-shortcode,
+	.widget .better-studio-shortcode,
+	.bs-vc-sidebar-column .bs-vc-wrapper > * .better-studio-shortcode,
+	.bs-vc-sidebar-column .bs-vc-wrapper > * .bs-shortcode,
+	.bs-vc-sidebar-column .bs-vc-wrapper > * .bs-listing,
+	.sidebar-column aside > * .better-studio-shortcode,
+	.sidebar-column aside > * .bs-shortcode,
+	.sidebar-column aside > * .bs-listing {
+	  @if $blocks_bottom_line {
+		border-bottom: none !important;
+	  }
+
+	  @if $blocks_bottom_padding {
+		padding-bottom: 0 !important;
+	  }
+
+	  @if $blocks_bottom_margin {
+		margin-bottom: 0 !important;
+	  }
+	}
+  }
+}
+
+//
+// Bottom Line For Items of Blocks
+//
+@if $blocks_items_bottom_line or $blocks_items_bottom_padding or $blocks_items_bottom_margin {
+
+  .listing-item-blog,
+  .listing-thumbnail.listing-thumbnail .listing-item-thumbnail {
+
+	@if $blocks_items_bottom_line {
+	  border-bottom: $blocks_items_bottom_line !important;
+	}
+
+	@if $blocks_items_bottom_padding {
+	  padding-bottom: $blocks_items_bottom_padding !important;
+	}
+
+	@if $blocks_items_bottom_margin {
+	  margin-bottom: $blocks_items_bottom_margin !important;
+	}
+  }
+
+  .listing-item-blog:last-child,
+  .listing-thumbnail .listing-item-thumbnail:last-child {
+	@if $blocks_items_bottom_line {
+	  border-bottom: none !important;
+	}
+
+	@if $blocks_items_bottom_padding {
+	  padding-bottom: 0 !important;
+	}
+
+	@if $blocks_items_bottom_margin {
+	  margin-bottom: 0 !important;
+	}
+  }
+
+  .listing-thumbnail .listing-item-thumbnail:last-child {
+	margin-bottom: 22px !important;
+  }
+
+  .sidebar-column,
+  .bs-vc-sidebar-column {
+	.listing-item-tb-1 {
+	  padding-bottom: $blocks_items_bottom_padding / 2 + 3 !important;
+	  margin-bottom: $blocks_items_bottom_padding / 2 + 3 !important;
+	}
+
+	.listing-item-tb-1:last-child {
+	  padding-bottom: 0 !important;
+	  margin-bottom: 0 !important;
+	}
+  }
+
+  //
+  // Light Scheme Fix
+  //
+  @if ($blocks_items_bottom_line_light) {
+	.bs-light-scheme .listing-thumbnail .listing-item-thumbnail,
+	.bs-light-scheme .listing-item-blog-5 {
+	  border-bottom: $blocks_items_bottom_line_light !important;
+	}
+
+	.bs-light-scheme .listing-thumbnail .listing-item-thumbnail:last-child,
+	.bs-light-scheme .listing-item-blog-5:last-child {
+	  border-bottom: none !important;
+	}
+  }
+
+}
+
+//
+// Images Border Radius
+//
+@if $blocks_image_radius {
+
+  .bs-slider-2-item .content-container,
+  .bs-slider-3-item .content-container,
+  .bs-box.bs-box-4,
+  .bs-box.bs-box-3,
+  .bs-box.bs-box-2,
+  .bs-box.bs-box-1,
+  .bs-box-1 .box-text,
+  .bs-box-1 .box-image:before,
+  .listing-mg-item .item-content,
+  .listing-mg-5-item-big .content-container,
+  .img-holder {
+	border-radius: $blocks_image_radius;
+	overflow: hidden;
+  }
+
+  .listing-item-classic-3 .featured .title {
+	border-radius: ($blocks_image_radius * 0.5) ($blocks_image_radius * 0.5) 0 0;
+  }
+
+  .bs-box-2 .box-image:after,
+  .listing-item-tb-1 .img-holder {
+	border-radius: $blocks_image_radius * 0.5;
+	overflow: hidden;
+  }
+
+  .better-social-counter.style-big-button .social-item,
+  .better-social-counter.style-clean .item-icon,
+  .better-social-counter.style-modern .item-icon,
+  .better-social-counter.style-style-11 .social-item,
+  .better-social-counter.style-style-10 .social-item,
+  .better-social-counter.style-style-7 .item-icon,
+  .better-social-counter.style-style-8 .item-icon,
+  .better-social-counter.style-style-8 .social-item {
+	overflow: hidden;
+	border-radius: $blocks_image_radius * 0.5;
+  }
+
+  .better-social-counter.style-box .item-icon {
+	border-radius: ($blocks_image_radius * 0.5) ($blocks_image_radius * 0.5) 0 0;
+  }
+
+  .better-social-counter.style-box .item-title {
+	border-radius: 0 0 ($blocks_image_radius * 0.5) ($blocks_image_radius * 0.5);
+  }
+
+  .have_bg.bs-listing .listing-item .item-inner {
+	border-radius: $blocks_image_radius - 1;
+  }
+}
+
+//
+// Slider 1 Border Radius
+//
+@if $slider_radius {
+  .bs-listing-slider-1 .item-content {
+	overflow: hidden;
+	border-radius: $slider_radius;
+  }
+}
+
+//
+// Section heading Margin Bottom
+//
+@if $section_heading_margin_bottom {
+  .section-heading {
+	margin-bottom: $section_heading_margin_bottom !important;
+  }
+}
+
+//
+// Section heading SideBar Margin Bottom
+//
+@if $section_heading_sidebar_margin_bottom == default {
+  .sidebar-column .section-heading {
+	margin-bottom: 23px !important;
+  }
+} @else if $section_heading_sidebar_margin_bottom {
+  .sidebar-column .section-heading {
+	margin-bottom: $section_heading_sidebar_margin_bottom !important;
+  }
+
+}

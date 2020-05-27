@@ -1,0 +1,3 @@
+<?php
+// Custom test functions
+

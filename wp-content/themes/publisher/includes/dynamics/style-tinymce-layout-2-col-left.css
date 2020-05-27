@@ -1,0 +1,37 @@
+.mce-content-body.mceContentBody.mceContentBody[data-page_layout="default"] {
+    margin-left: 150px !important;
+    border-left: 1px solid #eee;
+    border-right: none;
+}
+.rtl.mce-content-body.mceContentBody.mceContentBody[data-page_layout="default"] {
+    margin-left: auto !important;
+    border-left: none !important;
+    margin-right: 150px !important;
+    border-right: 1px solid #eee;
+}
+.mce-content-body.mceContentBody.mceContentBody[data-page_layout="default"]::after {
+    left: -25px;
+    right: auto;
+}
+.rtl.mce-content-body.mceContentBody.mceContentBody[data-page_layout="default"]::after {
+    right: -25px;
+    left: auto;
+}
+@media (max-width: 1px /* layout-2column-content */) {
+    .mce-content-body.mceContentBody.mceContentBody[data-page_layout="default"] {
+        margin-left: 38px !important;
+    }
+    .rtl.mce-content-body.mceContentBody.mceContentBody[data-page_layout="default"] {
+        margin-right: 38px !important;
+        margin-left: auto !important;
+    }
+}
+@media (max-width: 1px /* layout-2column-content */) {
+    .mce-content-body.mceContentBody.mceContentBody[data-page_layout="default"]{
+        border:none !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important ;
+        padding-left: 15px !important ;
+        padding-right: 15px !important ;
+    }
+}

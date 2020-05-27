@@ -1,0 +1,16 @@
+@import "styles/_variables.scss";
+
+.betterstudio-review {
+  .readers-ratings {
+	display: none;
+  }
+
+  .btn {
+	color: #fff;
+	text-decoration: none;
+  }
+
+  .rating-stars span {
+	width: inherit;
+  }
+}

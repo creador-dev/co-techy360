@@ -1,0 +1,48 @@
+/***
+ *  BetterStudio Themes Core.
+ *
+ *  ______  _____   _____ _                           _____
+ *  | ___ \/  ___| |_   _| |                         /  __ \
+ *  | |_/ /\ `--.    | | | |__   ___ _ __ ___   ___  | /  \/ ___  _ __ ___
+ *  | ___ \ `--. \   | | | '_ \ / _ \ '_ ` _ \ / _ \ | |    / _ \| '__/ _ \
+ *  | |_/ //\__/ /   | | | | | |  __/ | | | | |  __/ | \__/\ (_) | | |  __/
+ *  \____/ \____/    \_/ |_| |_|\___|_| |_| |_|\___|  \____/\___/|_|  \___|
+ *
+ *  Copyright © 2017 Better Studio
+ *
+ *
+ *  Our portfolio is here: https://betterstudio.com/
+ *
+ *  \--> BetterStudio, 2017 <--/
+ */
+
+
+/*
+ * Subtitle field
+ */
+.post-subtitle-field{
+    margin-top: 6px;
+}
+.post-subtitle-field textarea{
+    margin: 0;
+    height: 34px;
+    max-width: 570px;
+    width: 100%;
+    padding: 5px 9px;
+}
+
+
+/*
+ * Subtitle field
+ */
+.post-excerpt-field{
+    margin-top: 12px;
+}
+.post-excerpt-field textarea{
+    height: 76px;
+    width: 100%;
+    margin: 0;
+    padding: 5px 10px;
+    line-height: 1.5;
+    font-size: 14px;
+}

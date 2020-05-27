@@ -1,0 +1,56 @@
+//
+// Center Align Footer
+//
+@if $footer_style == 'center' {
+  .site-footer .copy-footer .container .menu {
+	text-align: center;
+  }
+
+  .site-footer .copy-footer .container .menu li {
+	float: none;
+	display: inline-block;
+	margin: 10px 14px !important;
+  }
+
+  .site-footer .footer-menu-container {
+	padding: 10px 0 0;
+	margin-bottom: 0;
+  }
+
+  .site-footer .copy-footer {
+	text-align: center;
+	padding-bottom: 40px;
+  }
+
+  .site-footer .copy-2,
+  .site-footer .copy-1 {
+	display: inline-block;
+	width: auto;
+	text-align: center;
+	padding: 0 !important;
+	float: none;
+  }
+
+  .site-footer .copy-1 + .copy-2 {
+	margin-top: 15px;
+  }
+
+  @media only screen and (max-width: 678px) {
+	.site-footer .copy-footer .container .menu li {
+	  margin: 5px 14px !important;
+	}
+	.site-footer .copy-1 + .copy-2 {
+	  margin-top: 0;
+	}
+  }
+
+}
+
+//
+// Footer Margin Top
+//
+@if ($footer-margin-top) {
+  .site-footer {
+	margin-top: $footer-margin-top;
+  }
+}

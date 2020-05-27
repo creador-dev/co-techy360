@@ -1,0 +1,166 @@
+
+code {
+  padding: 4px 6px;
+  font-size: 90%;
+  color: inherit;
+  background-color: #EAEAEA;
+  border-radius: 0;
+}
+
+pre {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border: 1px solid #DCDCDC;
+  border-radius: 0;
+}
+
+
+/* links and text helpers */
+a:focus {
+  color: inherit;
+}
+
+a, a:focus, a:hover {
+  text-decoration: none;
+  -webkit-transition: all .07s ease;
+  -moz-transition: all .07s ease;
+  -o-transition: all .07s ease;
+  transition: all .07s ease;
+}
+
+/* Form elements */
+textarea,
+input[type=url],
+input[type=tel],
+input[type=search],
+input[type=password],
+input[type=email],
+input[type=number],
+input[type=month],
+input[type=week],
+input[type=time],
+input[type=datetime-local],
+input[type=date],
+input[type=color],
+input[type=text] {
+  height: 36px;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+
+textarea:focus,
+input[type="url"]:focus,
+input[type="tel"]:focus,
+input[type="search"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="color"]:focus,
+input[type="text"]:focus {
+  outline: 0;
+}
+
+.btn,
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+  border: none;
+  color: #fff;
+  border-radius: 0;
+  outline: 0;
+  height: auto;
+  line-height: 1.4;
+  padding: 8px 12px;
+  vertical-align: middle;
+  text-transform: uppercase !important;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  max-width: 100%;
+  white-space: normal;
+}
+
+.entry-content .btn,
+.entry-content .btn a,
+.entry-content button,
+.entry-content html input[type="button"],
+.entry-content input[type="reset"],
+.entry-content input[type="submit"],
+.entry-content input[type="button"] {
+  color: #fff;
+}
+
+.btn:focus,
+.btn:hover,
+button:focus,
+button:hover,
+html input[type="button"]:focus,
+html input[type="button"]:hover,
+input[type="reset"]:focus,
+input[type="reset"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:hover,
+input[type="button"]:focus,
+input[type="button"]:hover {
+  opacity: 0.85;
+}
+
+.btn.btn-lg {
+  height: 57px;
+  line-height: 57px;
+  padding: 0 30px;
+}
+
+.btn.btn-xs {
+  height: 47px;
+  line-height: 47px;
+  padding: 0 20px;
+}
+
+.btn.btn-light {
+  background: #FFF;
+  border: 1px solid #D4D4D4;
+  color: #5c5c5c;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 12px;
+  height: auto;
+  padding: 0 13px;
+}
+
+.btn.btn-light:hover, .btn.btn-light.hover {
+  border-color: #868686 !important;
+  color: #2b2b2b !important;
+  background: #fff !important;
+}
+
+.btn.btn-light[disabled] {
+  border-color: #EAEAEA;
+  color: #EAEAEA;
+}

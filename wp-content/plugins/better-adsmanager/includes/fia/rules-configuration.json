@@ -1,0 +1,16 @@
+{
+  "rules": [
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bsac"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bsac-container"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.fia-pass"
+    }
+  ]
+}

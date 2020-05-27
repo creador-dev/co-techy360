@@ -1,0 +1,21 @@
+$primary-color: #057fce;
+
+
+@mixin normalize-style {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-align: inherit;
+  text-transform: inherit;
+  width: auto;
+  height: auto;
+  background: transparent;
+  border-radius: inherit;
+  padding: 0;
+  margin: 0;
+  border: none;
+  clear: inherit;
+  color: inherit;
+}

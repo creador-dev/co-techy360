@@ -1,0 +1,295 @@
+/*
+
+ThemeName |-> Wonderful
+
+*/
+@import "../_demo-helper/general";
+
+$header: 'style-2';
+$header_height: 50px;
+$menu_current_bg_style: '.header-style-2';
+$menu_current_bg: rgba(255, 255, 255, 0.12);
+//
+$topbar_height: 40px;
+//
+$blocks_image_radius: 10px;
+$main_menu_radius: 6px;
+$slider_radius: 12px;
+//
+$term_badges: 'top-left';
+$term_badges_radius: $blocks_image_radius * 0.5;
+$term_badges_margin: 13px;
+
+@import "../_demo-helper/helper";
+
+/**
+ * =>General style
+ **/
+a, a:focus, a:hover {
+  text-decoration: none;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+body.boxed .main-wrap {
+  box-shadow: none;
+}
+
+/**
+ * => Top bar
+ **/
+.top-menu > li {
+  line-height: 40px;
+}
+
+.topbar .better-social-counter.style-button .social-item {
+  opacity: .7;
+}
+
+/**
+ * => Main Menu
+ **/
+.site-header.site-header .main-menu > li > a {
+  padding: 0 20px;
+}
+
+.site-header.header-style-2 .main-menu.menu > li {
+  margin: 0;
+}
+
+.site-header.header-style-2 .main-menu.menu {
+  height: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.site-header .search-container .search-handler {
+  line-height: 23px;
+}
+
+/**
+ * => Main Menu -> Search Icon
+ **/
+.header-style-2.site-header.boxed .menu-action-buttons, .header-style-1.site-header.boxed .menu-action-buttons {
+  right: 13px;
+}
+
+/**
+ * => Section Headings
+ **/
+.section-heading.sh-t1.sh-s5:after {
+  height: 2px;
+  margin-top: -1px;
+  background: rgba(122, 105, 94, 0.1);
+}
+
+.widget .section-heading.sh-t1.sh-s5,
+.bs-vc-sidebar-column .section-heading.sh-t1.sh-s5 {
+  padding-bottom: 0;
+}
+
+.widget .section-heading.sh-t1.sh-s5:after,
+.bs-vc-sidebar-column .section-heading.sh-t1.sh-s5:after {
+  top: 50%;
+  bottom: inherit;
+}
+
+.footer-widgets.light-text .section-heading.sh-t1.sh-s5:after {
+  background: rgba(255, 255, 255, .1);
+}
+
+.section-heading.sh-t1.sh-s5 > .h-text:last-child:first-child,
+.section-heading.sh-t1.sh-s5 > .main-link:last-child:first-child > .h-text,
+.section-heading.sh-t1.sh-s5 > a:last-child:first-child > .h-text {
+  padding-right: 15px;
+}
+
+.widget .section-heading.sh-t1.sh-s5 > .h-text:last-child:first-child:after,
+.widget .section-heading.sh-t1.sh-s5 > .main-link > .h-text:after,
+.widget .section-heading.sh-t1.sh-s5 > a:last-child:first-child > .h-text:after,
+.bs-vc-sidebar-column .section-heading.sh-t1.sh-s5 > .h-text:last-child:first-child:after,
+.bs-vc-sidebar-column .section-heading.sh-t1.sh-s5 > .main-link > .h-text:after,
+.bs-vc-sidebar-column .section-heading.sh-t1.sh-s5 > a:last-child:first-child > .h-text:after {
+  margin-left: 6px;
+}
+
+/**
+ * => Blocks
+ **/
+.entry-content a.read-more, a.read-more {
+  border-radius: $blocks_image_radius * 0.5;
+}
+
+/**
+ * => Tern Badges
+ **/
+.term-badges.floated a {
+  padding: 1px 5px;
+}
+
+.term-badges .term-badge {
+  @include optimize_font;
+}
+
+/**
+ * => Block Listing -> Mix 13
+ **/
+.listing-item-classic-2 .listing-inner {
+  padding: 0;
+  border: none;
+}
+
+.listing-item-classic-2 .featured {
+  margin: -1px 0px 17px;
+}
+
+.listing-item-grid-1 .post-summary {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+/**
+ * => Block Listing -> Mix 7
+ **/
+.listing.listing-mix-3-1 .listing-grid-1 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+}
+
+/**
+ * => Pagination
+ **/
+.bs-pagination.bs-ajax-pagination.more_btn .btn-bs-pagination {
+  color: rgb(255, 255, 255) !important;
+}
+
+.page-numbers.current, .pagination.bs-numbered-pagination a.page-numbers:hover {
+  color: #ffffff !important;
+}
+
+.page-numbers {
+  border: none !important;
+  border-radius: 4px;
+}
+
+.pagination.bs-numbered-pagination .page-numbers, span.page-numbers.dots {
+  background: #f0eeed !important;
+}
+
+.pagination.bs-numbered-pagination .page-numbers, .pagination.bs-numbered-pagination span {
+  height: 34px !important;
+  min-width: 34px !important;
+  line-height: 36px !important;
+  font-size: 10px;
+}
+
+/**
+ * => BreadCrumb
+ **/
+.bf-breadcrumb {
+  margin-top: 10px;
+}
+
+/**
+ * => Footer
+ **/
+.site-footer {
+  margin-top: 30px;
+}
+
+/**
+ * => Footer -> About us
+ **/
+footer .bs-about .about-text {
+  text-align: left;
+  margin-top: 25px;
+}
+
+/**
+ * => Footer -> Footer Menu
+ **/
+ul.menu.footer-menu > li {
+  margin-right: 40px;
+}
+
+.footer-menu-container {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0 40px;
+  margin-bottom: 40px;
+}
+
+/**
+ * => Footer -> Copyright
+ **/
+.site-footer .copy-footer {
+  padding: 22px 0 32px;
+}
+
+.site-footer .copy-2, .site-footer .copy-1, .site-footer .copy-2 a, .site-footer .copy-1 a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/**
+ * => Newsletter Widget
+ **/
+.widget.widget_bs-subscribe-newsletter {
+  background: transparent;
+  padding: 0 !important;
+}
+
+/**
+ * => Archive Title
+ **/
+.archive-title .pre-title span {
+  margin-bottom: -2px;
+}
+
+.archive-title .term-badges span.term-badge a {
+  border-radius: $term_badges_radius;
+}
+
+/**
+ * => Post Templates
+ **/
+.single-container > .post-author,
+.post-related {
+  border-radius: $term_badges_radius;
+}
+
+/**
+ * => Social Counter
+ **/
+.better-social-counter.style-modern .social-list {
+  margin-top: -15px;
+}
+
+.better-social-counter.style-modern .social-item {
+  border-bottom: none;
+  padding: 15px 0 0;
+}
+
+/**
+ * => Slider
+ **/
+@media only screen and (max-width: 370px) {
+  .bs-slider-1 .bs-slider-1-item .title a {
+	font-size: 64%;
+  }
+}
+
+/**
+ * => RTL
+ **/
+.rtl {
+  .site-header .search-container .search-handler {
+	left: 13px;
+	right: auto;
+  }
+
+  .site-footer .bs-about .about-text {
+	text-align: right;
+  }
+}

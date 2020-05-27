@@ -1,0 +1,29 @@
+.bs-smart-list.bssl-t1.bssl-s2 {
+  margin-top: 22px; }
+  .bs-smart-list.bssl-t1.bssl-s2 .bssl-item-title {
+    text-align: center;
+    padding: 0 80px; }
+  .bs-smart-list.bssl-t1.bssl-s2 .bssl-item .bssl-image-w {
+    float: right;
+    margin-left: 20px;
+    max-width: 360px; }
+  @media screen and (max-width: 580px) {
+    .bs-smart-list.bssl-t1.bssl-s2 .bssl-item-title {
+      padding: 0;
+      line-height: 1.4; }
+    .bs-smart-list.bssl-t1.bssl-s2 .bssl-item .bssl-image-w {
+      float: none;
+      max-width: 100%;
+      margin-left: 0;
+      text-align: center; }
+    .bs-smart-list.bssl-t1.bssl-s2 .bssl-control-nav {
+      position: relative;
+      left: inherit;
+      right: inherit;
+      text-align: center;
+      padding: 15px 0 0;
+      margin-top: 15px; }
+      .bs-smart-list.bssl-t1.bssl-s2 .bssl-control-nav a {
+        width: 48%; }
+        .bs-smart-list.bssl-t1.bssl-s2 .bssl-control-nav a:last-child {
+          float: right; } }

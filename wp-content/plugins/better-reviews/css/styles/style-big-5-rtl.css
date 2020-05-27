@@ -1,0 +1,15 @@
+.betterstudio-review.big-5 .overall {
+  float: right;
+  margin-right: 0;
+  margin-left: 0; }
+
+.betterstudio-review.big-5 .verdict-summary {
+  padding-left: 0;
+  padding-right: 182px; }
+
+.betterstudio-review.big-5 .criteria-list {
+  float: right; }
+
+.betterstudio-review.big-5 .heading .fa {
+  margin-left: 10px;
+  margin-right: auto; }

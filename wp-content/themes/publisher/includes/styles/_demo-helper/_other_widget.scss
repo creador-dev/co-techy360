@@ -1,0 +1,92 @@
+//
+// Newsletter Border Radius Inputs
+//
+@if ($newsletter_border_radius_inputs) {
+  .bs-subscribe-newsletter .newsletter-email {
+	border-radius: $newsletter_border_radius_inputs;
+  }
+  .bs-subscribe-newsletter .newsletter-subscribe {
+	border-bottom-right-radius: $newsletter_border_radius_inputs;
+	border-top-right-radius: $newsletter_border_radius_inputs;
+  }
+  .rtl {
+	.bs-subscribe-newsletter .newsletter-subscribe {
+	  border-bottom-left-radius: $newsletter_border_radius_inputs;
+	  border-top-left-radius: $newsletter_border_radius_inputs;
+	  border-bottom-right-radius: 0;
+	  border-top-right-radius: 0;
+	}
+  }
+}
+
+//
+// About Us -> Style 1
+//
+// # Text Align Left
+//
+// # Social Icons Border radius 100%
+//
+// # Social Icon Size
+//
+// # Social Icon Font Size
+//
+@if ($about_us_text_align == 'left') {
+  .ltr {
+	.bs-shortcode.bs-about > * {
+	  text-align: left;
+	}
+  }
+  .rtl {
+	.bs-shortcode.bs-about > * {
+	  text-align: right;
+	}
+  }
+}
+
+@if ($about_us_social_icon_size) {
+  .bs-about {
+	.about-icons-list {
+	  .about-icon-item a {
+		width: $about_us_social_icon_size;
+		height: $about_us_social_icon_size;
+	  }
+	  .about-icon-item.about-icon-item a i {
+		line-height: $about_us_social_icon_size;
+	  }
+	}
+  }
+}
+
+@if ($about_us_social_icon_font_size) {
+  .bs-about {
+	.about-icons-list {
+	  .about-icon-item.about-icon-item a i {
+		font-size: $about_us_social_icon_font_size;
+	  }
+	}
+  }
+}
+
+//
+// Financial Pack Pro
+//
+// # Boxed Mode
+//
+@if ($financial_pack == 'box') {
+
+  .sidebar,
+  .bs-vc-sidebar-column {
+	.bsfp-convertor-cryptocurrency {
+	  .fpc-wrapper-body.fpc-style-4 {
+		padding: 0;
+		border: none;
+		background-color: transparent;
+	  }
+	  .fpc-wrapper-body {
+		padding: 0;
+		border: none;
+		margin-bottom: 5px;
+	  }
+	}
+  }
+}

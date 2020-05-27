@@ -1,0 +1,47 @@
+@import "variables.scss";
+
+blockquote.bs-quote.bsq-t1.bsq-s13 {
+
+  &.bs-quote {
+	padding: 70px 0 0;
+  }
+
+  &.bs-quote:before {
+	content: "\b042";
+	font-size: 50px;
+	top: 0;
+  }
+
+  &.bs-quote:after {
+	display: none;
+  }
+
+  .quote-author-avatar {
+	border: 10px solid #ffffff;
+  }
+
+  .quote-author-avatar-w {
+	position: relative;
+  }
+
+  .quote-author-avatar-w:before {
+	content: '';
+	display: inline-block;
+	height: 1px;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	background: #e5e5e5;
+	left: 0;
+	top: 50%;
+	margin-top: -.5px;
+  }
+
+  &.bsq-left {
+	margin-right: 30px;
+  }
+
+  &.bsq-right {
+	margin-left: 30px;
+  }
+}

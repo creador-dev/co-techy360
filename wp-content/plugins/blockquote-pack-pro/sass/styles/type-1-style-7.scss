@@ -1,0 +1,42 @@
+@import "variables.scss";
+
+blockquote.bs-quote.bs-quote.bsq-t1.bsq-s7 {
+  text-align: inherit;
+  font-size: 123%;
+  padding: 18px 16px 18px 30px;
+  background: #f1f1f1;
+
+  &:before {
+	display: none !important;
+  }
+
+  &:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	display: inline-block;
+	width: 6px;
+  }
+
+  &.bsq-left {
+	margin-right: 25px;
+  }
+
+  &.bsq-right {
+	margin-left: 25px;
+  }
+
+  .quote-author .quote-author-avatar {
+	display: inline-block;
+  }
+
+  .quote-author {
+	text-align: inherit;
+  }
+
+  .quote-author-name {
+	font-weight: bolder;
+  }
+
+}

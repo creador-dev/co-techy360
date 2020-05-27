@@ -1,0 +1,525 @@
+/*
+
+ThemeName |-> Gamers
+
+*/
+@import "../_demo-helper/general";
+
+// Main Menu & Header
+$menu_current_text_color: #fff;
+$menu_current_bg: rgba(0, 0, 0, 0.15);
+$menu_current_bg_style: '.header-style-2';
+$header: 'style-2';
+$header_height: 49px;
+// Topbar
+$topbar_height: 31px;
+// Page Layout
+$full_separator: #eaeaea;
+$full_separator_padding: 50px;
+$layout_boxed_padding: 0;
+//// Box Option
+$blocks_items_bottom_line: solid 1px rgba(0, 0, 0, 0.0784313725490196);
+$blocks_items_bottom_line_light: solid 1px rgba(255, 255, 255, 0.18823529411764706);
+$blocks_items_bottom_padding: 20px;
+$blocks_items_bottom_margin: 20px;
+//
+$section_heading_margin_bottom: 26px;
+// Term badge
+$term_badges: left-bottom;
+
+@import "../_demo-helper/helper";
+
+/**
+ * =>General style
+ **/
+a, a:focus, a:hover {
+  text-decoration: none;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.content-main-wrap .content-wrap {
+  z-index: 0;
+}
+
+body,
+body.boxed {
+  background-color: #000;
+}
+
+@media (max-width: 767px) {
+  .main-wrap {
+	background-color: #000;
+  }
+}
+
+/**
+ * =>Column
+ **/
+@media all and (min-width: 768px) {
+  .layout-1-col {
+	margin-top: 0 !important;
+  }
+}
+
+@media all and (min-width: 1024px) {
+
+  .bs-vc-content > .vc_row > .bs-vc-wrapper > .bs-vc-column.vc_col-sm-8.vc_col-has-fill .bs-vc-wrapper {
+	padding-top: 0 !important;
+  }
+
+}
+
+/**
+ * => Term Badge
+ **/
+.term-badges.floated a {
+  line-height: 16px;
+  @include optimize_font;
+}
+
+/**
+ * => Post Meta
+ **/
+.post-meta .post-author:after {
+  margin-left: 5px;
+}
+
+/**
+ * => Main Menu
+ **/
+.site-header.header-style-2.full-width .main-menu-wrapper {
+  @include optimize_font;
+  border-bottom: none !important;
+}
+
+.site-header.full-width .main-menu-wrapper .content-wrap > .container {
+  padding-left: 0;
+}
+
+.rtl .main-menu-wrapper .content-wrap > .container {
+  padding-right: 0;
+}
+
+.site-header.site-header .main-menu > li > a {
+  padding: 0 23px;
+  letter-spacing: .3px;
+}
+
+.site-header.full-width.header-style-2 .main-menu-wrapper {
+  border-width: 0 !important;
+}
+
+.main-menu > li {
+  margin-right: 0 !important;
+}
+
+/**
+ * =>Section Heading -> All
+ **/
+.section-heading .h-text {
+  @include optimize_font;
+}
+
+.section-heading.sh-t6.sh-s6 .h-text {
+  line-height: 33px !important;
+}
+
+.section-heading.sh-t6.sh-s6 .other-link .h-text {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/**
+ * => listing Items
+ **/
+.listing-item .title, .box-text .box-title, .listing-blog .box-title {
+  @include optimize_font;
+}
+
+.bs-listing.bs-light-scheme .title {
+  color: #d8d8d8ee;
+}
+
+.bs-listing.bs-light-scheme .title:hover a,
+.bs-listing.bs-light-scheme .listing-item:hover .title a {
+  color: #fff !important;
+}
+
+/**
+ * => Meta Block
+ **/
+.listing-mg-type-1 .post-meta .post-author,
+.listing-mg-type-1 .post-meta .time,
+.listing-mg-type-1 .post-meta .post-author:after {
+  color: #a0a0a0;
+}
+
+.bs-listing .post-meta, .listing-blog .post-meta {
+  @include optimize_font;
+}
+
+/**
+ * => Block -> Modern Grid 7
+ **/
+.listing-mg-7-item .content-container, .listing-mg-7-item .title {
+  line-height: 31px;
+}
+
+.listing-mg-type-1 .content-container {
+  bottom: 14px;
+  padding-left: 4px;
+}
+
+.mg-row-2 .listing-mg-7-item .content-container {
+  bottom: 20px;
+}
+
+.listing-modern-grid-7 .term-badges {
+  margin-left: 25px;
+}
+
+.rtl .term-badges.floated {
+  right: 0 !important;
+}
+
+/**
+ * => Block -> Blog 5
+ **/
+@media all and (min-width: 768px) {
+  .ltr .listing-item-blog-5 .featured,
+  .ltr .listing-item-blog-1 .featured {
+	margin-right: 24px;
+  }
+}
+
+.listing-item-blog-5 > .item-inner > .title, .listing-item-blog-1 > .item-inner > .title {
+  margin: -4px 0 11px;
+}
+
+.listing-item-blog-5 .post-summary, .listing-item-blog-1 .post-summary {
+  margin-top: 11px;
+}
+
+/**
+ * => Block -> Thumbnail Listing 1
+ **/
+.listing-thumbnail .listing-item-thumbnail {
+  margin-bottom: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+.ltr .listing-item-tb-1 .featured {
+  margin-right: 16px;
+}
+
+.listing-item-tb-1 .title {
+  margin: -5px 0;
+}
+
+.listing-thumbnail .listing-item-thumbnail:last-child {
+  margin-bottom: 0 !important;
+}
+
+.ltr .listing-item-tb-1 .featured {
+  margin-right: 17px;
+}
+
+/**
+ * => MG 3
+ **/
+.listing-mg-3-item.bsw-300 .post-meta,
+.listing-mg-3-item.bsw-100 .post-meta,
+.listing-mg-3-item.bsw-150 .post-meta,
+.listing-mg-3-item.bsw-200 .post-meta,
+.listing-mg-3-item.bsw-250 .post-meta {
+  display: block;
+}
+
+.listing-mg-3-item .post-meta .comments, .listing-mg-3-item .post-meta .post-author {
+  font-size: 13px;
+  float: left;
+  line-height: 21px;
+}
+
+.listing-mg-3-item .post-meta .rating {
+  float: right;
+  margin-right: -3px;
+  margin-top: 6px;
+}
+
+.listing-mg-3-item .title {
+  text-align: left !important;
+}
+
+.listing-mg-3-item.bsw-100 .title, .listing-mg-3-item.bsw-300 .title {
+  font-size: inherit;
+}
+
+.listing-mg-3-item .content-container {
+  bottom: 12px;
+}
+
+.listing-mg-3-item .post-meta {
+  margin-top: 2px;
+}
+
+.listing-mg-3-item .post-meta .post-author:after {
+  display: none;
+}
+
+/**
+ * => Fill Block
+ **/
+.vc_col-has-fill > .bs-vc-wrapper.wpb_wrapper {
+  padding-top: 30px !important;
+}
+
+.vc_col-has-fill .bs-vc-wrapper.wpb_wrapper > .bsac:last-child {
+  margin-bottom: 22px !important;
+}
+
+.vc_col-has-fill .bs-listing {
+  padding-top: 0 !important;
+}
+
+/**
+ * => Grid 1
+ **/
+.listing-item-grid-1 {
+  margin-bottom: 15px;
+}
+
+/**
+ * => Mix 7
+ **/
+.listing.listing-mix-3-1 .listing-grid-1 .post-meta {
+  padding-top: 8px;
+}
+
+.listing.listing-mix-3-1 .listing-grid-1 {
+  border-bottom: solid 1px #eee !important;
+  padding-bottom: 8px;
+}
+
+.bs-light-scheme .listing.listing-mix-3-1 .listing-grid-1 {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.18823529411764706) !important;
+}
+
+.listing.listing-mix-3-1 .listing-item-thumbnail .post-meta {
+  padding-top: 12px;
+}
+
+.listing.listing-mix-3-1 .listing-item-thumbnail:last-child {
+  margin-bottom: 7px !important;
+}
+
+.listing.listing-mix-3-1 .row-1 + .row-2 {
+  margin-top: 19px;
+}
+
+/**
+ * => Sidebar
+ **/
+.widget .section-heading.sh-t6.sh-s7:before,
+.widget .section-heading.sh-t6.sh-s6:before,
+.bs-vc-sidebar-column .section-heading.sh-t6.sh-s7:before,
+.bs-vc-sidebar-column .section-heading.sh-t6.sh-s6:before {
+  background: transparent !important;
+}
+
+/**
+ * => Breadcrumb
+ **/
+.bf-breadcrumb.bc-top-style {
+  padding: 0;
+}
+
+@media (max-width: 980px) {
+  body.boxed .bf-breadcrumb > .bf-breadcrumb-container {
+	padding-left: $full_separator_padding/2 !important;
+	padding-right: $full_separator_padding/2 !important;
+  }
+}
+
+/**
+ * => Pagination
+ **/
+.pagination {
+  margin: 13px 0 0;
+}
+
+.bs-listing .bs-pagination .pagination.bs-numbered-pagination .current {
+  color: #FFFFFF;
+}
+
+.bs-listing .bs-pagination .pagination.bs-numbered-pagination a.page-numbers, .bs-listing .bs-pagination .pagination.bs-numbered-pagination span, .bs-listing .bs-pagination .pagination.bs-numbered-pagination span:hover {
+  background: #f1f1f1;
+  color: #8d8d8d;
+}
+
+.pagination.bs-numbered-pagination .page-numbers, .pagination.bs-numbered-pagination span, .bs-listing .bs-pagination .pagination.bs-numbered-pagination span:hover {
+  line-height: 34px;
+  height: 35px;
+  min-width: 35px;
+  font-size: 13px;
+}
+
+.bs-pagination.bs-ajax-pagination.more_btn .btn-bs-pagination {
+  background: #f1f1f1;
+  text-transform: uppercase;
+  font-size: 13px !important;
+  line-height: 33px !important;
+  font-weight: 500;
+  width: 100%;
+  @include optimize_font;
+}
+
+.pagination:last-child {
+  margin-bottom: 4px !important;
+}
+
+.pagination.bs-numbered-pagination .current {
+  color: #fff;
+}
+
+/**
+ * => Footer Widget -> About Us
+ **/
+.site-footer .bs-about {
+  padding-top: 0 !important;
+}
+
+.ltr .site-footer .bs-about .about-text {
+  text-align: left;
+  font-size: 15px;
+  color: #6f6f6f;
+  line-height: 23px;
+}
+
+.rtl footer .bs-about .about-text {
+  text-align: right;
+  font-size: 15px;
+  color: #6f6f6f;
+  line-height: 23px;
+}
+
+.site-footer .bs-about .about-text p {
+  margin: 0 0 24px;
+}
+
+.ltr .site-footer .bs-about .about-title {
+  text-align: left;
+  margin: 0 0 22px;
+}
+
+.rtl .site-footer .bs-about .about-title {
+  text-align: right;
+  margin: 0 0 22px;
+}
+
+.ltr .site-footer .bs-about .about-icons-list {
+  text-align: left;
+}
+
+.rtl .site-footer .bs-about .about-icons-list {
+  text-align: right;
+}
+
+.footer-widgets.light-text .widget .bs-about .about-icons-list .about-icon-item a {
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  margin-right: 2px;
+}
+
+.bs-about .about-icons-list.about-icons-list .about-icon-item a i {
+  line-height: 35px;
+}
+
+/**
+ * => Footer Widget
+ **/
+.site-footer .footer-widgets .sidebar .section-heading.sh-t6:before, .site-footer .footer-widgets .sidebar .section-heading.sh-t6:before {
+  background: rgba(44, 44, 44, 0.80) !important;
+}
+
+.site-footer .listing-thumbnail .listing-item-thumbnail {
+  border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.site-footer .listing-thumbnail .listing-item-thumbnail .post-meta {
+  padding-top: 12px;
+  color: rgba(160, 160, 160, 0.5);
+}
+
+/**
+ * => Footer
+ **/
+.site-footer {
+  border-top-width: 3px;
+  border-top-style: solid;
+
+  .footer-widgets {
+	padding: 24px 0 48px;
+  }
+
+  .footer-menu-container {
+	text-align: center;
+  }
+
+  ul.menu.footer-menu > li {
+	float: none;
+	display: inline-block;
+	margin: 0 23px !important;
+  }
+
+  .footer-copy-row {
+	text-align: center;
+	margin-bottom: 22px;
+  }
+
+  .footer-menu-container {
+	border-bottom: transparent !important;
+  }
+
+  .footer-copy-row * {
+	color: #565656 !important;
+  }
+
+  .copy-2,
+  .copy-1 {
+	text-align: center;
+	width: auto;
+	padding: 0;
+	float: none;
+	display: inline-block;
+  }
+}
+
+/**
+ * => Ajax Search List
+ **/
+.ajax-ajax-posts-list .listing-item-tb-1 .post-meta {
+  padding-top: 10px !important;
+}
+
+.ajax-ajax-posts-list .listing-item-tb-1 .title {
+  line-height: 17px !important;
+}
+
+/**
+ * => Reviews
+ **/
+.bs-slider-1-item,
+.listing-mg-1-item,
+.listing-mg-2-item,
+.listing-mg-3-item,
+.listing-mg-4-item,
+.listing-mg-6-item {
+  .post-meta .rating-bar {
+	background-color: #9c9c9c;
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "rules": [
+    {
+      "class": "TextNodeRule"
+    },
+    {
+      "class": "ItalicRule",
+      "selector": "u"
+    },
+    {
+      "class": "BoldRule",
+      "selector": "bold"
+    },
+    {
+      "class": "BoldRule",
+      "selector": "strong"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bs-padding-0-1"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bs-padding-1-0"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bs-padding-1-1"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bs-padding-1-2"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bs-padding-2-1"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bs-padding-2-2"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bs-padding-3-3"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "hr.bs-divider"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bs-shortcode-list"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bs-intro"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.row"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bs-shortcode-col"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bs-shortcode-alert"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bs-tab-shortcode"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.tab-content"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "li.tab-pane"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bs-accordion-shortcode"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.panel"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.tab-pane"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bs-white-space"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.panel-body"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.panel-collapse"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.quote-content"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.quote-author"
+    },
+    {
+      "class": "ItalicRule",
+      "selector": "div.quote-author-name"
+    },
+    {
+      "class": "IgnoreRule",
+      "selector": "img.quote-author-avatar"
+    },
+    {
+      "class": "IgnoreRule",
+      "selector": "dev.better-newsticker"
+    },
+    {
+      "class": "IgnoreRule",
+      "selector": "span.quote-author-job"
+    },
+    {
+      "class": "IgnoreRule",
+      "selector": "div.bs-newsletter-pack"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.panel-heading"
+    },
+    {
+      "class": "IgnoreRule",
+      "selector": "meta"
+    },
+    {
+      "class": "IgnoreRule",
+      "selector": "div.fb-page"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "sup"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "sub"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.fia-pass"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bwe-preview"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.bs-irp"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.author"
+    },
+    {
+      "class": "PassThroughRule",
+      "selector": "div.better-gallery-container"
+    },
+    {
+      "class": "IgnoreRule",
+      "selector": "div.bwe-download-document"
+    }
+  ]
+}

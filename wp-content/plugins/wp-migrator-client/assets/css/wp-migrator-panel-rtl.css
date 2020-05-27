@@ -1,0 +1,163 @@
+/**
+ * 1.1. =>Layout
+ **************************************************************/
+
+.wp-migrator-panel {
+    margin-right: -20px;
+    margin-left: auto;
+}
+
+.product-items {
+    text-align: right;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.product-items .product-item:last-child {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.product-items .item-link {
+    right: 0;
+    left: auto;
+}
+
+.product-items .product-item-badge {
+    right: 0;
+    left: auto;
+}
+
+.product-items .play-button {
+    padding: 12px 19px 12px 15px;
+    left: 20px;
+    right: auto;
+}
+
+/**
+ * 1.2. =>Buttons
+ **************************************************************/
+
+.product-item.destination-product {
+    float: left;
+}
+
+.product-item.source-product {
+    float: right;
+}
+
+.mg-btn .fa {
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+/**
+    -> ProgressBar
+*/
+.mg-pages-progressbar {
+    right: -1px;
+    left: auto;
+}
+
+.migration-process-loading .fa {
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.migration-process-detail .fa {
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.migration-process-detail li.no-icon {
+    padding-right: 30px;
+    padding-left: 0;
+}
+
+.migration-user-settings .description {
+    padding: 8px 28px 0 10px;
+}
+
+.migration-user-settings .children {
+    margin: 10px 30px 10px 10px;
+}
+
+/**
+ * Multistate checkbox
+ **************************/
+.bf-checkbox-multi-state {
+    margin: 0 0 0 5px;
+}
+
+.bf-checkbox-multi-state > span {
+    left: 0;
+    right: -1px;
+}
+
+/**
+ *
+ ********* Migrator Styles ***********/
+
+.migrator-report .summery li {
+    margin: 0 0 3% 3%;
+    float: right;
+}
+
+.migrator-report .summery li:last-child {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/* Tabs */
+
+.wpmg-tabs li {
+    margin: 0 0 -1px 20px;
+}
+
+.wpmg-tabs li:first-child {
+    border-top-right-radius: 3px;
+}
+
+.wpmg-tabs li:last-child {
+    border-top-left-radius: 3px;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.wpmg-tabs .count-badge {
+    margin-right: 4px;
+    margin-left: auto;
+}
+
+/* Search Button */
+
+.wpmg-items-search input {
+    padding: 15px 20px 15px 40px;
+}
+
+.wpmg-items-search:after {
+    left: 10px;
+    right: auto;
+}
+
+/* Loading Animation */
+
+.migrator-loading.single .loading-arrow {
+    transform: rotate(225deg);
+}
+
+.migrator-loading.stop .loading-arrow {
+    transform: rotate(225deg);
+}
+
+/* Finished Message */
+
+.mg-progressbar-bg {
+    right: 0;
+    left: auto;
+}
+
+.migration-process-control .fa {
+    margin-left: 3px;
+    margin-right: auto;
+}

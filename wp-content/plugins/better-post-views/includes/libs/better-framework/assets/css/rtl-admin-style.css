@@ -1,0 +1,1194 @@
+/***
+ *  BetterFramework is BetterStudio framework for themes and plugins.
+ *
+ *  ______      _   _             ______                                           _
+ *  | ___ \    | | | |            |  ___|                                         | |
+ *  | |_/ / ___| |_| |_ ___ _ __  | |_ _ __ __ _ _ __ ___   _____      _____  _ __| | __
+ *  | ___ \/ _ \ __| __/ _ \ '__| |  _| '__/ _` | '_ ` _ \ / _ \ \ /\ / / _ \| '__| |/ /
+ *  | |_/ /  __/ |_| ||  __/ |    | | | | | (_| | | | | | |  __/\ V  V / (_) | |  |   <
+ *  \____/ \___|\__|\__\___|_|    \_| |_|  \__,_|_| |_| |_|\___| \_/\_/ \___/|_|  |_|\_\
+ *
+ *  Copyright © 2017 Better Studio
+ *
+ *
+ *  Our portfolio is here: http://themeforest.net/user/Better-Studio/portfolio
+ *
+ *  \--> BetterStudio, 2017 <--/
+ */
+
+
+/*
+
+1. =>Base
+    1.1. =>Main Helpers
+    1.2. =>Buttons
+    1.3. =>Columns
+    1.4. =>General Classes
+
+2. =>General Fields
+    2.1. =>Section
+    2.2. =>Heading
+    2.3. =>Color
+    2.4. =>Image Radio Option
+    2.5. =>Media Image
+    2.6. =>Background Image
+    2.7. =>Sorter
+    2.8. =>Ajax Select
+    2.9. =>Social Counter Sorter
+    2.10. =>Image Select
+    2.11. =>Icon Select
+    2.12. =>Typography
+    2.13. =>Social Share Sorter
+    2.14. =>Repeater Item
+    2.15. =>Border
+    2.16. =>Info
+    2.17. =>Switch
+    2.18. =>Fields Group
+    2.19. =>Media
+    2.20. =>Code Editor
+    2.21. =>Term Select Field Style
+    2.22. =>Selector Modal
+    2.23. =>Pre Defined Styles Modal
+    2.24. =>Popup Select
+    2.25. =>Custom Checkbox/Radio Field
+
+3. =>Admin Panel
+    3.1. =>Section
+    3.2. =>Panel
+    3.3. =>Panel Header
+    3.4. =>Panel Main
+    3.5. =>Panel Nav
+    3.6. =>Panel Content
+    3.7. =>Panel Footer
+    3.8. =>Typography
+    3.9 =>Panel Loading
+
+4. =>Widgets
+    4.1. =>General style
+    4.2. =>Section
+    4.3. =>Ajax Select
+
+5. =>Taxonomies
+
+6. =>Visual Composer
+    6.1. =>Color Picker
+    6.2. =>Image Radio
+    6.3. =>Ajax Select
+    6.4. =>Icon Radio
+    6.5. =>Heading
+    6.6. =>Editor ShortCode
+    6.7. =>VC Media Image
+    6.8. =>VC Info
+    6.9. =>Switch
+    6.10. =>Select
+    6.11. =>Column
+
+7. =>Menus
+    7.1. =>Mega Menu Field
+    7.2. =>Menu Badge Field
+    7.3. =>Heading
+    7.4. =>Color Picker
+    7.5. =>Checkbox
+
+8. =>Meta Box
+    8.1. =>Section
+    8.2. =>Tabs
+    8.3. =>Heading
+
+
+9. =>Font Manager
+    9.1. =>Fields
+
+10. =>User Metabox
+
+
+11. =>Admin Menus
+
+12. =>Notice System
+
+9. =>Last Not Refactored Codes
+
+*/
+
+.bf-clear-right{
+    clear: left !important;
+}
+.bf-clear-left{
+    clear: right !important;
+}
+
+/**
+ * 1.2. =>Buttons
+ **************************************************************/
+.bf-button .fa,
+.bf-button .dashicons {
+    margin-left: 5px;
+    margin-right: auto;
+}
+.bf-button i[class^="bsai-"] {
+    margin-left: 4px;
+    margin-right: auto;
+}
+
+
+/**
+ * 1.3. =>Columns
+ **************************************************************/
+.bf-columns-2 .bf-column {
+    float: right;
+}
+.bf-columns-2 .bf-column:nth-child(odd) {
+    padding-left: 13px;
+    clear: right;
+    padding-right: 0;
+}
+.bf-columns-2 .bf-column:nth-child(even) {
+    padding-right: 13px;
+    padding-left: 0;
+}
+/* 3 Column */
+.bf-columns-3 .bf-column {
+    float: right;
+}
+.bf-columns-3 .bf-column:nth-child( 3n-2 ) {
+    padding-left: 12px;
+    clear: right;
+    padding-right: 0;
+}
+.bf-columns-3 .bf-column:nth-child( 3n+3  ) {
+    padding-right: 12px;
+    padding-left: 0;
+}
+
+/* 4 Column */
+.bf-columns-4 .bf-column {
+    float: right;
+}
+.bf-columns-4 .bf-column:nth-child(4n-3) {
+    padding-right: 0;
+    padding-left: 12px;
+    clear: right;
+}
+.bf-columns-4 .bf-column:nth-child(4n+2) {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+.bf-columns-4 .bf-column:nth-child(4n+3) {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+.bf-columns-4 .bf-column:nth-child(4n+4) {
+    padding-left: 0;
+    padding-right: 12px;
+}
+
+
+/**
+ * 1.4. =>General Classes
+ **************************************************************/
+.bf-item-container {
+    float: right;
+    margin-left: 22px;
+    margin-right: auto;
+}
+.bf-item-title {
+    text-align: right;
+    padding: 12px 12px 12px 0;
+}
+.bf-item-buttons {
+    float: left;
+}
+.bf-item-buttons a {
+    margin: 0 0 0 12px;
+}
+.bf-item-buttons a:last-child {
+    margin-left: 0;
+    margin-right: auto;
+}
+.bf-item-buttons>span {
+    float: left;
+}
+.bf-item-buttons>span:last-child {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+
+/**
+ * 2. =>General Fields
+ **************************************************************/
+/***** Field Prefix or Suffix ******/
+.bf-field-with-suffix.bf-field-with-prefix input[type=text] {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.bf-field-with-prefix span.bf-prefix {
+    margin-left: -5px;
+    border-left: none;
+    margin-right: auto;
+    border-right: none;
+}
+.bf-field-with-suffix span.bf-suffix {
+    margin-right: -5px;
+    border-right: none;
+    margin-left: auto;
+    border-left: none;
+}
+
+/* text helpers */
+.bf-text-left {
+    text-align: left;
+}
+.bf-text-right {
+    text-align: right;
+}
+
+
+/**
+ * 2.1. =>Section
+ **************************************************************/
+.bf-section-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bf-section-container .bf-section.full-with-both > .bf-explain,
+.bf-section-container .bf-section.full-with-both > .bf-heading,
+.bf-section-container .bf-section.full-with-heading > .bf-heading {
+    padding-left: 0 !important;
+    padding-right: 0;
+}
+
+
+/**
+ * 2.2. =>Heading
+ **************************************************************/
+
+
+/**
+ * 2.3. =>Color
+ **************************************************************/
+.bf-section-container .bf-color-picker-preview {
+    left: 5px;
+    right: auto;
+}
+
+
+/**
+ * 2.4. =>Image Radio Option
+ **************************************************************/
+.bf-section-container .style-floated-right .bf-image-radio-option {
+    float: right;
+    margin-left: 6px;
+    margin-right: auto;
+}
+
+
+/**
+ * 2.5. =>Media Image
+ **************************************************************/
+.bf-section-container .bf-section-media_image-option .bf-media-image-remove-btn {
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+
+/**
+ * 2.6. =>Background Image
+ **************************************************************/
+.wpb_edit_form_elements .bf-section-container .bf-background-image-remove-btn,
+.bf-section-container .bf-background-image-remove-btn {
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+
+/**
+ * 2.7. =>Sorter
+ **************************************************************/
+.bf-section-container .ui-slider .ui-slider-range:after {
+    left: -7px;
+    right: auto;
+}
+.bf-section-container .ui-slider .ui-slider-handle {
+    right: 0 !important;
+    left: auto;
+}
+
+
+/**
+ * 2.8. =>Ajax Select
+ **************************************************************/
+.bf-ajax_select-field-container input {
+    padding: 0px 15px 0 36px;
+}
+.bf-ajax_select-field-container span.bf-search-loader {
+    left: 1px;
+    border-right: 1px solid #d9d9d9;
+    right: auto;
+    border-left: none;
+}
+.bf-ajax-suggest-search-results {
+    right: 0px;
+    left: auto;
+}
+.bf-ajax-suggest-controls > li {
+    margin: 9px 0 9px 9px;
+}
+.bf-ajax-suggest-controls > li .del {
+    margin-right: 8px;
+    margin-left: auto;
+}
+
+
+/**
+ * 2.9. =>Social Counter Sorter
+ **************************************************************/
+.bf-section-container.vc-input .bf-vc-sorter-list li input {
+    margin: -5px 5px 0 2px;
+}
+.bf-section-container.vc-input .bf-vc-sorter-list li:after,
+.bf-section-container .better-social-counter-sorter .bf-sorter-list li:after {
+    left: 7px;
+    right: auto;
+}
+
+
+/**
+ * 2.10. =>Image Select
+ **************************************************************/
+.bf-section-container .better-select-image .select-label {
+    padding-left: 8px;
+    padding-right: 0;
+}
+.bf-section-container .better-select-image .select-options:after {
+    left: -1px;
+    right: auto;
+}
+.bf-section-container .better-select-image .select-options .better-select-image-options {
+    right: -1px;
+    left: -1px;
+}
+
+/* 2 Column Style */
+.bf-section-container .better-select-image.opened .select-options .better-select-image-options ul.grid-2-column li {
+    float: right;
+}
+.bf-section-container .better-select-image.opened .select-options .better-select-image-options ul.grid-2-column li:nth-child(odd) {
+    margin-left: 4px;
+    margin-right: auto;
+}
+.bf-section-container .better-select-image.opened .select-options .better-select-image-options ul.grid-2-column li:nth-child(even) {
+    margin-right: 4px;
+    margin-left: auto;
+}
+
+/* 3 Column Style */
+.bf-section-container .better-select-image.opened .select-options .better-select-image-options ul.grid-3-column li {
+    float: right;
+}
+.bf-section-container .better-select-image.opened .select-options .better-select-image-options ul.grid-3-column li:nth-child(3n-1) {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/* 4 Column Style */
+.bf-section-container .better-select-image.opened .select-options .better-select-image-options ul.grid-4-column li {
+    float: right;
+}
+.bf-section-container .better-select-image.opened .select-options .better-select-image-options ul.grid-4-column li {
+    margin-left: 4px;
+    float: right;
+    margin-right: auto;
+}
+.bf-section-container .better-select-image.opened .select-options .better-select-image-options ul.grid-4-column li:nth-child(16),
+.bf-section-container .better-select-image.opened .select-options .better-select-image-options ul.grid-4-column li:nth-child(8),
+.bf-section-container .better-select-image.opened .select-options .better-select-image-options ul.grid-4-column li:nth-child(4) {
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+
+/**
+ * 2.11. =>Icon Select
+ **************************************************************/
+.bf-section-container .bf-icon-modal-handler .select-options .selected-option .text-muted {
+    margin-right: 3px;
+    margin-left: auto;
+}
+.bf-section-container .bf-icon-modal-handler .select-options .selected-option .bf-icon {
+    margin-left: 4px;
+    text-align: right;
+    margin-right: auto;
+}
+.bf-section-container .bf-icon-modal-handler .select-options:before {
+    left: 0px;
+    border-right: 1px solid #d9d9d9;
+    right: auto;
+    border-left: none;
+}
+
+
+/**
+ * 2.12. =>Typography
+ **************************************************************/
+.bf-section-container .typo-field-container {
+    float: right;
+}
+.bf-section-container .typo-field-container:before {
+    left: 10px !important;
+    right: auto !important;
+}
+.bf-section-container .bf-section.bf-section-typography-option .bf-heading {
+    padding: 0 10px 0 !important ;
+}
+.bf-section-container .typo-field-container .bf-field-with-prefix span {
+    border-left: 1px solid #d9d9d9;
+    border-right: none;
+}
+.bf-section-container .typo-field-container .bf-field-with-suffix span {
+    border-right: 1px solid #d9d9d9;
+}
+.bf-section-container .typography-preview .preview-tab .tab {
+    float: right;
+}
+.bf-section-container .typography-preview .preview-tab .tab a {
+    border-left: none;
+    border-right: none;
+}
+.bf-section-container .typography-preview .preview-tab .tab:last-child a {
+    border-left: 1px solid #d3d3d3;
+    border-right: none;
+}
+.bf-section-typography-option.have-enable-field.disable-field .enable-disable,
+.bf-section-typography-option.have-enable-field.disable-field .bf-explain:before {
+    right: 0;
+    left: auto;
+}
+.typo-field-container .chosen-container-single .chosen-single div {
+    border-right: 1px solid #D6D6D6;
+    border-left: none;
+}
+.typo-field-container .chosen-container-single.chosen-rtl .chosen-single div {
+    border-right: none;
+    border-left: 1px solid #D6D6D6;
+    right: 0;
+    left: auto;
+}
+
+
+/**
+ * 2.13. =>Social Share Sorter
+ **************************************************************/
+.bf-section-container.vc-input.bs-theme-social-share-sorter .bf-vc-sorter-list li,
+.bf-section-container .bs-theme-social-share-sorter .bf-sorter-list li {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.bf-section-container.vc-input.bs-theme-social-share-sorter .bf-vc-sorter-list li .fa,
+.bf-section-container .bs-theme-social-share-sorter .bf-sorter-list li .fa {
+    margin-left: 5px;
+    margin-right: auto;
+}
+.bf-section-container .bs-theme-social-share-sorter .bf-sorter-list li.item-line .fa.fa-line-it {
+    margin-right: -5px;
+    margin-left: auto;
+}
+.bf-section-container .bs-theme-social-share-sorter .bf-sorter-list li.item-bbm .fa.fa-bbm {
+    margin-right: -5px;
+    margin-left: auto;
+}
+.bf-section-container .bs-theme-social-share-sorter .bf-sorter-list li.item-viber .fa.fa-viber {
+    margin-right: -5px;
+    margin-left: auto;
+}
+.bf-section-container.vc-input.bs-theme-social-share-sorter li input,
+.bf-section-container .bs-theme-social-share-sorter .bf-sorter-list li input {
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+
+/**
+ * 2.14. =>Repeater Item
+ **************************************************************/
+.bf-repeater-item .bf-remove-repeater-item-btn {
+    float: left;
+}
+
+/* repeator item title */
+.bf-repeater-item .bf-repeater-item-title {
+    padding: 0 15px 0 55px;
+}
+
+/* repeater item handle */
+.bf-repeater-item .bf-repeater-item-title .handle-repeater-item {
+    float: left;
+    left: -1px;
+    right: auto;
+}
+
+
+/**
+ * 2.15. =>Border
+ **************************************************************/
+
+
+/**
+ * 2.16. =>Info
+ **************************************************************/
+.bf-section-container .bf-section-info .bf-section-info-title .fa {
+    margin-left: 3px;
+    margin-right: auto;
+}
+.bf-section-container .bf-section-info .info-value ul {
+    padding-right: 20px;
+    padding-left: 0;
+}
+.bf-section-container .bf-section-info .info-value ol {
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+
+/**
+ * 2.17. =>Switch
+ **************************************************************/
+.bf-switch .cb-enable,
+.bf-switch .cb-disable,
+.bf-switch .cb-enable span,
+.bf-switch.cb-disable span {
+    float: right;
+}
+.bf-switch .cb-enable span {
+    border-left-color: transparent;
+}
+.bf-switch .cb-enable:hover span {
+    border-left-color: transparent;
+}
+.bf-switch .cb-disable span {
+    border-right-color: transparent;
+}
+.bf-switch .cb-disable:hover span {
+    border-right-color: transparent;
+}
+.bf-switch .cb-disable span {
+    border-radius: 33px 0 0 33px;
+}
+.bf-switch .cb-enable span {
+    border-radius: 0 33px 33px 0;
+}
+
+
+/**
+ * 2.18. =>Fields Group
+ **************************************************************/
+.fields-group .fields-group-title-container .fields-group-title {
+    padding: 0 20px 0 62px;
+}
+.fields-group.collapsible .fields-group-title-container .collapse-button {
+    left: -1px;
+    right: auto;
+}
+
+
+/**
+ * 2.19. =>Media
+ **************************************************************/
+.bf-section-container .bf-section.bf-section-media-option .bf-controls input[type=text] {
+    float: right;
+}
+.bf-section-container .bf-section.bf-section-media-option .bf-controls .bf-media-upload-btn {
+    float: left;
+}
+
+
+/**
+ * 2.20. =>Code Editor
+ **************************************************************/
+
+
+/**
+ *   2.21. =>Term Select Field Style
+ **************************************************************/
+.bf-checkbox-multi-state {
+    margin: 0 0 0 5px;
+}
+.bf-checkbox-multi-state > span {
+    left: 0;
+    right: 0;
+}
+.bf-field-term-select-help {
+    text-align: right;
+}
+.bf-field-term-select-help .bf-checkbox-multi-state {
+    margin:0 9px 0 0;
+}
+.bf-field-term-select-wrapper {
+    padding: 3px 0 0px 10px;
+}
+.bf-field-term-select-wrapper li:before {
+    right: -22px;
+    left: auto;
+}
+.bf-field-term-select-wrapper li li:last-child:after {
+    right: -32px;
+    left: auto;
+}
+.bf-field-term-select-wrapper ul {
+    border-right:1px solid #CECECC;
+    padding: 0 22px 0 0;
+    border-left: none;
+}
+.bf-field-term-select-wrapper ul ul {
+    margin-right: 9px;
+    margin-left: auto;
+}
+.bf-field-term-select-wrapper .bf-make-term-primary,
+.bf-field-term-select-wrapper .bf-excluded-term {
+    margin-right: 15px;
+    margin-left: auto;
+}
+.bf-field-term-select-wrapper .bf-make-term-primary:before ,
+.bf-field-term-select-wrapper .bf-excluded-term:before {
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+
+/**
+* 2.22. =>Selector Modal
+ **************************************************************/
+.bssm-list {
+    padding: 20px 20px 20px 0;
+}
+.bssm-item {
+    text-align: right;
+    margin: 0 0 15px 15px;
+}
+.bssm-style-1 .bssm-item {
+    margin: 0 0 22px 22px;
+}
+.bssm-style-1 .bssm-selected:before {
+    left: 0;
+    right: auto;
+}
+.bssm-style-1 .bssm-info {
+    text-align: right;
+}
+.bssm-style-1 .bssm-info > .bssm-styles {
+    float: left;
+}
+.bssm-content {
+    margin-left: 260px;
+    margin-right: auto;
+}
+
+
+/**
+* 22.23. =>Pre Defined Styles Modal
+ **************************************************************/
+.pds-modal .bf-item-title {
+    padding:9px 12px 9px 0;
+}
+
+
+/**
+* 22.24. =>Popup Select
+ **************************************************************/
+.bf-checkbox-multi-state,
+.bf-radio-field {
+    margin: 0 0 0 5px;
+}
+.bf-radio-field .fa {
+    right: 50%;
+    margin-right: -6px;
+    left: auto;
+    margin-left: auto;
+}
+
+
+/**
+* 22.25. =>Custom Checkbox/Radio Field
+ **************************************************************/
+.select-popup-selected-image {
+    float: right;
+}
+.select-popup-selected-image:before {
+    left: 0;
+    right: auto;
+}
+.select-popup-selected-info {
+    float: right;
+}
+
+
+/**
+* Selector Modal Sidebar
+*/
+.bssm-sidebar {
+    border-right: 1px solid #cecece;
+    left: 0;
+    right: auto;
+    border-left: none;
+}
+.bssm-sidebar .title span {
+    padding-left: 12px;
+    padding-right: 0;
+}
+.bssm-sidebar .title:after {
+    right: 0;
+    left: auto;
+}
+.bssm-search .fa {
+    left: 14px;
+    right: auto;
+}
+.bssm-search-input {
+    padding: 0 18px 0 30px;
+}
+.bs-selector-modal .bf-checkbox-multi-state[data-current-state="active"] .fa,
+.bs-selector-modal .bf-checkbox-multi-state[data-current-state="active"] + .label {
+    margin-right: -1px;
+    margin-left: auto;
+}
+.bssm-filter .length {
+    left: 0;
+    right: auto;
+}
+.bssm-button .fa {
+    margin-left: 5px;
+    margin-right: auto;
+}
+.bssm-sidebar-footer {
+    left: -10px;
+    right: -10px;
+}
+
+
+/*
+    Upload Font Modal Style
+*/
+.bs-font-upload-modal .font-woff,
+.bs-font-upload-modal .font-ttf,
+.bs-font-upload-modal .font-svg,
+.bs-font-upload-modal .font-eot {
+    float: right;
+}
+.bs-font-upload-modal .input-section .bssm-button {
+    left: -10px;
+    border-radius: 19px 0 0 19px;
+    right: auto;
+}
+.bs-font-upload-modal .bf-choose-fonts .input {
+    padding-left: 105px;
+    padding-right: 15px;
+}
+
+
+/**
+ * 3. =>Admin Panel
+ **************************************************************/
+.bf-admin-panel .panel-wrapper {
+    margin-right: -20px;
+    margin-left: auto;
+}
+.bf-page-header.sticky {
+    right: 0;
+    left: auto;
+}
+.bf-page-header.sticky .bf-page-header-inner {
+    padding: 20px 190px 20px 30px;
+}
+.bf-page-header .bf-options-change-notice {
+    right: 50%;
+    left: auto;
+}
+.bf-page-header .bf-options-change-notice:before {
+    margin-left: 4px;
+    margin-right: auto;
+}
+
+
+/**
+ * 3.1. =>Section
+ **************************************************************/
+.bf-section-container.bf-admin-panel .bf-section .bf-heading {
+    float: right;
+    padding: 0 0 0 20px;
+}
+.bf-section-container.bf-admin-panel .bf-section .bf-heading h3 {
+    margin: 0 8px 0 !important;
+}
+.bf-section-container.bf-admin-panel .bf-section .bf-controls {
+    float: left;
+}
+.bf-section-container.bf-admin-panel .bf-section .bf-explain {
+    float: right;
+    padding: 0 0 0 15px;
+    clear: right;
+}
+
+
+/**
+ * 3.2. =>Panel
+ **************************************************************/
+#bf-panel .fleft {
+    float: left;
+}
+#bf-panel .fright {
+    float: right;
+}
+
+
+/**
+ * 3.3. =>Panel Header
+ **************************************************************/
+.bf-header .logo-sec {
+    float: right;
+    padding-right: 18px;
+    padding-left: 0;
+}
+.bf-header .save-btn-sec {
+    float: left;
+}
+.bf-header .logo .version {
+    margin-right: 5px;
+    margin-left: auto;
+}
+
+
+/**
+ * 3.4. =>Panel Main
+ **************************************************************/
+
+
+/**
+ * 3.5. =>Panel Nav
+ **************************************************************/
+#bf-nav {
+    float: right;
+}
+#bf-nav>ul>li a {
+    padding: 14px 16px 14px 0;
+    border-right: 1px solid #E8E8E8;
+    border-left: none;
+}
+#bf-nav>ul>li a .bf-icon {
+    margin: 0 0 0 7px;
+    float: right;
+}
+#bf-nav>ul>li.child_active>a:after,
+#bf-nav>ul>li a.active_tab:after {
+    left: -1px;
+    right: auto;
+}
+.bf-tab-badge {
+    left: 10px;
+    right: auto;
+}
+.bf-tab-badge:after {
+    right: -10px;
+    border-left-color: inherit;
+    border-right-color: transparent;
+    left: auto;
+}
+
+
+/**
+ * 3.6. =>Panel Content
+ **************************************************************/
+#bf-content {
+    float: left;
+}
+
+
+/**
+ * 3.7. =>Panel Footer
+ **************************************************************/
+#bf-panel .bf-footer .reset-sec {
+    float: right;
+}
+
+
+/**
+ * 3.8. =>Typography
+ **************************************************************/
+
+
+/**
+ * 3.9 =>Panel Loading
+ **************************************************************/
+#bf-panel .bf-loading {
+    right: 0;
+    left: auto;
+}
+#bf-panel .bf-loading .loader {
+    right: 50%;
+    margin-right: -150px;
+    left: auto;
+    margin-left: auto;
+}
+#bf-panel .bf-loading .loader .loader-icon {
+    right: 50%;
+    margin-right: -30px;
+    left: auto;
+    margin-left: auto;
+}
+#bf-panel .bf-loading .loader .message {
+    right: auto;
+    left: auto;
+}
+
+
+/**
+ * 4.3. =>Ajax Select
+ **************************************************************/
+.bf-section-container.bf-widgets .bf-ajax_select-field-container span.preloader {
+    right: initial;
+    left: 5px;
+}
+
+
+/**
+ * 6. =>Visual Composer
+ **************************************************************/
+.bf-css-edit-switch-container {
+    float: right !important;
+}
+.vc_shortcode-param .bf-section-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/**
+ * 6.1. =>Color Picker
+ **************************************************************/
+.wpb_edit_form_elements .bf-section-container .bf-color-picker-preview {
+    right: -26px;
+    left: auto;
+}
+
+
+/**
+ * 6.2. =>Image Radio
+ **************************************************************/
+.bf-section-container .style-floated-left .bf-image-radio-option {
+    float: right;
+    margin-left: 6px;
+    margin-right: auto;
+}
+
+
+/**
+ * 6.3. =>Ajax Select
+ **************************************************************/
+.vc_row-fluid .bf-ajax-suggest-search-results {
+    right: initial;
+    left: auto;
+}
+.vc_row-fluid .bf-ajax_select-field-container span.preloader {
+    right: inherit;
+    left: 10px;
+}
+
+
+/**
+ * 6.7. =>VC Media Image
+ **************************************************************/
+.bf-section-container.vc-input .bf-media-image-remove-btn {
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+
+/**
+ * 6.11. =>Column
+ **************************************************************/
+.bf-vc-third-column {
+    float: right !important;
+}
+
+
+/**
+ * 7. =>Menus
+ **************************************************************/
+.better-menu-container {
+    float: right;
+}
+.bf-section-container.bf-menus .bf-field-with-prefix span,
+.bf-section-container.bf-menus .bf-field-with-suffix span {
+    margin-right: -2px;
+    margin-left: auto;
+}
+
+
+/**
+ * 7.1. =>Mega Menu Field
+ **************************************************************/
+.menu-item.menu-item-depth-0 .fields-group#fields-group-mega_menu_heading .bf-field-mega_menu_cat {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+
+/**
+ * 7.3. =>Heading
+ **************************************************************/
+.bf-section-container.bf-menus .bf-section-heading .bf-section-heading-title h3 {
+    margin: 0 0px -2px 0  ;
+}
+
+
+/**
+ * 7.8. =>Group
+ **************************************************************/
+.menu-item .fields-group {
+    float: right;
+}
+.menu-item .fields-group .fields-group-title-container .fields-group-title {
+    padding: 0 16px 0 62px;
+}
+
+
+/**
+ * 8.1. =>Section
+ **************************************************************/
+.bf-section-container.bf-metabox .bf-section .bf-heading {
+    float: right;
+    padding: 0 0 0 20px;
+}
+.bf-section-container.bf-metabox .bf-section .bf-heading h3 {
+    margin: 0 8px 0 !important;
+}
+.bf-section-container.bf-metabox .bf-section.no-desc .bf-controls,
+.bf-section-container.bf-metabox .bf-section .bf-controls {
+    float: left;
+}
+.bf-section-container.bf-metabox .bf-section .bf-explain {
+    float: right;
+    padding: 0 0 0 15px;
+    clear: right;
+}
+.bf-section-container .bf-controls-background_image-option .bf-background-image-uploader-select-container:before,
+.bf-section-container .bf-select-option-container:before {
+    left: 0;
+    right: auto;
+}
+.bf-section-container.dir-ltr .bf-section .bf-controls.bf-controls-text-option input[type=text] {
+    text-align: right;
+}
+.bf-section-container.dir-rtl .bf-section .bf-controls.bf-controls-text-option input[type=text] {
+    text-align: left;
+}
+.bf-section-container.dir-ltr .bf-section .bf-controls textarea,
+.bf-section-container.dir-ltr .bf-section .bf-controls select,
+.bf-section-container.dir-ltr .bf-section .bf-controls .select-placeholder {
+    text-align: right;
+}
+.bf-section-container.dir-rtl .bf-section .bf-controls textarea,
+.bf-section-container.dir-rtl .bf-section .bf-controls select ,
+.bf-section-container.dir-rtl .bf-section .bf-controls .select-placeholder {
+    text-align: left;
+}
+
+
+/**
+ * 8.2. =>Tabs
+ **************************************************************/
+.bf-metabox-tabs {
+    float: right;
+}
+.bf-metabox-tabs .bf-tab-item-a .tab-icon {
+    margin-left: 6px;
+    margin-right: auto;
+}
+.bf-metabox-tabs .bf-tab-item-a.active_tab:after {
+    left: -1px;
+    right: auto;
+}
+.bf-metabox-container.bf-with-tabs {
+    float: left;
+    border-right: 1px solid #e2dddb;
+    border-left: none;
+}
+
+
+/**
+ * 9. =>Font Manager
+ **************************************************************/
+.bf-section-container.better-font-stack-name {
+    float: right;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.bf-section-container.better-font-stack-stack {
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+/**
+ * 9.1. =>Fields
+ **************************************************************/
+.bf-repeater-item .repeater-item-container .bf-section-container.better-custom-fonts-svg,
+.bf-repeater-item .repeater-item-container .bf-section-container.better-custom-fonts-woff {
+    float: right;
+}
+.bf-repeater-item .repeater-item-container .bf-section-container.better-custom-fonts-svg {
+    clear: right;
+}
+.bf-repeater-item .repeater-item-container .bf-section-container.better-custom-fonts-eot,
+.bf-repeater-item .repeater-item-container .bf-section-container.better-custom-fonts-ttf {
+    float: left;
+}
+
+
+/***
+    Notice Styles
+**/
+.bf-notice {
+    margin: 5px 0 2px 10px;
+}
+.bf-notice.bf-notice-dismissible {
+    padding-left: 40px;
+    padding-right: 0;
+}
+.bf-notice-text-container {
+    padding-left: 0;
+    padding-right: 12px;
+}
+.bf-notice .bf-notice-thumbnail {
+    margin-left: 12px;
+    margin-right: auto;
+}
+.bf-notice-no-thumbnail.bf-notice-success {
+    border-right: 4px solid #46b450;
+    border-left: none;
+}
+.bf-notice-no-thumbnail.bf-notice-warning {
+    border-right:4px solid #ffb900;
+    border-left: none;
+}
+.bf-notice-no-thumbnail.bf-notice-danger {
+    border-right:4px solid #dc3232;
+    border-left: none;
+}
+.bf-notice-dismiss {
+    left: 1px;
+    right: auto;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* bf Meta Box styles */
+/*-------------------------------------------------------------------------------------------*/
+.ui-slider .ui-slider-range:after {
+    left: -7px;
+    right: auto;
+}
+.bf-metabox-tabs .bf-tab-item-a .bf-icon{
+    float: right;
+    margin-left: 8px;
+}

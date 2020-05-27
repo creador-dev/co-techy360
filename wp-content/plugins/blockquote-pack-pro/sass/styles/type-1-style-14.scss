@@ -1,0 +1,47 @@
+@import "variables.scss";
+
+blockquote.bs-quote.bsq-t1.bsq-s14 {
+
+  &.bs-quote {
+	padding: 0;
+	font-size: 132%;
+  }
+
+  &.bs-quote p,
+  &.bs-quote {
+	color: $primary-color;
+	font-weight: bolder;
+  }
+
+  &.bs-quote.bsq-right,
+  &.bs-quote.bsq-left {
+	max-width: 320px;
+  }
+
+  &.bs-quote:before,
+  &.bs-quote:after {
+	display: none;
+  }
+
+  &.bs-quote.bsq-right .quote-author,
+  &.bs-quote.bsq-right {
+	text-align: right;
+  }
+
+  &.bs-quote.bsq-left .quote-author,
+  &.bs-quote.bsq-left {
+	text-align: left;
+  }
+
+  .quote-author-name {
+	color: #272727;
+  }
+
+  &.bsq-left {
+	margin-right: 30px;
+  }
+
+  &.bsq-right {
+	margin-left: 30px;
+  }
+}

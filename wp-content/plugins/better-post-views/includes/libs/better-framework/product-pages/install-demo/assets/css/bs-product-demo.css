@@ -1,0 +1,166 @@
+/**
+    =>BS Product Import Style
+ **/
+
+
+/**
+* =>BS Product Import Style
+**/
+.bs-pages-demo-item {
+    width: 330px;
+    height: 294px;
+}
+
+.installed .bs-pages-buttons>span:not(.uninstall-demo) {
+    display: none;
+}
+.installed .bs-pages-buttons .uninstall-demo {
+    display: block;
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.bs-pages-secondary-btn {
+    background: #fbfbfb;
+    color: #757575;
+    border-color: #e3e3e3;
+}
+.bs-pages-buttons .uninstall-demo {
+    display: none;
+}
+.installed .bs-pages-buttons .uninstall-demo {
+    display: block;
+}
+.bs-pages-buttons .uninstall-demo .bs-pages-secondary-btn {
+    color: #e74a4a;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+
+
+.installed .bs-pages-progressbar .bs-pages-progress {
+    background-color: #de3030;
+}
+.bs-pages-demo-item-footer {
+    min-height:232px;
+}
+
+.bs-pages-demo-item-footer .messages {
+    float: right;
+}
+.bs-pages-demo-item-footer .messages .fa {
+    margin-right: 4px;
+    vertical-align: middle;
+}
+.bs-pages-demo-item-footer .messages>div {
+    display: none;
+    font-weight: 600;
+    vertical-align: middle;
+    padding: 15px 12px 15px;
+    font-size: 14px;
+}
+.bs-pages-demo-item-footer .messages>.installing {
+    color: #06bb51;
+}
+.bs-pages-demo-item-footer .messages>.uninstalling,
+.bs-pages-demo-item-footer .messages>.failed {
+    color: #e74a4a;
+}
+
+.bs-pages-demo-item-footer .messages>.installed,
+.bs-pages-demo-item-footer .messages>.uninstalled {
+    color: #06bb51;
+}
+.bs-pages-ribbon-wrapper {
+    position: relative;
+    overflow: visible;
+    opacity: 0;
+
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+.installed .bs-pages-ribbon-wrapper {
+    opacity: 1;
+}
+.bs-pages-ribbon-wrapper .bs-pages-ribbon {
+    border-right: 62px solid transparent;
+    border-top: 62px solid #06bb51;
+    height: 0;
+    position: absolute;
+    width: 0;
+    left: 0;
+}
+.bs-pages-ribbon-label {
+    position: absolute;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    top: 5px;
+    left: 10px;
+}
+.bs-pages-demo-item.demo-disabled .bs-pages-overlay {
+    display: block;
+}
+.bs-pages-demo-item.demo-disabled {
+    opacity:0.5;
+}
+
+
+/**
+* ->Badges
+**/
+.bf-item-container .demo-badges{
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 0;
+}
+.bf-item-container .demo-badges .badge{
+    display: inline-block;
+    line-height: 26px;
+    background: #d54e21;
+    margin-left: 5px;
+    padding: 0 6px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+/**
+    =>RTL FIX
+ **/
+.rtl .bs-pages-demo-item-footer .messages {
+    float: left;
+}
+.rtl .bs-pages-demo-item-footer .messages .fa {
+    margin-left: 4px;
+    margin-right: auto;
+}
+.rtl .bs-pages-ribbon-wrapper .bs-pages-ribbon {
+    border-left: 62px solid transparent;
+    right: 0;
+    left: auto;
+    border-right: none;
+}
+.rtl .bs-pages-ribbon-label {
+    right: 10px;
+    left: auto;
+}
+.rtl .bf-item-container .demo-badges {
+    left: 0;
+    right: auto;
+}
+.rtl .bf-item-container .demo-badges .badge {
+    margin-right: 5px;
+    margin-left: auto;
+}

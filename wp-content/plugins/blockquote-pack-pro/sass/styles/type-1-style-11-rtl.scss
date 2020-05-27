@@ -1,0 +1,36 @@
+blockquote.bs-quote.bsq-t1.bsq-s11.bs-quote {
+  padding: 30px 30px 30px 40px;
+}
+
+blockquote.bs-quote.bs-quote.bsq-t1.bsq-s11.bs-quote:after {
+  -webkit-box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.11);
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.11);
+}
+
+blockquote.bs-quote.bsq-t1.bsq-s11.bs-quote:before {
+  left: 45px;
+  right: inherit;
+}
+
+blockquote.bs-quote.bsq-t1.bsq-s11 .bsq-edge:before,
+blockquote.bs-quote.bsq-t1.bsq-s11 .bsq-edge:after {
+  left: 0;
+  right: auto;
+}
+
+blockquote.bs-quote.bsq-t1.bsq-s11 .bsq-edge:before {
+  border-right: 40px solid transparent;
+  border-left: none;
+}
+
+blockquote.bs-quote.bsq-t1.bsq-s11 .bsq-edge:after {
+  border-left: 40px solid transparent;
+  border-right: none;
+}
+
+blockquote.bs-quote.bsq-t1.bsq-s11 .quote-author-avatar {
+  float: right;
+  margin-left: 15px;
+  margin-right: auto;
+}

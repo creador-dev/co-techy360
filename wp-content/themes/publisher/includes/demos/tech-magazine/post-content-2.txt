@@ -1,0 +1,17 @@
+Augmented reality content can be found on everything from wine bottles to IKEA’s catalog and virtual reality experiences are much more detailed, with rich layers of interactivity from hand cont to gaze triggers, and a VR film has even won an Oscar. With Apple and <a href="#">Google</a> both debuting augm reality platforms (ARKit and ARCore, respectively), Facebook heavily invested in its Oculus headset and Amazon unveiling augmented shopping features, AR and VR is primed to change many parts of our everyday lives.
+
+[bs-quote quote="Our goal is to make it so there's as little friction as possible to having a social experience." style="style-7" align="left" author_name="Mark Zuckerberg" author_job="Co-founder of Facebook" author_avatar="%%bf_product_demo_media_url:{media.primary.quote-avatar}:'full'%%"]
+
+Within the food industry, AR and VR have also begun to make headway. Although development costs are still high, more and more F&amp;B businesses are beginning to realize the potential of AR/VR and see it as a worth while investment. Three main areas human resources, customer experiences, food products – have seen the most concentration of AR/VR development so far and will likely continue to push the envelope on what use cases AR &amp; VR have within the industry.
+
+Since Bill Gates’ famous 1996 essay, the adage “content is king” has been echoed and taken to heart by companies large and small. In recent years, the rise of platforms such and Instagram and the social influencers and blogger celebrities it has created – have shown even more clearly that with consumers digitally result in real action.
+
+Products and retail locations may still be static, but its content must extend beyond physical space to attract the attention of potential and returning buyers. Augmented reality can bridge this gap between consumer, product and product content.
+
+One of the most tangible payoffs of AR/VR technology is using it for consistent and thorough train. The current process of developing training materials can not only be costly, but also vary in quality by team, store, or region. Many times, human resources face the conundrum of choosing between low-touch, high-efficiency.
+
+Enter virtual reality. Virtual reality can create a detail visual world for employees to safely interact with their to-be everyday job surroundings and men tally and physically learn the tasks required. These VR lessons range from managing Walmart’s holiday rush to coo noodles at Honeygrow to pull.
+
+On the flip side, augmented reality allows for side by side training and execution by layering additional info on top of an employee’s direct view. For instance, a research study found AR to be effective in helping subjects visually estimate serving sizes. Maintenance and repair, a necessary evil of the food world, has benefited from equipping technicians with AR headsets to disassemble and reassemble products without being on-site. These new possibilities for learning and development for businesses small and large not only increase the effectiveness of training material, but also allow companies to employ a wider breadth of workers with different needs and learning styles.
+
+As headsets begin to decrease in price and more developers pour into AR/VR, it’s likely more and more companies will begin to trial and A/B test these new learning platforms. Perhaps one day, we’ll even view former mass conference workshops with the same nostalgia as the milk delivery man.

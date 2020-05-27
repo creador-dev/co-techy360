@@ -1,0 +1,70 @@
+@import "variables.scss";
+
+blockquote.bs-quote.bsq-t1.bsq-s8 {
+
+  &.bs-quote.bs-quote {
+	border: 1px solid #e1e1e1 !important;
+	padding: 65px 30px 35px 55px;
+  }
+
+  &.bs-quote.bs-quote:before {
+	color: #fff;
+  }
+
+  &:after {
+	border-top: 100px solid transparent;
+	border-right: 100px solid transparent;
+	background: transparent;
+	left: -1px;
+	right: inherit;
+	top: -1px;
+	z-index: 0;
+	border-top-color: $primary-color;
+  }
+
+  &.bsq-left {
+	margin-right: 25px;
+  }
+
+  &.bsq-right {
+	margin-left: 25px;
+  }
+
+  &.bs-quote.bs-quote:after {
+	background-color: transparent;
+  }
+
+  .quote-author,
+  &.bs-quote {
+	text-align: inherit;
+  }
+
+  &.bs-quote:before {
+	top: 0;
+	left: 0;
+	margin: 0;
+	font-size: 27px;
+	text-align: center;
+  }
+
+  .quote-content:after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	right: -1px;
+	height: 6px;
+	background-color: $primary-color;
+  }
+
+  .quote-author .quote-author-avatar {
+	display: inline-block;
+  }
+
+  &.bs-quote.bsq-right,
+  &.bs-quote.bsq-left {
+	max-width: 400px;
+  }
+
+}

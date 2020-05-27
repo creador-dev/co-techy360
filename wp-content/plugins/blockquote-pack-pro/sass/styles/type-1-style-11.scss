@@ -1,0 +1,91 @@
+@import "variables.scss";
+
+blockquote.bs-quote.bsq-t1.bsq-s11 {
+
+  &.bs-quote {
+	text-align: inherit;
+	font-size: 120%;
+	padding: 30px 40px 30px 30px;
+  }
+
+  &.bs-quote:after {
+	z-index: -1;
+	-webkit-box-shadow: -10px 10px 0 rgba(0, 0, 0, 0.11);
+	-moz-box-shadow: -10px 10px 0 rgba(0, 0, 0, 0.11);
+	box-shadow: -10px 10px 0 rgba(0, 0, 0, 0.11);
+  }
+
+  &.bs-quote:before {
+	content: "\b043";
+	transform: rotate(181deg);
+	top: inherit;
+	right: 45px;
+	left: inherit;
+	bottom: 30px;
+	font-size: 70px;
+  }
+
+  &.bs-quote.bs-quote:before {
+	color: rgba(255, 255, 255, 0.27);
+  }
+
+  &,
+  &.bs-quote.bs-quote a,
+  p {
+	color: #fff;
+  }
+
+  .quote-author {
+	margin-top: 20px;
+	text-align: inherit;
+  }
+
+  .bsq-edge:before,
+  .bsq-edge:after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	content: '';
+	display: inline-block;
+  }
+
+  .bsq-edge:before {
+	border-top: 40px solid #fff;
+	border-left: 40px solid transparent;
+	width: 0;
+	height: 0;
+  }
+
+  .bsq-edge:after {
+	width: 0;
+	height: 0;
+	border-bottom: 40px solid rgba(5, 5, 5, 0.31);
+	border-right: 40px solid transparent;
+  }
+
+  .quote-author-job {
+	color: rgba(255, 255, 255, 0.67);
+  }
+
+  .quote-author-avatar {
+	float: left;
+	margin-right: 15px;
+  }
+
+  .quote-author-avatar + .quote-author-name {
+	margin-top: 8px;
+  }
+
+  &.bs-quote.bsq-right,
+  &.bs-quote.bsq-left {
+	max-width: 400px;
+  }
+
+  &.bsq-left {
+	margin-right: 25px;
+  }
+
+  &.bsq-right {
+	margin-left: 30px;
+  }
+}

@@ -1,0 +1,27 @@
+.bssl-list-break {
+  color: #3579A6;
+  background: #f4f8fb;
+  position: relative;
+  padding: 10px;
+  border: 1px solid #e0f0fb;
+  border-radius: 3px;
+}
+
+.bssl-list-break p:empty {
+  display: none;
+}
+
+.bssl-list-break .title {
+  color: #3579A6;
+  font-size: 17px;
+  display: block;
+  text-align: inherit;
+  font-weight: 400;
+  font-family: sans-serif;
+  line-height: 36px;
+}
+
+.bssl-list-break .title img {
+  margin: 0 10px;
+  vertical-align: middle;
+}

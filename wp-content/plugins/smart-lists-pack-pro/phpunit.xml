@@ -1,0 +1,29 @@
+<phpunit
+        bootstrap="tests/bootstrap.php"
+        backupGlobals="false"
+        colors="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+>
+    <testsuites>
+        <testsuite>
+            <directory prefix="test-" suffix=".php">./tests/</directory>
+        </testsuite>
+    </testsuites>
+
+
+    <php>
+        <includePath>.</includePath>
+
+        <env name="custom_abspath" value="true"/>
+        <env name="db" value="wordpress-test"/>
+    </php>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory prefix="test-" suffix=".php">./tests/</directory>
+            <exclude>./tests/vendor/</exclude>
+        </whitelist>
+    </filter>
+</phpunit>

@@ -1,0 +1,64 @@
+.bs-smart-list.bssl-t1.bssl-s15 .bssl-item-title .bssl-count,
+.bs-smart-list.bssl-t1.bssl-s8 .bssl-item + .bssl-item,
+.bs-smart-list.bssl-t1.bssl-s7 .bssl-item + .bssl-item,
+.bs-smart-list + .bs-smart-list-end.bs-smart-list-end,
+.bs-smart-list-start {
+  border-color: #2a2a2a;
+}
+
+.bssl-item .bssl-item-title {
+  color: #ffffff;
+}
+
+.bssl-item .bssl-count-type-badge .bssl-count {
+  background: #ffffff;
+  color: #212121;
+}
+
+.bs-smart-list a.bssl-nav-btn-big.bssl-nav-btn-big {
+  background: #353535;
+  color: #e4e4e4;
+}
+
+.bs-smart-list a.bssl-nav-btn-big.bssl-nav-btn-big.bssl-outline {
+  background: #171717;
+  color: #e4e4e4;
+  border-color: #2a2a2a;
+}
+
+.bs-smart-list.bssl-t1.bssl-s11 .bssl-item-title,
+.bs-smart-list.bssl-t1.bssl-s10 .bssl-item-title,
+.bs-smart-list.bssl-t1.bssl-s9 .bssl-item-title {
+  border-bottom-color: #fff;
+}
+
+.bs-smart-list.bssl-t1.bssl-s16 .bssl-control-nav {
+  border-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.bs-smart-list a.bssl-nav-btn-icon.bssl-nav-btn-icon {
+  color: #ffffff;
+}
+
+.bs-smart-list a.bssl-nav-btn-icon.bssl-nav-btn-icon .fa {
+  color: #000;
+  background: #ffffff;
+}
+
+.bs-smart-list.bssl-t1.bssl-s16 .bssl-control-nav .bssl-select select {
+  background-color: transparent;
+  color: #fff;
+}
+
+.bs-smart-list.bssl-t1.bssl-s16 .bssl-control-nav .bssl-select:after {
+  border-top-color: #ffffff;
+}
+
+.bs-smart-list.bssl-t1.bssl-s19 .bssl-item {
+  background: #232323;
+}
+
+.bs-smart-list.bssl-t1.bssl-s19 .bssl-item-counter .bssl-menu-handler b {
+  background: #fff;
+}

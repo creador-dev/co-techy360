@@ -1,0 +1,23 @@
+After lurking in investment shadows for a number of years, cryptocurrencies have recently broken out into the mainstream. While Bitcoin hogged most of media attention media and attracted a large portion of newly minted cryptocurrency investors thus far, Blockchain technology has started to garner mainstream interest. Investors in conventional stocks and assets are slowly migrating towards cryptocurrencies.
+
+NaPoleonX answers two questions. The first one relates to the use of Blockchain technology in investment beyond the crypto-world and the second one relates to the merger of convene and crypto-trading. In Blockchain-based algorithmic asset management, investors will find a solution to both profitability and security. We found out from some postings on social media that Bali appeared to have become a haven for <a href="#">Bitcoin</a> transactions. The next step is we will ban them as mandated by the law. We ask them not to use it anymore. Along with the Direct Special Crime Investigation unit, we will enforce the rule that all transactions in Indonesia must use rupiah.
+
+
+
+In fresh comments Thursday, several months after he told host Brian Kelly it was Bitcoin’s “story” not its value that had sparked public interest in it, Shiller told reporters “it [Bitcoin] has no value at all unless there is some common consensus that it has value. Other things like gold would at least have some value if people didn't see it as an investment,” repeat common narrative that investment in Bitcoin is like the 17th-century Tulip Mania.
+
+ICE, the parent firm of the The New York Stock Exchange (NYSE), says it plans to pull data from 15 major exchanges and deliver it to big financial names, including hedge funds and professional trading firms, in a format designed to let them easily take work with up-to-date metrics. The move is yet another example of Bitcoin steadily coming into focus for traditional investment players, in this case keen to leverage its potential as a tradeable asset.
+
+Compute profitability by determining the number of days it takes a particular contract to return funds invested. Work out daily returns based on contract’s present hash rate and network. Deduct the fee from this figure. You can also find out expected annual returns. Certain contracts exist only for a specific time such as three years. However, there is a one-year repayment period. In other words, there is no chance to recover your cash since the fee is more than earnings the contract earns daily.
+
+Multisig has seen wide use in various applications for Bitcoin over the past several years. Its trademark security benefits are a principal feature of some consumer wallet applications, and this week’s paper pays attention to how Schnorr multisig also offers enhanced transaction privacy.
+
+Bitcoin scaling solutions continue to be in urgent demand as a variety of improvements move ever closer to mainstream acceptance. Chief among those in January is the Lightning Network, a call layer 2 protocol that facilitates near-zero-fee transactions for Bitcoin, processed almost instantly. Schnorr signatures have long been a favorite for technical commentators, receiving praise from Blockchain consultant Sam Wouters for security benefits last July. Wouters explained the significance of the technology in a post.
+<h3>More Information on Mining</h3>
+<ul class="bs-shortcode-list list-style-check">
+ 	<li>Ethereum's proof of work algorithm does not make use of Scrypt or Sha256, instead, it leverages EtHash, a Hashimoto / Dagger hybrid. You can read all about the theory behind this and its design in the Ethereum gitBook, mining chapter.</li>
+ 	<li>The Ethash proof of work algorithm is memory hard, you'll need at least 1+GB of RAM on each GPU. I say 1+ because the DAG, which is the set of data that's being pushed in and out of the GPU to make parallelisation costly, will start at 1GB and will continue growing indefinitely.</li>
+ 	<li>Mining prowess roughly scales proportionally to memory bandwidth. As our implementation is written in OpenCL, AMD GPUs will be 'faster' than similarly priced NVIDIA GPUs.</li>
+ 	<li>ASICs and FPGAs are strongly discouraged by being rendered financially inefficient, which was confirmed in an independent audit. Don't expect to see them on the market, and if you do, proceed with extreme caution.</li>
+</ul>
+After lurking in investment shadows for a number of years, cryptocurrencies have recently broken out into the mainstream. While Bitcoin hogged most of media attention media and attracted a large portion of newly minted cryptocurrency investors thus far, Blockchain technology has started to garner mainstream interest. Investors in conventional stocks and assets are slowly migrating towards cryptocurrencies.

@@ -1,0 +1,218 @@
+/***
+ *  BetterStudio Themes Core.
+ *
+ *  ______  _____   _____ _                           _____
+ *  | ___ \/  ___| |_   _| |                         /  __ \
+ *  | |_/ /\ `--.    | | | |__   ___ _ __ ___   ___  | /  \/ ___  _ __ ___
+ *  | ___ \ `--. \   | | | '_ \ / _ \ '_ ` _ \ / _ \ | |    / _ \| '__/ _ \
+ *  | |_/ //\__/ /   | | | | | |  __/ | | | | |  __/ | \__/\ (_) | | |  __/
+ *  \____/ \____/    \_/ |_| |_|\___|_| |_| |_|\___|  \____/\___/|_|  \___|
+ *
+ *  Copyright © 2017 Better Studio
+ *
+ *
+ *  Our portfolio is here: https://betterstudio.com/
+ *
+ *  \--> BetterStudio, 2017 <--/
+ */
+
+/*
+
+ * =>Wrapper
+
+ * =>Rebuild Button
+
+ * =>Pre desc
+
+ * =>Log
+
+*/
+
+
+/**
+ * =>Wrapper
+ **************************************************************/
+.thumbnails-rebuild-wrapper ,
+.thumbnails-rebuild-wrapper {
+    text-align: center;
+}
+.thumbnails-rebuild-wrapper p{
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #777;
+}
+
+
+/**
+ * =>Rebuild Button
+ **************************************************************/
+.better-rebuild-all-thumbnails{
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 350px;
+    height: 55px;
+    position: relative;
+    padding: 0;
+}
+.better-rebuild-all-thumbnails.loading,
+.better-rebuild-all-thumbnails.rebuilding{
+    background-color: #E8E8E8 !important;
+    border: 1px solid #CDCDCD !important;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 52px;
+    padding: 0 25px 2px;
+    display: inline-block;
+    color: #6C6C6C !important;
+    cursor: default;
+}
+.better-rebuild-all-thumbnails.rebuilding {
+    width: 600px;
+}
+.better-rebuild-all-thumbnails .text-1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.better-rebuild-all-thumbnails .text-2 {
+    width: 600px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    z-index: 10;
+}
+.better-rebuild-all-thumbnails .loader {
+    width: 41.2%;
+    height: 100%;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    color: #fff;
+    z-index: 5;
+    background-color: #7bcf30;
+    overflow: hidden;
+    display: none;
+    border: 1px solid #6AB625;
+    border-right:none;
+}
+.better-rebuild-all-thumbnails.rebuilding .loader{
+    display: block;
+}
+.better-rebuild-all-thumbnails.rebuilding .fa.fa-refresh{
+    -webkit-animation: spin 1.4s linear infinite;
+    -moz-animation: spin 1.15s linear infinite;
+    animation: spin 1s linear infinite;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+}
+.better-rebuild-all-thumbnails .text-1 span,
+.better-rebuild-all-thumbnails .text-2 span{
+    margin-left: 5px;
+}
+.better-rebuild-all-thumbnails.error{
+    background-color: #FADDDB;
+    border-color: #F28D8D;
+    color: #CD4444;
+    cursor: default;
+}
+
+
+/**
+ * =>Pre desc
+ **************************************************************/
+.thumbnails-rebuild-wrapper .pre-desc{
+    height: 100px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
+    overflow: hidden;
+}
+.thumbnails-rebuild-wrapper .pre-desc.rebuilding{
+    height: 180px;
+}
+.thumbnails-rebuild-wrapper .pre-desc.completed,
+.thumbnails-rebuild-wrapper .pre-desc.loading{
+    height: 0;
+    visibility: hidden;
+}
+.thumbnails-rebuild-wrapper .pre-desc.completed img{
+    display: none;
+}
+.thumbnails-rebuild-wrapper .pre-desc img{
+    max-height: 150px;
+    padding: 6px;
+    border: 1px solid #F1F1F1;
+}
+.thumbnails-rebuild-wrapper .pre-desc p{
+    font-size: 19px;
+    font-weight: 300;
+    color: #6B6B6B;
+    margin-bottom: 30px;
+    padding-left: 16px;
+}
+.thumbnails-rebuild-wrapper .pre-desc label{
+    font-size: 14px;
+    font-weight: 300;
+    color: #6B6B6B;
+}
+
+
+/**
+ * =>Log
+ **************************************************************/
+.rebuild-log-container{
+    padding: 15px 0 0;
+    display: none;
+}
+.rebuild-log-container.rebuilding{
+    display: block;
+}
+.rebuild-log-container .rebuild-log{
+    margin-top: 10px;
+    border: 1px solid #eee;
+    padding: 10px;
+    line-height: 22px;
+    text-align: left;
+    font-size: 12px;
+    color: #6B6B6B;
+    display: none;
+    height: 200px;
+    overflow: scroll;
+}
+.rebuild-log-container .rebuild-log li{
+    margin-left: 15px;
+}
+.rebuild-log-container .rebuild-log li.success{
+    color: #6AB625;
+}
+.rebuild-log-container .rebuild-log li.error{
+    color: #b65f59;
+}
+.rebuild-log-container a{
+    color: #A0A0A0;
+    cursor: pointer;
+}
+.rebuild-log-container a.show-rebuild-log {
+    font-size: 15px;
+    font-weight: 400;
+    color: #A0A0A0;
+}
+.rebuild-log-container a.show-rebuild-log:hover{
+    color: #777777;
+}

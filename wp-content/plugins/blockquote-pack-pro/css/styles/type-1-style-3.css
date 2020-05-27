@@ -1,0 +1,28 @@
+blockquote.bs-quote.bsq-t1.bsq-s3.bsq-s3 {
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-left: 0; }
+
+blockquote.bs-quote.bsq-t1.bsq-s3.bsq-left {
+  margin-right: 25px; }
+
+blockquote.bs-quote.bsq-t1.bsq-s3.bsq-right {
+  margin-left: 25px; }
+
+blockquote.bs-quote.bsq-t1.bsq-s3:after {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -30px;
+  z-index: -1;
+  border-radius: 50%; }
+
+blockquote.bs-quote.bsq-t1.bsq-s3.bs-quote.bs-quote:before {
+  color: #fff;
+  font-size: 24px;
+  top: 0; }
+
+blockquote.bs-quote.bsq-t1.bsq-s3 .quote-author-name {
+  font-weight: bolder; }

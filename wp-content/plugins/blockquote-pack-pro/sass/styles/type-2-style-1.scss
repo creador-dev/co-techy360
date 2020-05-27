@@ -1,0 +1,28 @@
+@import "variables.scss";
+
+blockquote.bs-quote.bsq-t2.bsq-s1 {
+  margin-top: 6px;
+  margin-bottom: 10px;
+  text-align: inherit;
+
+  .quote-author-avatar {
+	margin-top: -5px;
+  }
+
+  .quote-author {
+	margin-left: 10px;
+  }
+
+  &:before,
+  &:after {
+	display: none;
+  }
+
+  &.bsq-left {
+	margin-right: 30px;
+  }
+
+  &.bsq-right {
+	margin-left: 30px;
+  }
+}

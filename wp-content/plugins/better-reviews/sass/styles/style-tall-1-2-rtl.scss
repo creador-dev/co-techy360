@@ -1,0 +1,36 @@
+@import "_variables.scss";
+
+.betterstudio-review.tall-1.left,
+.betterstudio-review.tall-2.left {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.betterstudio-review.tall-1.right,
+.betterstudio-review.tall-2.right {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+@media only screen and (max-width: $break-medium) {
+  .betterstudio-review.tall-1.left,
+  .betterstudio-review.tall-2.left {
+	float: left;
+	margin: 0 20px 20px 0;
+  }
+  .betterstudio-review.tall-1.right,
+  .betterstudio-review.tall-2.right {
+	float: right;
+	margin: 0 0 20px 20px;
+  }
+  .betterstudio-review .readers-ratings > aside.rating {
+	float: none;
+  }
+  .betterstudio-review .readers-ratings > aside.heading {
+	float: none;
+  }
+  .betterstudio-review .readers-ratings .total-votes {
+	text-align: center;
+	margin: 0;
+  }
+}

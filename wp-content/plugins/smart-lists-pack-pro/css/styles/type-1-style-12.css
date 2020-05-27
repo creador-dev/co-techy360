@@ -1,0 +1,16 @@
+.bs-smart-list.bssl-t1.bssl-s12 {
+  margin-top: 22px; }
+  .bs-smart-list.bssl-t1.bssl-s12 .bssl-item + .bssl-item {
+    margin-top: 45px; }
+  .bs-smart-list.bssl-t1.bssl-s12 .bssl-item-title {
+    margin: 0 0 5px; }
+  .bs-smart-list.bssl-t1.bssl-s12 .bssl-image-w {
+    position: relative; }
+    .bs-smart-list.bssl-t1.bssl-s12 .bssl-image-w .bssl-count {
+      border-radius: 0;
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding: 0 10px;
+      font-size: 24px;
+      font-weight: bolder; }

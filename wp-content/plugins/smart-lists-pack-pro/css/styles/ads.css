@@ -1,0 +1,77 @@
+.bsac img {
+  display: inline-block; }
+
+.bsac.location-bssl_after {
+  margin-bottom: 30px; }
+
+.bsac.location-bssl_before {
+  margin-top: 38px;
+  margin-bottom: 0; }
+
+.bs-smart-list + .location-bssl_after {
+  margin-top: 25px; }
+
+.bs-smart-list.bssl-t1.bssl-s1 .bsac.location-bssl_after {
+  margin-top: 30px; }
+
+.bs-smart-list.bssl-t1.bssl-s3 .bsac.location-bssl_after {
+  margin-top: 30px; }
+
+.bs-smart-list.bssl-t1.bssl-s4 .bsac.location-bssl_after {
+  margin-top: 30px; }
+
+.bs-smart-list.bssl-t1.bssl-s6 .bsac.location-bssl_style_6 {
+  margin-top: 45px;
+  margin-bottom: 45px; }
+
+.bs-smart-list.bssl-t1.bssl-s7 .bsac.location-bssl_style_7 {
+  margin-top: 25px;
+  padding-top: 25px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #f2f2f2;
+  border-top: 1px solid #f2f2f2; }
+
+.bs-smart-list.bssl-t1.bssl-s8 .bsac.location-bssl_style_8 {
+  margin-top: 30px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #f2f2f2;
+  border-top: 1px solid #f2f2f2; }
+
+.bs-smart-list.bssl-t1.bssl-s9 .bsac.location-bssl_style_9 {
+  margin-top: 35px;
+  margin-bottom: 35px; }
+
+.bs-smart-list.bssl-t1.bssl-s10 .bsac.location-bssl_style_10 {
+  margin-top: 35px;
+  margin-bottom: 35px; }
+
+.bs-smart-list.bssl-t1.bssl-s11 .bsac.location-bssl_style_11 {
+  margin-top: 35px;
+  margin-bottom: 35px; }
+
+.bs-smart-list.bssl-t1.bssl-s12 .bsac.location-bssl_style_12 {
+  margin-top: 35px;
+  margin-bottom: 35px; }
+
+.bs-smart-list.bssl-t1.bssl-s13 .bsac.location-bssl_style_13 {
+  margin-top: 5px;
+  margin-bottom: 12px; }
+
+.bs-smart-list.bssl-t1.bssl-s14 .bsac.location-bssl_style_14 {
+  margin-top: 8px;
+  margin-bottom: 12px; }
+
+.bs-smart-list.bssl-t1.bssl-s15 .bsac.location-bssl_style_15 {
+  margin-top: 5px;
+  margin-bottom: 12px; }
+
+.bs-smart-list.bssl-t1.bssl-s16 .bsac.location-bssl_style_16 {
+  margin-top: 5px;
+  margin-bottom: 12px; }
+
+.bs-smart-list.bssl-t1.bssl-s17 .bsac.location-bssl_style_17 {
+  margin-top: 5px;
+  margin-bottom: 12px; }

@@ -1,0 +1,61 @@
+[
+  [
+    "TextControl",
+    {
+      "type": "text",
+      "label": "Field Title"
+    }
+  ],
+  [
+    "PanelBody",
+    {
+      "title": "Group title",
+      "initialOpen": true
+    },
+    1
+  ],
+  [
+    "TextControl",
+    {
+      "type": "text",
+      "label": "Field2 Title"
+    }
+  ],
+  [
+    "PanelBody",
+    {
+      "title": "Group2 title",
+      "initialOpen": false
+    },
+    3
+  ],
+  [
+    "TextControl",
+    {
+      "type": "text",
+      "label": "Field3 Title"
+    }
+  ],
+  [
+    "TextControl",
+    {
+      "type": "text",
+      "label": "Field3_2 Title"
+    }
+  ],
+  [
+    "TextControl",
+    {
+      "type": "text",
+      "label": "Field3_3 Title"
+    }
+  ],
+  [
+    "PanelBody",
+    {
+      "title": "Group3 title",
+      "initialOpen": false
+    },
+    7
+  ]
+]

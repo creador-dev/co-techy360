@@ -1,0 +1,8 @@
+[vc_row][vc_column width="1/3"][bs-text title="About us" bs-show-desktop="1" bs-show-tablet="1" bs-show-phone="1"]At vero eos et accusamus et iusto odios un dignissimos ducimus qui blan ditiis prasixer esentium voluptatum un deleniti atqueste sites.
+
+Excep turiitate non providentsimils. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, consequunturser magni dolores.[/bs-text][bs-text title="Contact info" bs-show-desktop="1" bs-show-tablet="1" bs-show-phone="1"]12345 North Main Street,
+New York, NY 555555
+
+<strong>Phone</strong>: 1.800.123.4567
+<strong>Email</strong>: <a href="mailto:info@betterstudio.com">info@betterstudio.com</a>
+<strong>Web</strong>: <a href="http://betterstudio.com">betterstudio.com</a>[/bs-text][/vc_column][vc_column width="1/3"][vc_gmaps link="#E-8_JTNDaWZyYW1lJTIwc3JjJTNEJTIyaHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRm1hcHMlMkZlbWJlZCUzRnBiJTNEJTIxMW0xOCUyMTFtMTIlMjExbTMlMjExZDYzMDQuODI5OTg2MTMxMjcxJTIxMmQtMTIyLjQ3NDY5NjgwMzMwOTIlMjEzZDM3LjgwMzc0NzUyMTYwNDQzJTIxMm0zJTIxMWYwJTIxMmYwJTIxM2YwJTIxM20yJTIxMWkxMDI0JTIxMmk3NjglMjE0ZjEzLjElMjEzbTMlMjExbTIlMjExczB4ODA4NTg2ZTYzMDI2MTVhMSUyNTNBMHg4NmJkMTMwMjUxNzU3YzAwJTIxMnNTdG9yZXklMkJBdmUlMjUyQyUyQlNhbiUyQkZyYW5jaXNjbyUyNTJDJTJCQ0ElMkI5NDEyOSUyMTVlMCUyMTNtMiUyMTFzZW4lMjEyc3VzJTIxNHYxNDM1ODI2NDMyMDUxJTIyJTIwd2lkdGglM0QlMjI2MDAlMjIlMjBoZWlnaHQlM0QlMjI0NTAlMjIlMjBmcmFtZWJvcmRlciUzRCUyMjAlMjIlMjBzdHlsZSUzRCUyMmJvcmRlciUzQTAlMjIlMjBhbGxvd2Z1bGxzY3JlZW4lM0UlM0MlMkZpZnJhbWUlM0U=" size="420" title="On the map!"][/vc_column][vc_column width="1/3"][bs-text title="Send us a message" bs-show-desktop="1" bs-show-tablet="1" bs-show-phone="1"]Please insert contact form shortcode here![/bs-text][/vc_column][/vc_row]

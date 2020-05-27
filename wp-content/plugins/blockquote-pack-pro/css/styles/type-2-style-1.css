@@ -1,0 +1,14 @@
+blockquote.bs-quote.bsq-t2.bsq-s1 {
+  margin-top: 6px;
+  margin-bottom: 10px;
+  text-align: inherit; }
+  blockquote.bs-quote.bsq-t2.bsq-s1 .quote-author-avatar {
+    margin-top: -5px; }
+  blockquote.bs-quote.bsq-t2.bsq-s1 .quote-author {
+    margin-left: 10px; }
+  blockquote.bs-quote.bsq-t2.bsq-s1:before, blockquote.bs-quote.bsq-t2.bsq-s1:after {
+    display: none; }
+  blockquote.bs-quote.bsq-t2.bsq-s1.bsq-left {
+    margin-right: 30px; }
+  blockquote.bs-quote.bsq-t2.bsq-s1.bsq-right {
+    margin-left: 30px; }

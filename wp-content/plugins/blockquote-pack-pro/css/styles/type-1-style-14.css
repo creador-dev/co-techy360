@@ -1,0 +1,28 @@
+blockquote.bs-quote.bsq-t1.bsq-s14.bs-quote {
+  padding: 0;
+  font-size: 132%; }
+
+blockquote.bs-quote.bsq-t1.bsq-s14.bs-quote p, blockquote.bs-quote.bsq-t1.bsq-s14.bs-quote {
+  color: #057fce;
+  font-weight: bolder; }
+
+blockquote.bs-quote.bsq-t1.bsq-s14.bs-quote.bsq-right, blockquote.bs-quote.bsq-t1.bsq-s14.bs-quote.bsq-left {
+  max-width: 320px; }
+
+blockquote.bs-quote.bsq-t1.bsq-s14.bs-quote:before, blockquote.bs-quote.bsq-t1.bsq-s14.bs-quote:after {
+  display: none; }
+
+blockquote.bs-quote.bsq-t1.bsq-s14.bs-quote.bsq-right .quote-author, blockquote.bs-quote.bsq-t1.bsq-s14.bs-quote.bsq-right {
+  text-align: right; }
+
+blockquote.bs-quote.bsq-t1.bsq-s14.bs-quote.bsq-left .quote-author, blockquote.bs-quote.bsq-t1.bsq-s14.bs-quote.bsq-left {
+  text-align: left; }
+
+blockquote.bs-quote.bsq-t1.bsq-s14 .quote-author-name {
+  color: #272727; }
+
+blockquote.bs-quote.bsq-t1.bsq-s14.bsq-left {
+  margin-right: 30px; }
+
+blockquote.bs-quote.bsq-t1.bsq-s14.bsq-right {
+  margin-left: 30px; }

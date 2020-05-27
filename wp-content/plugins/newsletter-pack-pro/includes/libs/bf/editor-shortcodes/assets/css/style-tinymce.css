@@ -1,0 +1,243 @@
+/***
+ *  BetterFramework is BetterStudio framework for themes and plugins.
+ *
+ *  ______      _   _             ______                                           _
+ *  | ___ \    | | | |            |  ___|                                         | |
+ *  | |_/ / ___| |_| |_ ___ _ __  | |_ _ __ __ _ _ __ ___   _____      _____  _ __| | __
+ *  | ___ \/ _ \ __| __/ _ \ '__| |  _| '__/ _` | '_ ` _ \ / _ \ \ /\ / / _ \| '__| |/ /
+ *  | |_/ /  __/ |_| ||  __/ |    | | | | | (_| | | | | | |  __/\ V  V / (_) | |  |   <
+ *  \____/ \___|\__|\__\___|_|    \_| |_|  \__,_|_| |_| |_|\___| \_/\_/ \___/|_|  |_|\_\
+ *
+ *  Copyright © 2017 Better Studio
+ *
+ *
+ *  Our portfolio is here: https://betterstudio.com/
+ *
+ *  \--> BetterStudio, 2017 <--/
+ */
+
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.entry-content h6:first-child,
+.entry-content h5:first-child,
+.entry-content h4:first-child,
+.entry-content h3:first-child,
+.entry-content h2:first-child,
+.entry-content h1:first-child {
+    margin-top: 0;
+}
+
+.mce-content-body img.mce-wp-nextpage {
+    height: 25px !important;
+}
+
+/**
+** ->Padding arrows
+**/
+.bs-padding-1-1,
+.bs-padding-1-0,
+.bs-padding-0-1,
+.bs-padding-2-2,
+.bs-padding-0-2,
+.bs-padding-2-0,
+.bs-padding-2-1,
+.bs-padding-1-2,
+.bs-padding-3-3 {
+    position: relative;
+}
+
+.bs-padding-1-1:after,
+.bs-padding-1-0:after,
+.bs-padding-0-1:after,
+.bs-padding-2-2:after,
+.bs-padding-0-2:after,
+.bs-padding-2-0:after,
+.bs-padding-2-1:after,
+.bs-padding-1-2:after,
+.bs-padding-3-3:after,
+.bs-padding-1-1:before,
+.bs-padding-0-1:before,
+.bs-padding-1-0:before,
+.bs-padding-2-2:before,
+.bs-padding-0-2:before,
+.bs-padding-2-0:before,
+.bs-padding-2-1:before,
+.bs-padding-1-2:before,
+.bs-padding-3-3:before {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #dadada;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+.bs-padding-1-0:before,
+.bs-padding-1-1:before,
+.bs-padding-1-2:before {
+    left: -6%;
+    content: '\21E5';
+}
+
+.rtl .bs-padding-1-0:before,
+.rtl .bs-padding-1-1:before,
+.rtl .bs-padding-1-2:before {
+    left: auto;
+    right: -6%;
+}
+
+.bs-padding-0-1:after,
+.bs-padding-1-1:after,
+.bs-padding-2-1:after {
+    right: -6%;
+    content: '\21E4';
+}
+
+.rtl .bs-padding-0-1:after,
+.rtl .bs-padding-1-1:after,
+.rtl .bs-padding-2-1:after {
+    right: auto;
+    left: -6%;
+}
+
+.bs-padding-2-2:before,
+.bs-padding-2-1:before {
+    content: '\21E5\21E5';
+    left: -12%;
+}
+
+.rtl .bs-padding-2-2:before,
+.rtl .bs-padding-2-1:before {
+    left: auto;
+    right: -12%;
+}
+
+.bs-padding-2-2:after,
+.bs-padding-1-2:after {
+    content: '\21E4\21E4';
+    right: -12%;
+}
+
+.rtl .bs-padding-2-2:after,
+.rtl .bs-padding-1-2:after {
+    right: auto;
+    left: -12%;
+}
+
+.bs-padding-3-3:before {
+    content: '\21E5\21E5\21E5';
+    left: -22%
+}
+
+.rtl .bs-padding-3-3:before {
+    left: auto;
+    right: -22%
+}
+
+.bs-padding-3-3:after {
+    content: '\21E4\21E4\21E4';
+    right: -22%
+}
+
+.rtl .bs-padding-3-3:after {
+    right: auto;
+    left: -22%
+}
+
+.mceContentBody.mceContentBody:hover .bs-padding-1-1:after,
+.mceContentBody.mceContentBody:hover .bs-padding-1-0:after,
+.mceContentBody.mceContentBody:hover .bs-padding-0-1:after,
+.mceContentBody.mceContentBody:hover .bs-padding-2-2:after,
+.mceContentBody.mceContentBody:hover .bs-padding-0-2:after,
+.mceContentBody.mceContentBody:hover .bs-padding-2-0:after,
+.mceContentBody.mceContentBody:hover .bs-padding-2-1:after,
+.mceContentBody.mceContentBody:hover .bs-padding-1-2:after,
+.mceContentBody.mceContentBody:hover .bs-padding-3-3:after,
+.mceContentBody.mceContentBody:hover .bs-padding-1-1:before,
+.mceContentBody.mceContentBody:hover .bs-padding-0-1:before,
+.mceContentBody.mceContentBody:hover .bs-padding-1-0:before,
+.mceContentBody.mceContentBody:hover .bs-padding-2-2:before,
+.mceContentBody.mceContentBody:hover .bs-padding-0-2:before,
+.mceContentBody.mceContentBody:hover .bs-padding-2-0:before,
+.mceContentBody.mceContentBody:hover .bs-padding-2-1:before,
+.mceContentBody.mceContentBody:hover .bs-padding-1-2:before,
+.mceContentBody.mceContentBody:hover .bs-padding-3-3:before {
+    opacity: 1;
+}
+
+.bs-shortcode-col:before {
+    content: '' !important;
+    position: absolute !important;
+    display: block !important;
+    top: -5px !important;
+    left: 5px !important;
+    right: 5px !important;
+    bottom: -5px !important;
+    background: #f5f5f5 !important;
+    z-index: -1 !important;
+    opacity: 0 !important;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease !important;
+    transform: none !important;
+}
+
+.mceContentBody.mceContentBody:hover .bs-shortcode-col:before {
+    opacity: 1 !important;
+}
+
+.bs-shortcode-row {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .bs-shortcode-row-4-column.bs-shortcode-row-4-column .bs-shortcode-col {
+        width: 33.3333% !important;
+        margin-bottom: 15px;
+    }
+
+    .bs-shortcode-row-4-column.bs-shortcode-row-4-column .bs-shortcode-col:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .bs-shortcode-row-4-column.bs-shortcode-row-4-column .bs-shortcode-col,
+    .bs-shortcode-row-3-column.bs-shortcode-row-3-column .bs-shortcode-col {
+        width: 50% !important;
+        margin-bottom: 15px;
+    }
+
+    .bs-shortcode-row-4-column.bs-shortcode-row-4-column .bs-shortcode-col:last-child,
+    .bs-shortcode-row-3-column.bs-shortcode-row-3-column .bs-shortcode-col:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .bs-shortcode-row-4-column.bs-shortcode-row-3-column .bs-shortcode-col,
+    .bs-shortcode-row-3-column.bs-shortcode-row-3-column .bs-shortcode-col,
+    .bs-shortcode-row-2-column.bs-shortcode-row-2-column .bs-shortcode-col {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+
+    .bs-shortcode-row-4-column.bs-shortcode-row-3-column .bs-shortcode-col:last-child,
+    .bs-shortcode-row-3-column.bs-shortcode-row-3-column .bs-shortcode-col:last-child,
+    .bs-shortcode-row-2-column.bs-shortcode-row-2-column .bs-shortcode-col:last-child {
+        margin-bottom: 0;
+    }
+}

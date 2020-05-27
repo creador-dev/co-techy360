@@ -1,0 +1,93 @@
+@import "_variables.scss";
+
+.betterstudio-review.big-4 {
+
+  .review-header {
+	position: relative;
+  }
+
+  .verdict {
+	float: left;
+	width: 65%;
+  }
+
+  .verdict:first-child:last-child {
+	width: 100%;
+	float: none;
+	padding-top: 30px;
+	padding-bottom: 30px;
+  }
+
+  .affiliate {
+	width: 35%;
+	margin: 0;
+	padding: 25px 15px 10px;
+	line-height: 25px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border-left: 1px solid #ebebeb;
+	border-top: 0;
+	text-align: center;
+  }
+
+  .verdict-summary {
+	padding: 0;
+  }
+
+  .heading {
+	font-size: 14px;
+	font-weight: 700;
+	margin-top: 0;
+  }
+
+  .affiliate .heading {
+	padding-top: 15px;
+  }
+
+  .review-cons-pros .heading {
+	font-size: 16px;
+
+  }
+
+  .criteria-list {
+	border-top: 1px solid #ebebeb;
+	padding: 20px;
+  }
+
+  .criteria-list ul {
+	padding-left: 180px;
+  }
+
+  .overall {
+	float: left;
+	margin-left: 0;
+	margin-right: 15px;
+	text-align: center;
+
+	.rating-bar {
+	  margin: 5px auto;
+	  background-color: rgba(255, 255, 255, 0.24);
+	  &.rating-bar span {
+		background-color: #fff;
+	  }
+	}
+  }
+
+  .criteria-list li:first-child {
+	padding-top: 0;
+  }
+
+  .review-cons-pros > aside:first-child {
+	padding-left: 25px;
+  }
+
+  .affiliate-btn {
+	float: none;
+	padding: 8px 18px;
+	border-radius: 3px;
+  }
+
+}
+

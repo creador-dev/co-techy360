@@ -1,0 +1,128 @@
+//
+// Blocks General
+//
+$blocks_image_radius: false;
+$main_menu_radius: false;
+$slider_radius: false;
+
+//
+// Blocks Bottom Line
+//
+$blocks_bottom_line: false;
+$blocks_bottom_padding: false;
+$blocks_bottom_margin: false;
+$blocks_bottom_line_exclude_sidebars: false;
+$blocks_bottom_line_exclude_sidebars_padding: false;
+$blocks_bottom_line_exclude_sidebars_margin: false;
+
+//
+// Block Items Bottom Line
+//
+$blocks_items_bottom_line: false;
+$blocks_items_bottom_line_light: false;
+$blocks_items_bottom_padding: false;
+$blocks_items_bottom_margin: false;
+
+//
+// Box and Card Styles
+//
+$box: false; // card and box
+$box_padding: 20px;
+$box_shadow: false;
+$box_border: false;
+$box_radius: false;
+$box_full_width_items: true;
+$box_bg: #ffffff;
+$box_remove_modern_grids: false;
+$box_remove_footer_blocks: true;
+$remove_box_of_content_page: true;
+
+//
+// Page Layout
+//
+$layout_boxed_padding: false;
+$columns_separator: false;
+$columns_separator_padding: false;
+$rows_separator: false;
+$full_separator: false;
+$full_separator_padding: false;
+
+//
+// Post_Meta
+//
+$post_meta: false;
+$post_meta_padding: 5px 0;
+$post_meta_margin_top_bottom: 22px;
+$post_meta_line: false;
+$post_meta_text_align: false;
+
+//
+// Term_badges
+//
+$term_badges: false;
+$term_badges_margin: false;
+$term_badges_radius: false;
+
+//
+// Selectors for Card
+//
+$box_selectors_box: "
+.row.main-section .content-column > div,
+.row.main-section .content-column > section,
+.bs-vc-block,
+.bs-vc-content .better-studio-shortcode,
+.bs-shortcode,
+.bs-listing";
+
+//
+// Selectors for Box Style
+//
+$box_selectors_card: "
+.archive-title,
+.bs-vc-block,
+.bs-vc-content .better-studio-shortcode,
+.widget,
+.bs-shortcode,
+.bs-listing";
+
+//
+// Header Helpers
+//
+$header: false;
+$header_height: false;
+
+//
+// Menu Current BG
+//
+$menu_current_bg: false;
+$menu_current_bg_style: false;
+$menu_current_text_color: false;
+$menu_current_transition: false;
+
+//
+// Topbar Helpers
+//
+$topbar_height: false;
+
+//
+// Footer Helpers
+//
+$footer_style: false;
+$footer-margin-top: false;
+$footer-column-separator: false;
+$footer-column-padding: false;
+
+//
+// Section Heading
+//
+$section_heading_margin_bottom: false;
+$section_heading_sidebar_margin_bottom: false;
+
+//
+// Other Widget
+//
+$newsletter_border_radius_inputs: false;
+$about_us_text_align: false;
+$financial_pack: false;
+$about_us_social_icon_size: false;
+$about_us_social_icon_font_size: false;

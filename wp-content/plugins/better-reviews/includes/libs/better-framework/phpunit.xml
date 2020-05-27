@@ -1,0 +1,36 @@
+<phpunit
+        bootstrap="tests/bootstrap.php"
+        backupGlobals="false"
+        colors="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+>
+    <testsuites>
+
+        <testsuite name="elementor">
+            <!--<directory prefix="test-" suffix=".php">./tests/elementor</directory>-->
+        </testsuite>
+        <testsuite name="gutenberg">
+            <directory prefix="test-" suffix=".php">./tests/gutenberg</directory>
+            <directory prefix="test-" suffix=".php">./tests/transpiler</directory>
+        </testsuite>
+
+    </testsuites>
+
+    <php>
+        <includePath>.</includePath>
+
+        <env name="custom_abspath" value="true"/>
+        <env name="db" value="bf-test"/>
+        <env name="include_elementor" value="true"/>
+    </php>
+
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory prefix="test-" suffix=".php">./tests/</directory>
+            <exclude>./tests/vendor/</exclude>
+        </whitelist>
+    </filter>
+</phpunit>

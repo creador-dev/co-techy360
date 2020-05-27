@@ -1,0 +1,73 @@
+.mce-content-body.mceContentBody.mceContentBody[data-page_layout="default"]:before,
+.mce-content-body.mceContentBody.mceContentBody[data-page_layout="default"]:after {
+    content: 'Sidebar';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 102%;
+    width: 10px;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    font-size: 14px;
+    color: #d8d8d8;
+    text-align: center;
+    height: 100%;
+    max-width: 330px;
+    z-index: 1;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+    pointer-events: none;
+}
+
+.rtl.mce-content-body.mceContentBody.mceContentBody[data-page_layout="default"]:before,
+.rtl.mce-content-body.mceContentBody.mceContentBody[data-page_layout="default"]:after {
+    left: auto;
+    right: 102%;
+}
+
+.mce-content-body.mceContentBody.mceContentBody[data-page_layout="default"]:after {
+    content: 'Primary';
+    color: #c2cad2;
+}
+
+.mce-content-body.mceContentBody.mceContentBody[data-page_layout="default"]:before {
+    content: 'Secondary';
+    color: #d3d4d6;
+}
+
+.mce-content-body.mceContentBody.mceContentBody[data-page_layout="default"] {
+    max-width: inherit /* layout-3column-content */;
+}
+
+@media (max-width: 1px /* layout-3column-content */
+) {
+    .mce-content-body.mceContentBody.mceContentBody[data-page_layout^="default"] {
+        border: none !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .mce-content-body.mceContentBody.mceContentBody[data-page_layout^="default"]:before {
+        display: none !important;
+    }
+}
+
+.mce-content-body.mceContentBody.mceContentBody[data-page_layout="default"]:before {
+    left: 106%;
+    border-left: 1px solid #eee;
+    padding-left: 22px;
+    width: 35px;
+}
+
+.rtl.mce-content-body.mceContentBody.mceContentBody[data-page_layout="default"]:before {
+    left: inherit;
+    right: 106%;
+    border-left: none;
+    border-right: 1px solid #eee;
+    padding-left: 0;
+    padding-right: 22px;
+}

@@ -1,0 +1,45 @@
+blockquote.bs-quote.bsq-t1.bsq-s18.bs-quote {
+  text-align: inherit;
+  font-size: 120%;
+  padding: 0; }
+
+blockquote.bs-quote.bsq-t1.bsq-s18.bs-quote:after {
+  display: none; }
+
+blockquote.bs-quote.bsq-t1.bsq-s18.bs-quote:before {
+  content: "\b043";
+  transform: rotate(180deg);
+  top: inherit;
+  right: 0;
+  left: inherit;
+  bottom: 23px;
+  font-size: 60px; }
+
+blockquote.bs-quote.bsq-t1.bsq-s18.bs-quote.bs-quote:before {
+  color: rgba(0, 0, 0, 0.08);
+  content: "\b044"; }
+
+blockquote.bs-quote.bsq-t1.bsq-s18 .quote-author {
+  margin-top: 20px;
+  text-align: inherit; }
+
+blockquote.bs-quote.bsq-t1.bsq-s18 .quote-author-avatar {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 8px; }
+
+blockquote.bs-quote.bsq-t1.bsq-s18 .quote-author-avatar + .quote-author-name {
+  margin-top: 3px; }
+
+blockquote.bs-quote.bsq-t1.bsq-s18.bs-quote.bsq-right, blockquote.bs-quote.bsq-t1.bsq-s18.bs-quote.bsq-left {
+  max-width: 342px;
+  border: solid 1px rgba(0, 0, 0, 0.1) !important;
+  border-right: none !important;
+  border-left: none !important;
+  padding: 22px 0 17px; }
+
+blockquote.bs-quote.bsq-t1.bsq-s18.bsq-left {
+  margin-right: 25px; }
+
+blockquote.bs-quote.bsq-t1.bsq-s18.bsq-right {
+  margin-left: 30px; }

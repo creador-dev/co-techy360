@@ -1,0 +1,33 @@
+@import "variables.scss";
+
+blockquote.bs-quote.bsq-t1.bsq-s2 {
+  margin-bottom: 20px;
+  padding-top: 100px;
+
+  &.bsq-left {
+	margin-right: 25px;
+  }
+
+  &.bsq-right {
+	margin-left: 25px;
+  }
+
+  &:before {
+	top: 23px;
+	content: "\b042";
+	font-size: 62px;
+  }
+
+  &:after {
+	display: inline-block;
+	z-index: -1;
+	opacity: 0.15;
+  }
+
+  &.bs-quote.bsq-left,
+  &.bs-quote.bsq-right {
+	padding-left: 25px;
+	padding-right: 25px;
+  }
+
+}

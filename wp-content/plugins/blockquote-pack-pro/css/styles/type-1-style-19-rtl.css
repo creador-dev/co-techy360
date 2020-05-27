@@ -1,0 +1,13 @@
+blockquote.bs-quote.bs-quote.bsq-t1.bsq-s19 {
+  padding: 12px 17px 12px 0 !important; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s19:after {
+    right: 0;
+    left: auto; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s19:before {
+    left: 17px;
+    right: inherit; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s19 .quote-author .quote-author-avatar {
+    display: inline-block;
+    float: right;
+    margin-right: 0;
+    margin-left: 15px; }

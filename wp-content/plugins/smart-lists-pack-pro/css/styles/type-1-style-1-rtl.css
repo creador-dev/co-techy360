@@ -1,0 +1,8 @@
+.bs-smart-list.bssl-t1.bssl-s1 .bssl-control-nav {
+  left: 0;
+  right: auto; }
+
+@media screen and (max-width: 580px) {
+  .bs-smart-list.bssl-t1.bssl-s1 .bssl-control-nav {
+    left: 0;
+    right: auto; } }

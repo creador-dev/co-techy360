@@ -1,0 +1,243 @@
+/***
+ *  BetterFramework is BetterStudio framework for themes and plugins.
+ *
+ *  ______      _   _             ______                                           _
+ *  | ___ \    | | | |            |  ___|                                         | |
+ *  | |_/ / ___| |_| |_ ___ _ __  | |_ _ __ __ _ _ __ ___   _____      _____  _ __| | __
+ *  | ___ \/ _ \ __| __/ _ \ '__| |  _| '__/ _` | '_ ` _ \ / _ \ \ /\ / / _ \| '__| |/ /
+ *  | |_/ /  __/ |_| ||  __/ |    | | | | | (_| | | | | | |  __/\ V  V / (_) | |  |   <
+ *  \____/ \___|\__|\__\___|_|    \_| |_|  \__,_|_| |_| |_|\___| \_/\_/ \___/|_|  |_|\_\
+ *
+ *  Copyright © 2017 Better Studio
+ *
+ *
+ *  Our portfolio is here: http://themeforest.net/user/Better-Studio/portfolio
+ *
+ *  \--> BetterStudio, 2017 <--/
+ */
+
+
+/*
+
+    Better Studio Admin Icon
+    v1.1
+
+*/
+
+@font-face {
+    font-family: "Better Studio Admin Icons";
+    src:url("../fonts/better-studio-admin-icons.eot");
+    src:url("../fonts/better-studio-admin-icons.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/better-studio-admin-icons.woff") format("woff"),
+    url("../fonts/better-studio-admin-icons.ttf") format("truetype"),
+    url("../fonts/better-studio-admin-icons.svg#better-studio-admin-icons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+[data-icon]:before {
+    font-family: "better-studio-admin-icons" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="bsai-"]:before,
+[class*=" bsai-"]:before {
+    font-family: "Better Studio Admin Icons" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle;
+}
+
+
+.bsai-betterstudio:before {
+    content: "\e000";
+}
+.bsai-header:before {
+    content: "\e001";
+}
+.bsai-footer:before {
+    content: "\e002";
+}
+.bsai-sidebar:before {
+    content: "\e003";
+}
+.bsai-page-text:before {
+    content: "\e004";
+}
+.bsai-link:before {
+    content: "\e005";
+}
+.bsai-archive:before {
+    content: "\e006";
+}
+.bsai-arrow-bottom:before {
+    content: "\e007";
+}
+.bsai-arrow-top:before {
+    content: "\e008";
+}
+.bsai-export:before {
+    content: "\e009";
+}
+.bsai-download:before {
+    content: "\e00a";
+}
+.bsai-image:before {
+    content: "\e00b";
+}
+.bsai-slider:before {
+    content: "\e00c";
+}
+.bsai-slider-new:before {
+    content: "\e00d";
+}
+.bsai-paint:before {
+    content: "\e00e";
+}
+.bsai-paint1:before {
+    content: "\e00f";
+}
+.bsai-paint2:before {
+    content: "\e010";
+}
+.bsai-images:before {
+    content: "\e011";
+}
+.bsai-share-alt:before {
+    content: "\e012";
+}
+.bsai-share:before {
+    content: "\e013";
+}
+.bsai-typography:before {
+    content: "\e014";
+}
+.bsai-global:before {
+    content: "\e015";
+}
+.bsai-gears:before {
+    content: "\e016";
+}
+.bsai-css3:before {
+    content: "\e017";
+}
+.bsai-js:before {
+    content: "\e018";
+}
+.bsai-analytics:before {
+    content: "\e019";
+}
+.bsai-refresh:before {
+    content: "\e01a";
+}
+.bsai-goal:before {
+    content: "\e01b";
+}
+.bsai-save:before {
+    content: "\e01c";
+}
+.bsai-add:before {
+    content: "\e01d";
+}
+.bsai-delete:before {
+    content: "\e01e";
+}
+.bsai-save-clean:before {
+    content: "\e01f";
+}
+.bsai-reset:before {
+    content: "\e020";
+}
+.bsai-reset-clean:before {
+    content: "\e021";
+}
+.bsai-verdict:before {
+    content: "\e022";
+}
+.bsai-404:before {
+    content: "\e023";
+}
+.bsai-list-bullet:before {
+    content: "\e024";
+}
+.bsai-analytics1:before {
+    content: "\e025";
+}
+.bsai-title:before {
+    content: "\e026";
+}
+.bsai-advertise:before {
+    content: "\e027";
+}
+.bsai-comment:before {
+    content: "\e028";
+}
+.bsai-pin:before {
+    content: "\e029";
+}
+.bsai-sitemap:before {
+    content: "\e02a";
+}
+.bsai-woo:before {
+    content: "\e02b";
+}
+.bsai-key:before {
+    content: "\e02c";
+}
+.bsai-bbpress:before {
+    content: "\e02d";
+}
+.bsai-translation:before {
+    content: "\e02e";
+}
+.bsai-database:before {
+    content: "\e02f";
+}
+.bsai-font:before {
+    content: "\e030";
+}
+.bsai-export-import:before {
+    content: "\e031";
+}
+.bsai-advertise2:before {
+    content: "\e033";
+}
+.bsai-gear:before {
+    content: "\e032";
+}
+.bsai-publisher:before {
+    content: "\e034";
+}
+.bsai-typekit:before {
+    content: "\e035";
+}
+.bsai-check:before {
+    content: "\e036";
+}
+.bsai-skyscraper:before {
+    content: "\e037";
+}
+.bsai-checked-grid:before {
+    content: "\e038";
+}
+.bsai-newsletter-pack:before {
+    content: "\e039";
+}
+.bsai-inject:before {
+    content: "\e03a";
+}

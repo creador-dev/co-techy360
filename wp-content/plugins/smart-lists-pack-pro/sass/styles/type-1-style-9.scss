@@ -1,0 +1,30 @@
+@import "variables.scss";
+
+.bs-smart-list.bssl-t1.bssl-s9 {
+
+  margin-top: 22px;
+
+  @include space-after-item;
+
+  .bssl-item-title {
+	padding: 0 0 0 52px;
+	position: relative;
+	border-bottom: 3px solid #222;
+	min-height: 36px;
+
+	.bssl-count {
+	  position: absolute;
+	  left: 0;
+	  top: -2px;
+	  bottom: 0;
+	}
+  }
+
+  @media screen and (max-width: $break-mobile) {
+	.bssl-item-title {
+	  font-size: 18px;
+	  padding-bottom: 5px;
+	}
+  }
+
+}

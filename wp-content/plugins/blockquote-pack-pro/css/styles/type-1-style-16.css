@@ -1,0 +1,34 @@
+blockquote.bs-quote.bs-quote.bsq-t1.bsq-s16 {
+  text-align: inherit;
+  font-size: 123%;
+  padding: 0 0 0 17px; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s16:before {
+    display: none; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s16:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+    width: 4px; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s16.bsq-left {
+    margin-right: 25px; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s16.bsq-right {
+    margin-left: 25px; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s16 .quote-author .quote-author-avatar {
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s16 .quote-author {
+    text-align: inherit; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s16 .quote-author-name {
+    font-weight: bolder;
+    padding-top: 3px;
+    margin-top: 0; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s16.bs-quote.bsq-right, blockquote.bs-quote.bs-quote.bsq-t1.bsq-s16.bs-quote.bsq-left {
+    max-width: 360px; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s16.bs-quote.bsq-right {
+    margin-left: 20px; }
+  blockquote.bs-quote.bs-quote.bsq-t1.bsq-s16.bs-quote.bsq-left {
+    margin-right: 20px; }

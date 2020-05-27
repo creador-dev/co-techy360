@@ -1,0 +1,97 @@
+{
+  "themes": [
+    {
+      "name": "Bimber",
+      "image": "http:\/\/localhost\/wp-test\/assets\/images\/bimber.png",
+      "by": "bimber.png",
+      "slug": "bimber"
+    },
+    {
+      "name": "Bmag",
+      "image": "http:\/\/localhost\/wp-test\/assets\/images\/bmag.png",
+      "by": "bmag.png",
+      "slug": "bmag"
+    },
+    {
+      "name": "Cheerup",
+      "image": "http:\/\/localhost\/wp-test\/assets\/images\/cheerup.png",
+      "by": "cheerup.png",
+      "slug": "cheerup"
+    },
+    {
+      "name": "Flexmag",
+      "image": "http:\/\/localhost\/wp-test\/assets\/images\/flexmag.png",
+      "by": "flexmag.png",
+      "slug": "flexmag"
+    },
+    {
+      "name": "Gridlove",
+      "image": "http:\/\/localhost\/wp-test\/assets\/images\/gridlove.png",
+      "by": "gridlove.png",
+      "slug": "gridlove"
+    },
+    {
+      "name": "Index",
+      "image": "http:\/\/localhost\/wp-test\/assets\/images\/index.php",
+      "by": "index.php",
+      "slug": "index"
+    },
+    {
+      "name": "Jannah",
+      "image": "http:\/\/localhost\/wp-test\/assets\/images\/jannah.png",
+      "by": "jannah.png",
+      "slug": "jannah",
+      "badge": "New Added!"
+    },
+    {
+      "name": "Newspaper",
+      "image": "http:\/\/localhost\/wp-test\/assets\/images\/newspaper.png",
+      "by": "newspaper.png",
+      "slug": "newspaper"
+    },
+    {
+      "name": "Rehub",
+      "image": "http:\/\/localhost\/wp-test\/assets\/images\/rehub.png",
+      "by": "rehub.png",
+      "slug": "rehub"
+    },
+    {
+      "name": "Rewood",
+      "image": "http:\/\/localhost\/wp-test\/assets\/images\/rewood.png",
+      "by": "rewood.png",
+      "slug": "rewood"
+    },
+    {
+      "name": "Sahifa",
+      "image": "http:\/\/localhost\/wp-test\/assets\/images\/sahifa.png",
+      "by": "sahifa.png",
+      "slug": "sahifa"
+    },
+    {
+      "name": "Smartmag",
+      "image": "http:\/\/localhost\/wp-test\/assets\/images\/smartmag.png",
+      "by": "smartmag.png",
+      "slug": "smartmag",
+      "badge": "New Added!"
+    },
+    {
+      "name": "Smartmg",
+      "image": "http:\/\/localhost\/wp-test\/assets\/images\/smartmg.png",
+      "by": "smartmg.png",
+      "slug": "smartmg"
+    },
+    {
+      "name": "Unk1",
+      "image": "http:\/\/localhost\/wp-test\/assets\/images\/unk1.png",
+      "by": "unk1.png",
+      "slug": "unk1"
+    },
+    {
+      "name": "Voux",
+      "image": "http:\/\/localhost\/wp-test\/assets\/images\/voux.png",
+      "by": "voux.png",
+      "slug": "voux"
+    }
+  ],
+  "plugins": []
+}

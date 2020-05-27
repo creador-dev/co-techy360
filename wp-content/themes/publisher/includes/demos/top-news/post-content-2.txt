@@ -1,0 +1,29 @@
+Three days before Cboe Global Markets Inc., one of the world’s biggest regulated exchanges, debuts futures on the cryptocurrency, it had one of its wildest sessions ever. On Coinbase Inc.’s GDAX exchange, prices zoomed up to almost $20,000 from $16,000 in only about 90 minutes -- then crashed back down. The largest digital currency is still up more than 16-fold this year.
+
+Coinbase, one of the largest U.S. online exchanges used by investors, temporarily crashed and continued to suffer from service delays. Trezor, a wallet service, tweeted that it’s having “minor issues” with its servers, while Bitfinex, the largest bitcoin exchange in the world, said on Twitter that it has been under a denial of service attack for several days and that it recently got worse.
+
+The entrance of Cboe and CME is a watershed for bitcoin because many professional investors have been unwilling to do business on the unregulated platforms where bitcoin currently trades. Cboe and CME are regulated, potentially assuaging those concerns.
+
+Some big traders had just warned about the impending introduction. On Wednesday, the Futures Industry Association -- a group of major banks, brokers, and traders -- said the contracts were rushed without enough consideration of the risks.
+
+The group outlined their concerns in an open letter, questioning whether the exchanges would be able to adequately police market manipulation for bitcoin futures. FIA added that the exchanges didn’t get enough industry feedback on margin levels, trading limits, stress tests, and clearing for the products before bringing them to market.
+
+Cboe worked with the Commodity Futures Trading Commission to design and improve its contracts and “committed to continuing to work closely with the CFTC to monitor trading and foster the growth of a transparent, liquid and fair bitcoin futures market,” according to a statement from the company.
+
+Other trading experts have sounded alarmed bells on the possibility of manipulation. The thinking goes that because cryptocurrency markets aren’t policed by a central regulator, cheaters could fly under the radar if they try to move the price of bitcoin on exchanges with scant volume.
+
+[bs-quote quote="Spending money is much more difficult than making money." style="style-17" align="left" color="#08408e" author_name="Jack Ma" author_job="Founder of Alibaba Group" author_avatar="%%bf_product_demo_media_url:{media.primary.quote-avatar}:'full'%%"]
+
+The CFTC “has strong anti-manipulation rules for futures, but those won’t necessarily protect investors if the bitcoin cash markets are manipulated,” said Ty Gellasch, executive director of the Healthy Markets Association, an investor advocacy group.
+
+Cloe's contracts will be based on the price of bitcoin on the Gemini Exchange. CME is using four exchanges, including the Coinbase GDAX market where prices proved so volatile Thursday.
+
+Both Cboe and CME have curbs in place to calm price swings. Cboe halts trading for two minutes if prices rise or fall 10 percent.
+
+The futures appear to be getting a high-profile endorsement. Goldman Sachs Group Inc. plans to clear bitcoin futures contracts for certain clients when the derivatives go live in coming days, according to a person with knowledge of the firm’s plans.
+
+Goldman Sachs, one of the largest firms helping clients buy and sell futures contracts, will act in an agency capacity and won’t serve as a market-maker or build inventory in the derivatives, said the person, who asked not to be identified talking about the plans. The decision to clear client trades will be made on a case-by-case basis, the person said.
+
+“Given that this is a new product, as expected we are evaluating the specifications and risk attributes for the bitcoin futures contracts as part of our standard due diligence process,” Tiffany Galvin, a spokeswoman for the bank, said in an emailed statement.
+
+At Coinbase on Thursday, bitcoin was almost $3,000 pricier than the levels seen on other markets, a record high, according to data compiled by Bloomberg.

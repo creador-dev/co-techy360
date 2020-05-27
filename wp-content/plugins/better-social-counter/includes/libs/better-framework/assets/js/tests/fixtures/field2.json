@@ -1,0 +1,73 @@
+
+[
+  {
+    "id": "the_id",
+    "component": "PanelBody",
+    "args": {
+      "title": "Group title",
+      "initialOpen": true
+    },
+    "children": [
+      {
+        "id": "text",
+        "component": "TextControl",
+        "args": {
+          "type": "text",
+          "label": "Field Title"
+        }
+      }
+    ]
+  },
+  {
+    "id": "the_id2",
+    "component": "PanelBody",
+    "args": {
+      "title": "Group2 title",
+      "initialOpen": false
+    },
+    "children": [
+      {
+        "id": "text2",
+        "component": "TextControl",
+        "args": {
+          "type": "text",
+          "label": "Field2 Title"
+        }
+      }
+    ]
+  },
+  {
+    "id": "the_id3",
+    "component": "PanelBody",
+    "args": {
+      "title": "Group3 title",
+      "initialOpen": false
+    },
+    "children": [
+      {
+        "id": "text3",
+        "component": "TextControl",
+        "args": {
+          "type": "text",
+          "label": "Field3 Title"
+        }
+      },
+      {
+        "id": "text3_2",
+        "component": "TextControl",
+        "args": {
+          "type": "text",
+          "label": "Field3_2 Title"
+        }
+      },
+      {
+        "id": "text3_3",
+        "component": "TextControl",
+        "args": {
+          "type": "text",
+          "label": "Field3_3 Title"
+        }
+      }
+    ]
+  }
+]

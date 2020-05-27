@@ -1,0 +1,25 @@
+.bs-smart-list.bssl-t1.bssl-s4 .bssl-item-title {
+  padding: 0 0 0 160px;
+}
+
+.bs-smart-list.bssl-t1.bssl-s4 .bssl-control-nav {
+  left: 0;
+  right: auto;
+}
+
+.bs-smart-list.bssl-t1.bssl-s4 .bssl-item .bssl-image-w {
+  float: right;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 580px) {
+  .bs-smart-list.bssl-t1.bssl-s4 .bssl-item .bssl-image-w {
+	margin-left: 0;
+	margin-right: auto;
+  }
+
+  .bs-smart-list.bssl-t1.bssl-s4 .bssl-control-nav a:last-child {
+	float: left;
+  }
+}

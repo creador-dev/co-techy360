@@ -1,0 +1,900 @@
+/***
+ *  BetterFramework is BetterStudio framework for themes and plugins.
+ *
+ *  ______      _   _             ______                                           _
+ *  | ___ \    | | | |            |  ___|                                         | |
+ *  | |_/ / ___| |_| |_ ___ _ __  | |_ _ __ __ _ _ __ ___   _____      _____  _ __| | __
+ *  | ___ \/ _ \ __| __/ _ \ '__| |  _| '__/ _` | '_ ` _ \ / _ \ \ /\ / / _ \| '__| |/ /
+ *  | |_/ /  __/ |_| ||  __/ |    | | | | | (_| | | | | | |  __/\ V  V / (_) | |  |   <
+ *  \____/ \___|\__|\__\___|_|    \_| |_|  \__,_|_| |_| |_|\___| \_/\_/ \___/|_|  |_|\_\
+ *
+ *  Copyright © 2017 Better Studio
+ *
+ *
+ *  Our portfolio is here: https://betterstudio.com/
+ *
+ *  \--> BetterStudio, 2017 <--/
+ */
+
+
+/*
+ *  Better Modals
+ */
+
+
+/* Hide scroll bar */
+
+html.remodal-is-locked {
+    overflow: hidden;
+}
+
+/* Anti FOUC */
+
+.remodal,
+[data-remodal-id] {
+    display: none;
+}
+
+/* Necessary styles of the overlay */
+
+.remodal-overlay {
+    position: fixed;
+    z-index: 100010;
+    top: -5000px;
+    right: -5000px;
+    bottom: -5000px;
+    left: -5000px;
+    display: none;
+}
+
+/* Necessary styles of the wrapper */
+
+.remodal-wrapper {
+    position: fixed;
+    z-index: 100020;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: none;
+    overflow: auto;
+
+    text-align: center;
+
+    -webkit-overflow-scrolling: touch;
+}
+
+.remodal-wrapper:after {
+    display: inline-block;
+
+    height: 100%;
+    margin-left: -0.05em;
+
+    content: "";
+}
+
+/* Fix iPad, iPhone glitches */
+
+.remodal-overlay,
+.remodal-wrapper {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+/* Necessary styles of the modal dialog */
+
+.remodal {
+    position: relative;
+
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+.remodal-is-initialized {
+    /* Disable Anti-FOUC */
+    display: inline-block;
+}
+
+
+/* ==========================================================================
+   Remodal's default mobile first theme
+   ========================================================================== */
+
+/* Default theme styles for the background */
+
+.remodal-bg.remodal-is-opening,
+.remodal-bg.remodal-is-opened {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+
+/* Default theme styles of the overlay */
+
+.remodal-overlay {
+    background: rgba(43, 46, 56, 0.9);
+}
+
+.remodal-overlay.remodal-is-opening,
+.remodal-overlay.remodal-is-closing {
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.remodal-overlay.remodal-is-opening {
+    -webkit-animation: remodal-overlay-opening-keyframes 0.3s;
+    animation: remodal-overlay-opening-keyframes 0.3s;
+}
+
+.remodal-overlay.remodal-is-closing {
+    -webkit-animation: remodal-overlay-closing-keyframes 0.3s;
+    animation: remodal-overlay-closing-keyframes 0.3s;
+}
+
+/* Default theme styles of the wrapper */
+
+.remodal-wrapper {
+    padding: 10px 10px 0;
+}
+
+/* Default theme styles of the modal dialog */
+
+.remodal {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0;
+
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+
+    color: #2b2e38;
+    background: #fff;
+}
+
+.remodal.remodal-is-opening,
+.remodal.remodal-is-closing {
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.remodal.remodal-is-opening {
+    -webkit-animation: remodal-opening-keyframes 0.3s;
+    animation: remodal-opening-keyframes 0.3s;
+}
+
+.remodal.remodal-is-closing {
+    -webkit-animation: remodal-closing-keyframes 0.3s;
+    animation: remodal-closing-keyframes 0.3s;
+}
+
+/* Vertical align of the modal dialog */
+
+.remodal,
+.remodal-wrapper:after {
+    vertical-align: middle;
+}
+
+/* Close button */
+
+.remodal-close {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+    overflow: visible;
+
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+
+    cursor: pointer;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    text-decoration: none;
+
+    color: #95979c;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+.remodal-close:hover {
+    color: #2b2e38;
+}
+
+.remodal-close:before {
+    font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+    font-size: 25px;
+    line-height: 35px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 35px;
+
+    content: "\00d7";
+    text-align: center;
+}
+
+/* Dialog buttons */
+
+.remodal-confirm,
+.remodal-cancel {
+    font: inherit;
+
+    display: inline-block;
+    overflow: visible;
+
+    min-width: 110px;
+    margin: 0;
+    padding: 12px 0;
+
+    cursor: pointer;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+
+    border: 0;
+    outline: 0;
+}
+
+.remodal-confirm {
+    color: #fff;
+    background: #81c784;
+}
+
+.remodal-confirm:hover {
+    background: #66bb6a;
+}
+
+.remodal-cancel {
+    color: #fff;
+    background: #e57373;
+}
+
+.remodal-cancel:hover {
+    background: #ef5350;
+}
+
+/* Remove inner padding and border in Firefox 4+ for the button tag. */
+
+.remodal-confirm::-moz-focus-inner,
+.remodal-cancel::-moz-focus-inner {
+    padding: 0;
+
+    border: 0;
+}
+
+/* Keyframes
+   ========================================================================== */
+
+@-webkit-keyframes remodal-opening-keyframes {
+    from {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+
+        opacity: 0;
+    }
+    to {
+        -webkit-transform: none;
+        transform: none;
+
+        opacity: 1;
+    }
+}
+
+@keyframes remodal-opening-keyframes {
+    from {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+
+        opacity: 0;
+    }
+    to {
+        -webkit-transform: none;
+        transform: none;
+
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes remodal-closing-keyframes {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+
+        opacity: 1;
+    }
+    to {
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+
+        opacity: 0;
+    }
+}
+
+@keyframes remodal-closing-keyframes {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+
+        opacity: 1;
+    }
+    to {
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes remodal-overlay-opening-keyframes {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes remodal-overlay-opening-keyframes {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes remodal-overlay-closing-keyframes {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes remodal-overlay-closing-keyframes {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* Media queries
+   ========================================================================== */
+
+@media only screen and (min-width: 641px) {
+    .remodal {
+        max-width: 1000px;
+    }
+
+}
+
+/* IE8
+   ========================================================================== */
+
+.lt-ie9 .remodal-overlay {
+    background: #2b2e38;
+}
+
+.lt-ie9 .remodal {
+    width: 700px;
+}
+
+
+
+.better-modal .modal-inner{
+    text-align: left;
+    background: #eee;
+}
+
+.better-modal .modal-header{
+    border-bottom: 1px solid #E2E2E2;
+    padding: 15px;
+    background: #fff;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+}
+
+.better-modal .modal-footer{
+    border-top: 1px solid #E2E2E2;
+    padding: 15px;;
+    background: #fff;
+    margin-top: 5px;;
+}
+
+
+
+/* Font Icon Modal
+   ========================================================================== */
+
+.better-modal.icon-modal .modal-header{
+    margin-bottom: 0;
+    padding: 15px;
+}
+
+.better-modal.icon-modal .modal-footer{
+    margin-top: 0;
+}
+
+.better-modal.icon-modal .modal-body{
+    background-color: #fff;
+    position: relative;
+}
+
+.better-modal.icon-modal .icons-container{
+    width: 75%;
+    float: left;
+    padding: 0 3px;
+    height: 585px;
+    overflow: scroll;
+    background-color: #eee;
+    border-right: 1px solid #E2E2E2;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.better-modal.icon-modal .icons-container .icons-inner {
+    padding: 12px;
+}
+.better-modal.icon-modal .icons-list{
+    padding: 0;
+    margin: 0;
+}
+.better-modal.icon-modal .icons-list .icon-select-option{
+    float: left;
+    background: #fff;
+    border: 1px solid #D3D3D3;
+    color: #575757;
+    border-radius: 2px;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    position: relative;
+}
+.better-modal.icon-modal .icons-list .icon-select-option.default-option{
+    width: 72px;
+    line-height: 30px;
+}
+.better-modal.icon-modal .icons-list .icon-select-option.default-option p{
+    margin: 0;
+    line-height: 30px;
+}
+.better-modal.icon-modal .icons-list .icon-select-option img{
+    max-width: 70% !important;
+    height: auto;
+    max-height: 70% !important;
+    vertical-align: baseline;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.better-modal.icon-modal .icons-list .icon-select-option .delete-icon{
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    font-size: 9px;
+    text-align: center;
+    color: #5D5D5D;
+    background: #B7B7B7;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    display: none;
+}
+.better-modal.icon-modal .icons-list .icon-select-option .delete-icon:hover{
+    color: #fff;
+    background: #ef534c;
+}
+.better-modal.icon-modal .icons-list .icon-select-option:hover .delete-icon {
+    display: block;
+}
+.better-modal.icon-modal .icons-list .icon-select-option:hover {
+    border-color: #5CA65F;
+    color: #3A863D;
+}
+.better-modal.icon-modal .icons-list .icon-select-option.selected {
+    background-color: #5CA65F;
+    border-color: #5CA65F;
+    color: #fff;
+}
+.better-modal.icon-modal .icons-list .icon-select-option.custom-icon.selected {
+    background: #fff;
+    color: #5D5D5D;
+}
+.better-modal.icon-modal .icons-list .icon-select-option .label{
+    display: none;
+}
+
+.better-modal.icon-modal .cats-container{
+    width: 25%;
+    float: right;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.better-modal.icon-modal .cats-container .better-icons-category-list{
+    margin: 0;
+}
+.better-modal.icon-modal .cats-container .better-icons-category-list .icon-category{
+    padding: 4px 0;
+    margin: 0;
+    border-bottom: 1px solid #F2F2F2;
+    color: #808080;
+    cursor: pointer;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.better-modal.icon-modal .cats-container .better-icons-category-list .icon-category:first-child {
+    padding-top: 0;
+}
+.better-modal.icon-modal .cats-container .better-icons-category-list .icon-category:last-child {
+    border-bottom: none;
+}
+.better-modal.icon-modal .cats-container .better-icons-category-list .icon-category:hover {
+    color: #3D3D3D;
+}
+.better-modal.icon-modal .cats-container .better-icons-category-list .icon-category .text-muted{
+    float: right;
+    color: #BABABA;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.better-modal.icon-modal .cats-container .better-icons-category-list .icon-category.selected:hover,
+.better-modal.icon-modal .cats-container .better-icons-category-list .icon-category.selected {
+    color: #3A863D;
+}
+.better-modal.icon-modal .cats-container .better-icons-category-list .icon-category.selected .text-muted {
+    color: #3A863D;
+}
+
+.better-modal.icon-modal .better-icons-search{
+    float: right;
+    width: 400px;
+    position: relative;
+    margin-right: -7px;
+}
+.better-modal.icon-modal .better-icons-search.hidden{
+    display: none;
+}
+.better-modal.icon-modal .better-icons-search .clean{
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    width: 14px;
+    text-align: center;
+    color: #C3C3C3;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.better-modal.icon-modal .better-icons-search .clean.fa-times-circle:hover {
+    color: #9B9B9B;
+}
+.better-modal.icon-modal .better-icons-search .better-icons-search-input{
+    width: 285px;
+    height: 30px;
+    border: 1px solid #DFDFDF;
+    outline: none;
+    box-shadow: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    margin-top: -6px;
+    float: right;
+    border-radius: 33px;
+    padding: 3px 14px;
+    font-weight: normal;
+    font-size: 13px;
+}
+.better-modal.icon-modal .better-icons-search .better-icons-search-input:focus{
+    border-color: #c6c6c6;
+}
+
+.better-modal.icon-modal .upload-custom-icon{
+    display: inline-block;
+    padding: 3px 15px;
+    font-size: 11px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    background: #5CA65F;
+    color: #fff;
+    border-radius: 13px;
+    cursor: pointer;
+    position: relative;
+    float: right;
+    margin-top: -4px;
+    margin-right: 10px;
+}
+.better-modal.icon-modal .upload-custom-icon:hover{
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    background: #4f9652;
+}
+.better-modal.icon-modal .upload-custom-icon-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(43, 46, 56, 0.63);
+    z-index: 1;
+    display: none;
+}
+.better-modal.icon-modal .upload-custom-icon-container .upload-custom-icon-inner{
+    background: #FFF;
+    position: absolute;
+    top: 50%;
+    margin-top: -190px;
+    left: 50%;
+    right: 140px;
+    margin-left: -215px;
+    bottom: 20px;
+    width: 430px;
+    height: 380px;
+    box-shadow: 0 0 25px rgba(43, 46, 56, 0.56);
+    overflow: hidden;
+}
+.better-modal.icon-modal .upload-custom-icon-container.show{
+    display: block;
+}
+.better-modal.icon-modal .upload-custom-icon-container .icon-uploader-loading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #f8f8f8;
+    z-index: 1;
+    display: none;
+}
+.better-modal.icon-modal .upload-custom-icon-container.show-loading .icon-uploader-loading {
+    display: block;
+}
+.better-modal.icon-modal .upload-custom-icon-container .icon-uploader-loading .fa-refresh {
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    font-size: 18px;
+    color: #565656;
+    position: absolute;
+    top: 50%;
+    margin-top: -9px;
+    left: 50%;
+    margin-left: -9px;
+}
+.better-modal.icon-modal .upload-custom-icon-container .section-body{
+    height: 220px;
+    text-align: center;
+}
+.better-modal.icon-modal .upload-custom-icon-container .custom-icon-fields .icon-helper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.better-modal.icon-modal .upload-custom-icon-container .custom-icon-fields .icon-preview{
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+}
+.better-modal.icon-modal .upload-custom-icon-container .custom-icon-fields .icon-fields {
+    position: absolute;
+    bottom: 81px;
+    left: 0;
+    right: 0;
+    padding: 0 30px;
+    height: 32px;
+    text-align: center;
+}
+.better-modal.icon-modal .upload-custom-icon-container .custom-icon-fields .icon-fields input{
+    width: 62px;
+    margin-right: 17px;
+}
+.better-modal.icon-modal .upload-custom-icon-container .close-custom-icon{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 16px;
+    color: #F32E2E;
+    cursor: pointer;
+}
+.better-modal.icon-modal .upload-custom-icon-container .section-header{
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+    font-size: 13px;
+}
+.better-modal.icon-modal .upload-custom-icon-container .section-footer{
+    padding: 15px;
+    border-top: 1px solid #eee;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.better-modal.icon-modal .upload-custom-icon-container .section-footer .bf-button{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+}
+.better-modal.icon-modal .font-type-header{
+    margin: 15px 5px 10px 5px;
+    position: relative;
+    font-size: 15px;
+    color: #464646;
+}
+.better-modal.icon-modal .font-type-header .title{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding-right: 20px;
+    background: #eee;
+}
+.better-modal.icon-modal .font-type-header:before{
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -1px;
+    background: #DEDEDE;
+}
+.better-modal.icon-modal .no-custom-icon {
+    padding: 5px;
+    color: #909090;
+    margin: 0;
+}
+.better-modal.icon-modal .no-custom-icon.hidden{
+    display: none;
+}
+
+
+/* RTL FIX
+   ========================================================================== */
+.rtl .remodal-overlay {
+    left: -5000px;
+    right: -5000px;
+}
+.rtl .remodal-wrapper {
+    left: 0;
+    right: 0;
+}
+.rtl .remodal-wrapper:after {
+    margin-right: -0.05em;
+    margin-left: auto;
+}
+.rtl .remodal-close {
+    right: 0;
+    left: auto;
+}
+.rtl .remodal-close:before {
+    right: 0;
+    left: auto;
+}
+.rtl .better-modal .modal-inner {
+    text-align: right;
+}
+
+/* Font Icon Modal
+   ========================================================================== */
+.rtl .better-modal.icon-modal .icons-container {
+    float: right;
+    border-left: 1px solid #E2E2E2;
+    border-right: none;
+}
+.rtl .better-modal.icon-modal .icons-list .icon-select-option {
+    float: right;
+}
+.rtl .better-modal.icon-modal .icons-list .icon-select-option img {
+    right: 50%;
+    left: auto;
+}
+.rtl .better-modal.icon-modal .icons-list .icon-select-option .delete-icon {
+    left: -4px;
+    right: auto;
+}
+.rtl .better-modal.icon-modal .cats-container {
+    float: left;
+}
+.rtl .better-modal.icon-modal .cats-container .better-icons-category-list .icon-category .text-muted {
+    float: left;
+}
+.rtl .better-modal.icon-modal .better-icons-search {
+    float: left;
+    margin-left: -7px;
+    margin-right: auto;
+}
+.rtl .better-modal.icon-modal .better-icons-search .clean {
+    left: 10px;
+    right: auto;
+}
+.rtl .better-modal.icon-modal .better-icons-search .better-icons-search-input {
+    float: left;
+}
+.rtl .better-modal.icon-modal .upload-custom-icon {
+    float: left;
+    margin-left: 10px;
+    margin-right: auto;
+}
+.rtl .better-modal.icon-modal .upload-custom-icon-container {
+    right: 0;
+    left: 0;
+}
+.rtl .better-modal.icon-modal .upload-custom-icon-container .upload-custom-icon-inner {
+    right: 50%;
+    left: 140px;
+    margin-right: -215px;
+    margin-left: auto;
+}
+.rtl .better-modal.icon-modal .upload-custom-icon-container .icon-uploader-loading {
+    right: 0;
+    left: 0;
+}
+.rtl .better-modal.icon-modal .upload-custom-icon-container .icon-uploader-loading .fa-refresh {
+    right: 50%;
+    margin-right: -9px;
+    left: auto;
+    margin-left: auto;
+}
+.rtl .better-modal.icon-modal .upload-custom-icon-container .custom-icon-fields .icon-fields {
+    right: 0;
+    left: 0;
+}
+.rtl .better-modal.icon-modal .upload-custom-icon-container .custom-icon-fields .icon-fields input {
+    margin-left: 17px;
+    margin-right: auto;
+}
+.rtl .better-modal.icon-modal .upload-custom-icon-container .close-custom-icon {
+    left: 15px;
+    right: auto;
+}
+.rtl .better-modal.icon-modal .upload-custom-icon-container .section-footer {
+    right: 0;
+    left: 0;
+}
+.rtl .better-modal.icon-modal .font-type-header .title {
+    padding-left: 20px;
+    padding-right: 0;
+}
+.rtl .better-modal.icon-modal .font-type-header:before {
+    right: 0;
+    left: auto;
+}

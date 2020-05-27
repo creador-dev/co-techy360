@@ -1,0 +1,1 @@
+[vc_row full_width="stretch_row" css=".vc_custom_1531049302498{background-color: #1b1b1b !important;}"][vc_column][vc_wp_custommenu title="Hot topics" nav_menu="13"][/vc_column][/vc_row]

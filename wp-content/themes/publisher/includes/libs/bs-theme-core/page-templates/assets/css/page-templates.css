@@ -1,0 +1,408 @@
+/***
+ *  BetterStudio Themes Core.
+ *
+ *  ______  _____   _____ _                           _____
+ *  | ___ \/  ___| |_   _| |                         /  __ \
+ *  | |_/ /\ `--.    | | | |__   ___ _ __ ___   ___  | /  \/ ___  _ __ ___
+ *  | ___ \ `--. \   | | | '_ \ / _ \ '_ ` _ \ / _ \ | |    / _ \| '__/ _ \
+ *  | |_/ //\__/ /   | | | | | |  __/ | | | | |  __/ | \__/\ (_) | | |  __/
+ *  \____/ \____/    \_/ |_| |_|\___|_| |_| |_|\___|  \____/\___/|_|  \___|
+ *
+ *  Copyright © 2017 Better Studio
+ *
+ *
+ *  Our portfolio is here: https://betterstudio.com/
+ *
+ *  \--> BetterStudio, 2017 <--/
+ */
+
+/*
+*    Page Templates Global Styles
+*/
+.bf-admin-page .bf-page-header {
+    padding: 46px 0 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+    text-align: center;
+}
+.publisher-page-templates-body #wpbody-content{
+    padding-bottom: 65px;
+    float: none;
+    width: auto;
+    overflow: visible!important;
+    margin-left: -20px;
+}
+.publisher-page-templates-body .bf-page-header{
+    padding-top: 45px;
+}
+.bs-page-templates{
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 945px;
+}
+
+
+/*
+* Filter Section
+*/
+.bs-page-template-types {
+    border-top: 1px solid #eaeaea;
+    margin-top: 35px;
+    position: relative;
+}
+.bspt-filters {
+    display: inline-block;
+    text-align: center;
+    font-size: 0;
+    width: 100%;
+}
+.bspt-filters > li {
+    font-size: 14px;
+    font-weight: 800;
+    color: #5a5a5a;
+    position: relative;
+    display: inline-block;
+    margin: 0 7px 0;
+}
+.bspt-filters > li li {
+    display: none;
+}
+.bspt-filters a {
+    color: #757575;
+    text-decoration: none;
+    display: block;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    position: relative;
+    line-height: 46px;
+    padding: 0 16px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.bspt-filters li a:hover{
+    color: #161616;
+}
+.bspt-filters li.current a:after{
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+    content: '';
+    background: #5ca65f;
+}
+.bspt-filters li.current a {
+    color: #161616;
+}
+
+.bspt-filters a,
+.bspt-filters li {
+    outline: 0 !important;
+}
+
+
+/*
+* Single Item
+*/
+.bs-page-template {
+    height: 280px;
+    width: 280px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    border-top: none;
+    float: none;
+    display: inline-block;
+    margin: 0 15px 30px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+.bs-page-templates.not-active .bs-page-template{
+    height: 295px;
+}
+.bs-page-templates.not-active .bs-page-template .bspt-name {
+    float: none;
+    text-align: center;
+    margin-top: 3px;
+}
+.bs-page-templates.not-active .bs-page-template .active-error {
+    margin-top: 6px;
+    display: block;
+    color: #f13838;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+}
+.bs-page-template.disabled{
+    pointer-events: none;
+    opacity: 0.5;
+}
+.bspt-info {
+    padding: 7px 12px;
+    background: #fff;
+    position: relative;
+    line-height: 1.4;
+}
+.bspt-name {
+    float: left;
+    display: block;
+    color: #383838;
+    font-size: 14px;
+    font-weight: 700;
+}
+.bspt-cat {
+    font-size: 11px;
+    font-weight: 300;
+    color: #a4a4a4;
+    display: block;
+    clear: both;
+}
+.bspt-btn {
+    background: #e8e8e8;
+    border: 1px solid #cdcdcd;
+    border-radius: 2px;
+    color: #6a6a6a;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 9px;
+    line-height: 30px;
+    white-space: nowrap;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.bspt-btn.disabled {
+    pointer-events: none;
+    opacity: 0.8;
+    box-shadow: none;
+}
+.bspt-btn.in-loading{
+    background: #00a0d2;
+    border-color: #0073aa;
+    opacity: 0.8;
+    box-shadow: none;
+    color: #fff;
+}
+.bspt-btn .fa {
+    margin-right: 4px;
+}
+.bspt-install {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px;
+    background: #fff;
+}
+.bspt-screenshot {
+    position: relative;
+    left: -1px;
+    right: -1px;
+    top: 0;
+    height: 230px;
+    width: 282px;
+    z-index: 1;
+    overflow: hidden;
+    border-bottom: 1px solid #dbdbdb;
+    background: url("../images/loading.png") no-repeat center center #fff;
+}
+.bspt-screenshot img{
+    width: 282px;
+    height: 230px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.bspt-screenshot-hover {
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    text-align: center;
+    z-index: 44;
+}
+.bspt-screenshot-hover .bspt-btn.bspt-btn.bspt-btn {
+    display: inline-block;
+    position: absolute;
+    background: none;
+    border: 2px solid rgba(245, 245, 245, 0.8);
+    border-radius: 3px;
+    color: #fff;
+    line-height: 30px;
+    letter-spacing: 1px;
+    width: 90px;
+    height: 32px;
+    top: 50%;
+    margin-top: -12px;
+    left: 50%;
+    margin-left: -56px;
+}
+.bs-page-template:hover .bspt-screenshot-hover {
+    display: inline-block;
+    opacity: 1;
+}
+.bs-page-template.in-loading:hover .bspt-screenshot-hover {
+    display: none;
+}
+.bspt-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    background: #e61f1f;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    z-index: 23;
+}
+
+/**
+* Search Input
+*/
+.bspt-search {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -16px;
+}
+.bspt-search .fa-times-circle {
+    cursor: pointer;
+}
+.bspt-search .fa {
+    position: absolute;
+    right: 14px;
+    top: 10px;
+    color: #bdbdbd;
+    background: none;
+}
+.active.bspt-search .fa {
+    cursor: pointer;
+}
+.bspt-search-input {
+    border: 1px solid #c9c9c9;
+    -webkit-box-shadow: inset 0 0 2px 0 #000;
+    -moz-box-shadow: inset 0 0 2px 0 #000;
+    box-shadow: inset 0 0 2px 0 #000;
+    padding:0 30px 0 18px !important;
+    line-height: 28px;
+    position: relative;
+    font-size: 13px;
+    border-radius: 23px;
+    color: #858585;
+    outline: none;
+    width: 150px;
+    -webkit-transition: all .4s ease !important;
+    -moz-transition: all .4s ease !important;
+    -o-transition: all .4s ease !important;
+    transition: all .4s ease !important;
+}
+.bspt-search-input:active, .bspt-search-input:focus {
+    border-color: #4c954f !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: 0 0 2px rgba(76, 149, 79, 0.8) !important;
+    box-shadow: 0 0 2px rgba(76, 149, 79, 0.8) !important;
+    width: 200px;
+}
+
+
+/*
+    Hover Styles
+*/
+.bs-page-template:hover .bspt-btn {
+    background: #00a0d2;
+    border-color: #0073aa;
+
+    color: #fff;
+}
+
+
+/*
+*  RTL FIX
+*/
+.rtl.publisher-page-templates-body #wpbody-content {
+    margin-right: -20px;
+    margin-left: auto;
+}
+.rtl .bs-page-templates {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*
+* Filter Section
+*/
+.rtl .bspt-filters li.current a:after {
+    right: 0;
+    left: auto;
+}
+
+
+/*
+* Single Item
+*/
+.rtl .bspt-name {
+    float: right;
+}
+.rtl .bspt-btn .fa {
+    margin-left: 4px;
+    margin-right: auto;
+}
+.rtl .bspt-install {
+    left: 0;
+    right: auto;
+}
+.rtl .bspt-screenshot {
+    right: -1px;
+    left: -1px;
+}
+.rtl .bspt-screenshot img {
+    right: 0;
+    left: 0;
+}
+.rtl .bspt-screenshot-hover {
+    right: 0;
+    left: 0;
+}
+.rtl .bspt-screenshot-hover .bspt-btn.bspt-btn.bspt-btn {
+    right: 50%;
+    margin-right: -56px;
+    left: auto;
+    margin-left: auto;
+}
+.rtl .bspt-badge {
+    left: 0;
+    right: auto;
+}
+
+
+/**
+* Search Input
+*/
+.rtl .bspt-search {
+    left: 20px;
+    right: auto;
+}
+.rtl .bspt-search .fa {
+    left: 14px;
+    right: auto;
+}
+.rtl .bspt-search-input {
+    padding:0 18px 0 30px;
+}
